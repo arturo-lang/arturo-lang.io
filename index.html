@@ -56,6 +56,10 @@
                 box-shadow: none !important; /*0 0.5em 0.5em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)*/
                 border: 1px solid #E6E6E6;
             }
+
+            .footer {
+                padding-bottom: 3em;
+            }
         </style>
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -116,7 +120,7 @@
                         </p>
                         <br>
                         <p class="subtitle">
-                            <a href="#download" class="button is-white is-outlined is-large"><ion-icon name="cloud-download-outline"></ion-icon>&nbsp;&nbsp;Download</a>
+                            <a data-scroll href="#download" class="button is-white is-outlined is-large"><ion-icon name="cloud-download-outline"></ion-icon>&nbsp;&nbsp;Download</a>
                         </p>
                     </div>
                     <div class="column is-6">
@@ -255,6 +259,7 @@
                 </p>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
 
@@ -281,6 +286,7 @@
             }
 
             });
+            var scroll = new SmoothScroll('a[href*="#"]');
         </script>
     </body>
 </html>
