@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Arturo programming language: Simple, expressive & portable programming language for efficient scripting">
+        <meta name="keywords" content="arturo,programming language,scripting language,rebol,red programming language,portable programming language">
+        <link rel="canonical" href="https://arturo-lang.io">
+        
+        <title>Arturo programming language</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+        <style>
+            .tag:not(body).is-stars {
+                background-color:#999; /*#e8e8e8;*/
+                color: #FFF; /*rgba(0,0,0,.7);*/
+            }
+            .tag:not(body).is-license {
+                background-color: #97ca00;
+                color:#FFF;
+            }
+            .tag:not(body).is-chat {
+                background-color:#ff7d37;/* #6a7fc8;*/
+                color:#FFF;
+            }
+            .tag:not(body).is-build {
+                background-color: #45cb11;
+                color:#FFF;
+            }
+
+            .motto {
+				-webkit-background-clip: text; 
+				-moz-background-clip: text; 
+				background-clip: text; 
+				color: transparent; 
+				text-shadow: rgba(255,255,255,0.5) 0px 3px 3px; 
+				font-size:40px; 
+				font-weight:bold; 
+				color:#DDD;
+                margin-bottom:2em;
+			}
+
+            .screenshot {
+                box-shadow: 0 0 28px 3px #7a347b; 
+                mix-blend-mode: luminosity; 
+                border-radius: 10px;
+                /* transition: all 1.6s ease; */
+            }
+            .screenshot:hover {
+                mix-blend-mode: normal;
+                /* transition: all .3s ease; */
+            }
+
+            .card {
+                box-shadow: none !important; /*0 0.5em 0.5em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)*/
+                border: 1px solid #E6E6E6;
+            }
+        </style>
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <nav class="navbar is-fixed-top is-boxed" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#" style="font-weight:bold; font-size: 1.2em; color: black">
+                    <img src="images/logo.png" height="48" alt="arturo logo">
+                    &nbsp;&nbsp;Arturo:&nbsp;&nbsp;<span style="color:#999;">[programming language]</span>
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+          
+            <div id="navbarMain" class="navbar-menu">
+                <div class="navbar-end">
+                    <!-- <a class="navbar-item is-tab">
+                        <ion-icon name="bulb-outline"></ion-icon>&nbsp;Function cheatsheet
+                    </a> -->
+                    <a rel="noopener" target="_blank" class="navbar-item is-tab is-warning" href="https://github.com/arturo-lang/arturo/wiki">
+                        <ion-icon name="document-text-outline"></ion-icon>&nbsp;Documentation
+                    </a>
+                    <a rel="noopener" target="_blank" class="navbar-item is-tab " href="https://github.com/arturo-lang/arturo">
+                        <ion-icon name="logo-github"></ion-icon>&nbsp;Source
+                    </a>
+                    <div class="is-divider-vertical"></div>
+                    <a rel="noopener" target="_blank" class="navbar-item is-tab has-text-info" href="https://twitter.com/ArturoLanguage">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section class="hero is-info is-halfheight" style="background: #6a146b">
+            <div class="hero-body">
+                <div class="columns is-desktop is-vcentered">
+                    <div class="column is-6">
+                        <p class="title">
+                            Simple, expressive & portable<br>programming language<br>for efficient scripting
+                        </p>
+                        <br>
+                        <p class="subtitle">
+                            <a href="#download" class="button is-white is-outlined is-large"><ion-icon name="cloud-download-outline"></ion-icon>&nbsp;&nbsp;Download</a>
+                        </p>
+                    </div>
+                    <div class="column is-6">
+                        <picture>
+                            <source srcset="images/screenshot.webp" type="image/webp">
+                            <source srcset="images/screenshot.png" type="image/png">
+                            <img class="screenshot" src="images/screenshot.png" alt="arturo code screenshot">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="box cta" style="border-radius:0">
+            <div class="columns is-desktop is-vcentered">
+                <div class="column is-6">
+                    <div class="field is-grouped is-grouped-multiline">
+                        <div class="control">
+                            <a rel="noopener" href="https://github.com/arturo-lang/arturo" target="_blank">
+                                <div class="tags has-addons">
+                                    <span class="tag is-medium is-dark"><ion-icon name="star"></ion-icon></span>
+                                    <span class="tag is-medium is-stars"><b>216</b></span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="control">
+                            <a rel="noopener" href="https://github.com/arturo-lang/arturo/blob/master/LICENSE" target="_blank">
+                                <div class="tags has-addons">
+                                    <span class="tag is-medium is-dark"><b>License</b></span>
+                                    <span class="tag is-medium is-license"><b>MIT</b></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="control">
+                            <a rel="noopener" href="https://discord.gg/dzFutAqB" target="_blank">
+                                <div class="tags has-addons">
+                                    <span class="tag is-medium is-dark"><b>Chat</b></span>
+                                    <span class="tag is-medium is-chat"><b>@ Discord</b></span>
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <!-- <div class="control">
+                            <div class="tags has-addons">
+                                <span class="tag is-dark is-medium">Build</span>
+                                <span class="tag  is-medium is-build"><b>OK</b></span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="column is-6 is-hidden-mobile is-hidden-tablet-only is-block-desktop">
+                    <p class="has-text-right is-size-6">
+                        <b>Latest release:</b><br>0.9.7 @ 12/02/2021
+                    </p>
+                </div>
+            </div>
+                <!-- License GitHub code size in bytes Total Lines Language Build Status -->
+                <!-- <span class="tag is-success">Latest release</span> v0.9.7 @ 12/02/2021 -->
+        </div>
+        <section class="container">
+            <div class="columns features">
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered" style="font-size:5em; padding-top: 0.5em">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>
+                        <div class="card-content">
+                            <div class="content has-text-centered">
+                                <h4>Simple + Expressive</h4>
+                                <p>Arturo starts from a very basic principle: the language you use and its syntax should never get in your way. So, we keep it minimal, easy to the eye and totally flexible. Once you learn your first few commands, you'll be practically all set.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered" style="font-size:5em; padding-top: 0.5em">
+                            <ion-icon name="airplane-outline"></ion-icon>
+                        </div>
+                        <div class="card-content">
+                            <div class="content has-text-centered">
+                                <h4>Portable</h4>
+                                <p>Want to ship your scripts anywhere? For any operating system? Without weird dependencies and without asking the user to install an endless list of modules/gems/packages? That's exactly what Arturo was designed for.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered" style="font-size:5em; padding-top: 0.5em">
+                            <ion-icon name="cube-outline"></ion-icon>
+                        </div>
+                        <div class="card-content">
+                            <div class="content has-text-centered">
+                                <h4>Batteries-included</h4>
+                                <p>Don't remember which library to import to get this super-fancy functionality you need? Cannot even get it to install? No need to worry. Arturo comes with pretty much anything you'll most likely need to get started - included. Yep, that's right!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="intro column is-8 is-offset-2  has-text-centered" style="margin-top:4em">
+            <h2 id="download" class="title">Get Arturo</h2><br>
+            <p class="subtitle">Write once. Run everywhere.<br>Arturo's goal is to be able to run on anything you can imagine.</p>
+        </div>
+        <div class="columns" style="margin-top: 4em; margin-bottom: 4em">
+        <!-- <section class="section is-8 is-offset-2"> -->
+            <div class="column is-8 is-offset-2">
+                <table class="table is-striped is-fullwidth">
+                    <tbody>
+                        <tr><th>Operating system</th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>
+                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td>0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td>0.9.7 <sup>*Mini</sup></td><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></a></td></tr>
+                        <!-- <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7</td><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-full.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr>
+                        <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7 <sup>*Mini</sup><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-mini.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr> -->
+                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td>0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</td></tr>
+                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td>0.9.7 <sup>*Mini</sup><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td>0.9.7</td><td>314.74 MB</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="has-text-centered" style="margin-top:2em; margin-bottom: 4em;">
+            <p class="is-size-7">*<i>Mini</i> builds offer the same power but with a tiny subset of the built-in libraries removed, so as to allow for even smaller and more portable binaries.<br>If you have problems installing it - or simply because you want to - you can <a href="https://github.com/arturo-lang/arturo/wiki/Getting-Started" target="_blank" rel="noopener">find the complete build & installation instructions here</a>.</p>
+        </div>
+        <div class="has-text-centered">
+            <p class="motto">•&nbsp;&nbsp;CODE IS ART&nbsp;&nbsp;•</p>
+        </div>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Arturo Programming Language</strong><br>Copyright &copy; 2019-2021 Yanis Zafirópulos<br><br>
+                    <small>Source code licensed under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Website content licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</small>
+                </p>
+            </div>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+                el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+                });
+            });
+            }
+
+            });
+        </script>
+    </body>
+</html>
