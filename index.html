@@ -182,7 +182,7 @@
                 </div>
                 <div class="column is-6 is-hidden-mobile is-hidden-tablet-only is-block-desktop">
                     <p class="has-text-right is-size-6">
-                        <b>Latest release:</b><br><span class="release-version">0.9.7</span> @ <span id="release-date">12/02/2021</span>
+                        <b>Latest release:</b><br><span class="release-version">v0.9.7</span> @ <span id="release-date">2021-02-12T14:03:34Z</span>
                     </p>
                 </div>
             </div>
@@ -239,13 +239,13 @@
                 <table class="table is-striped is-fullwidth">
                     <tbody id="downloads">
                         <tr><th>Operating system</th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>
-                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version">0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
-                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version-mini">0.9.7 <sup>*Mini</sup></td><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></a></td></tr>
+                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version">v0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</td></tr>
+                            <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version-mini">v0.9.7 <sup>*Mini</sup><td>0.80 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version">v0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version-mini">v0.9.7 <sup>*Mini</sup></td><td>0.72 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></a></td></tr>
                         <!-- <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7</td><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-full.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr>
                         <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7 <sup>*Mini</sup><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-mini.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr> -->
-                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version">0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</td></tr>
-                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version-mini">0.9.7 <sup>*Mini</sup><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
-                        <tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td class="release-version">0.9.7</td><td>314.74 MB</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>
+                        <tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td class="release-version">v0.9.7</td><td>--</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -268,17 +268,16 @@
         <script>
             function ajaxGet(url,action) {
                 var xmlhttp = new XMLHttpRequest();
-
                 xmlhttp.onreadystatechange = function() {
                     if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
                         if (xmlhttp.status == 200) {
                             action(xmlhttp.responseText);
                         }
                         else if (xmlhttp.status == 400) {
-                            console.log('There was an error 400');
+                            //console.log('There was an error 400');
                         }
                         else {
-                            console.log('something else other than 200 was returned');
+                            //console.log('something else other than 200 was returned');
                         }
                     }
                 };
@@ -312,7 +311,6 @@
 
                 ajaxGet("https://api.github.com/search/repositories?q=arturo-lang/arturo", function (data){
                     var parsed = JSON.parse(data);
-                    console.log(parsed);
                     setDiv("stargazers",parsed.items[0].stargazers_count);
                 });
 
