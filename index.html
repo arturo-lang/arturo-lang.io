@@ -6,22 +6,21 @@
         <meta name="description" content="Arturo programming language: Simple, expressive & portable programming language for efficient scripting">
         <meta name="keywords" content="arturo,programming language,scripting language,rebol,red programming language,portable programming language">
         <link rel="canonical" href="https://arturo-lang.io">
-        
         <title>Arturo programming language</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
         <style>
             .tag:not(body).is-stars {
-                background-color:#999; /*#e8e8e8;*/
-                color: #FFF; /*rgba(0,0,0,.7);*/
+                background-color:#999;
+                color: #FFF;
             }
             .tag:not(body).is-license {
                 background-color: #97ca00;
                 color:#FFF;
             }
             .tag:not(body).is-chat {
-                background-color:#ff7d37;/* #6a7fc8;*/
+                background-color:#ff7d37;
                 color:#FFF;
             }
             .tag:not(body).is-build {
@@ -49,15 +48,13 @@
                 box-shadow: 0 0 28px 3px #7a347b; 
                 mix-blend-mode: luminosity; 
                 border-radius: 10px;
-                /* transition: all 1.6s ease; */
             }
             .screenshot:hover {
                 mix-blend-mode: normal;
-                /* transition: all .3s ease; */
             }
 
             .card {
-                box-shadow: none !important; /*0 0.5em 0.5em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)*/
+                box-shadow: none !important;
                 border: 1px solid #E6E6E6;
             }
 
@@ -68,6 +65,10 @@
             .box {
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
+            }
+
+            sup {
+                font-variant: all-small-caps;
             }
         </style>
         <link rel="apple-touch-icon" sizes="57x57" href="favico/apple-icon-57x57.png">
@@ -87,7 +88,6 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="favico/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNR7PTFYH"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
@@ -113,9 +113,6 @@
           
             <div id="navbarMain" class="navbar-menu">
                 <div class="navbar-end">
-                    <!-- <a class="navbar-item is-tab">
-                        <ion-icon name="bulb-outline"></ion-icon>&nbsp;Function cheatsheet
-                    </a> -->
                     <a rel="noopener" target="_blank" class="navbar-item is-tab is-warning" href="https://github.com/arturo-lang/arturo/wiki">
                         <ion-icon name="document-text-outline"></ion-icon>&nbsp;Documentation
                     </a>
@@ -159,7 +156,7 @@
                             <a rel="noopener" href="https://github.com/arturo-lang/arturo" target="_blank">
                                 <div class="tags has-addons">
                                     <span class="tag is-medium is-dark"><ion-icon name="star"></ion-icon></span>
-                                    <span class="tag is-medium is-stars"><b>216</b></span>
+                                    <span class="tag is-medium is-stars"><b id="stargazers">216</b></span>
                                 </div>
                             </a>
                         </div>
@@ -181,23 +178,14 @@
                                 </div>
                             </a>
                         </div>
-                    
-                        <!-- <div class="control">
-                            <div class="tags has-addons">
-                                <span class="tag is-dark is-medium">Build</span>
-                                <span class="tag  is-medium is-build"><b>OK</b></span>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 <div class="column is-6 is-hidden-mobile is-hidden-tablet-only is-block-desktop">
                     <p class="has-text-right is-size-6">
-                        <b>Latest release:</b><br>0.9.7 @ 12/02/2021
+                        <b>Latest release:</b><br><span class="release-version">0.9.7</span> @ <span id="release-date">12/02/2021</span>
                     </p>
                 </div>
             </div>
-                <!-- License GitHub code size in bytes Total Lines Language Build Status -->
-                <!-- <span class="tag is-success">Latest release</span> v0.9.7 @ 12/02/2021 -->
         </div>
         <section class="container">
             <div class="columns features">
@@ -247,18 +235,17 @@
             <p class="subtitle">Write once. Run everywhere.<br>Arturo's goal is to be able to run on anything you can imagine.</p>
         </div>
         <div class="columns" style="margin-top: 4em; margin-bottom: 4em">
-        <!-- <section class="section is-8 is-offset-2"> -->
             <div class="column is-8 is-offset-2">
                 <table class="table is-striped is-fullwidth">
-                    <tbody>
+                    <tbody id="downloads">
                         <tr><th>Operating system</th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>
-                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td>0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
-                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td>0.9.7 <sup>*Mini</sup></td><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></a></td></tr>
+                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version">0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td><ion-icon name="logo-apple"></ion-icon>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version-mini">0.9.7 <sup>*Mini</sup></td><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></a></td></tr>
                         <!-- <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7</td><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-full.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr>
                         <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7 <sup>*Mini</sup><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-mini.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr> -->
-                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td>0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</td></tr>
-                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td>0.9.7 <sup>*Mini</sup><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
-                        <tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td>0.9.7</td><td>314.74 MB</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>
+                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version">0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</td></tr>
+                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version-mini">0.9.7 <sup>*Mini</sup><td>818 KB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td class="release-version">0.9.7</td><td>314.74 MB</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -279,31 +266,89 @@
         </footer>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
         <script>
-            document.addEventListener('DOMContentLoaded', () => {
+            function ajaxGet(url,action) {
+                var xmlhttp = new XMLHttpRequest();
 
-            // Get all "navbar-burger" elements
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                        if (xmlhttp.status == 200) {
+                            action(xmlhttp.responseText);
+                        }
+                        else if (xmlhttp.status == 400) {
+                            console.log('There was an error 400');
+                        }
+                        else {
+                            console.log('something else other than 200 was returned');
+                        }
+                    }
+                };
 
-            // Check if there are any navbar burgers
-            if ($navbarBurgers.length > 0) {
-
-            // Add a click event on each of them
-            $navbarBurgers.forEach( el => {
-                el.addEventListener('click', () => {
-
-                // Get the target from the "data-target" attribute
-                const target = el.dataset.target;
-                const $target = document.getElementById(target);
-
-                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                el.classList.toggle('is-active');
-                $target.classList.toggle('is-active');
-
-                });
-            });
+                xmlhttp.open("GET", url, true);
+                xmlhttp.send();
             }
+            document.addEventListener('DOMContentLoaded', () => {
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+                if ($navbarBurgers.length > 0) {
+                    $navbarBurgers.forEach( el => {
+                        el.addEventListener('click', () => {
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+                        });
+                    });
+                }
+
+                function setDiv(div,content){
+                    document.getElementById(div).innerHTML = content;
+                }
+
+                function setClass(cl,content){
+                    var elems=document.getElementsByClassName(cl);
+                    for(var i = 0; i < elems.length; i++){
+                        elems[i].innerHTML = content;
+                    }
+                }
+
+                ajaxGet("https://api.github.com/search/repositories?q=arturo-lang/arturo", function (data){
+                    var parsed = JSON.parse(data);
+                    console.log(parsed);
+                    setDiv("stargazers",parsed.items[0].stargazers_count);
+                });
+
+                ajaxGet("https://api.github.com/repos/arturo-lang/arturo/releases", function (data){
+                    var parsed = JSON.parse(data);
+                    console.log(parsed);
+                    var releaseVersion = parsed[0].tag_name;
+                    setClass("release-version", parsed[0].tag_name);
+                    setClass("release-version-mini", `${parsed[0].tag_name}<sup>*MINI</sup>`);
+                    setDiv("release-date", parsed[0].published_at);
+
+                    ajaxGet(parsed[0].assets_url, function (data){
+                        var parsed = JSON.parse(data);
+                        var downloadsTable = `<tr><th>Operating system</th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>`;
+                        for (var i = 0; i < parsed.length; i++){
+                            var elem = parsed[i];
+                            var logo = "";
+                            var os = "";
+                            var version = releaseVersion;
+                            if (elem.name.includes("Linux")) { logo = "tux"; os = "Linux"; }
+                            else if (elem.name.includes("macOS")) { logo = "apple"; os = "macOS"; }
+                            else if (elem.name.includes("Windows")) { logo = "windows"; os = "Windows"; }
+                            if (elem.name.includes("mini")) { version += "<sup>*MINI</sup>"; }
+                            var size = ((elem.size)/(1024*1024)).toFixed(2) + " MB";
+                            var link = elem.browser_download_url;
+
+                            downloadsTable += `<tr><td><ion-icon name="logo-${logo}"></ion-icon>&nbsp;&nbsp;<b>${os}</b></td><td>${version}</td><td>${size}</td><td><a href="${link}"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>`;                            
+                        }
+                        downloadsTable += `<tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td class="release-version">${releaseVersion}</td><td>--</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>`
+                        setDiv("downloads",downloadsTable);
+                        console.log(parsed);
+                    });
+                })
 
             });
+            
             var scroll = new SmoothScroll('a[href*="#"]');
         </script>
     </body>
