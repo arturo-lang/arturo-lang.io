@@ -71,6 +71,18 @@
             sup {
                 font-variant: all-small-caps;
             }
+
+            .table td, .table th {
+                vertical-align: middle;
+            }
+
+            .fab {
+                vertical-align: middle;
+            }
+
+            .first-td {
+                text-align: center !important;
+            }
         </style>
         <link rel="apple-touch-icon" sizes="57x57" href="favico/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="favico/apple-icon-60x60.png">
@@ -115,14 +127,14 @@
             <div id="navbarMain" class="navbar-menu">
                 <div class="navbar-end">
                     <a rel="noopener" target="_blank" class="navbar-item is-tab is-warning" href="https://github.com/arturo-lang/arturo/wiki">
-                        <ion-icon name="document-text-outline"></ion-icon>&nbsp;Documentation
+                        <i class="far fa-file-alt"></i>&nbsp;Documentation
                     </a>
                     <a rel="noopener" target="_blank" class="navbar-item is-tab " href="https://github.com/arturo-lang/arturo">
-                        <ion-icon name="logo-github"></ion-icon>&nbsp;Source
+                        <i class="fab fa-github"></i>&nbsp;Source
                     </a>
                     <div class="is-divider-vertical"></div>
                     <a rel="noopener" target="_blank" class="navbar-item is-tab has-text-info" href="https://twitter.com/ArturoLanguage">
-                        <ion-icon name="logo-twitter"></ion-icon>
+                        <i class="fab fa-twitter"></i>
                     </a>
                 </div>
             </div>
@@ -136,7 +148,7 @@
                         </p>
                         <br>
                         <p class="subtitle">
-                            <a data-scroll href="#download" class="button is-white is-outlined is-large"><ion-icon name="cloud-download-outline"></ion-icon>&nbsp;&nbsp;Download</a>
+                            <a data-scroll href="#download" class="button is-white is-outlined is-large"><i class="fas fa-cloud-download-alt"></i>&nbsp;&nbsp;Download</a>
                         </p>
                     </div>
                     <div class="column is-6">
@@ -156,7 +168,7 @@
                         <div class="control">
                             <a rel="noopener" href="https://github.com/arturo-lang/arturo" target="_blank">
                                 <div class="tags has-addons">
-                                    <span class="tag is-medium is-dark"><ion-icon name="star"></ion-icon></span>
+                                    <span class="tag is-medium is-dark"><i class="far fa-star"></i></span>
                                     <span class="tag is-medium is-stars"><b id="stargazers">224</b></span>
                                 </div>
                             </a>
@@ -193,7 +205,7 @@
                 <div class="column is-4">
                     <div class="card is-shady">
                         <div class="card-image has-text-centered" style="font-size:5em; padding-top: 0.5em">
-                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                            <i class="far fa-check-circle"></i>
                         </div>
                         <div class="card-content">
                             <div class="content has-text-centered">
@@ -206,7 +218,7 @@
                 <div class="column is-4">
                     <div class="card is-shady">
                         <div class="card-image has-text-centered" style="font-size:5em; padding-top: 0.5em">
-                            <ion-icon name="airplane-outline"></ion-icon>
+                            <i class="fas fa-briefcase"></i>
                         </div>
                         <div class="card-content">
                             <div class="content has-text-centered">
@@ -219,7 +231,7 @@
                 <div class="column is-4">
                     <div class="card is-shady">
                         <div class="card-image has-text-centered" style="font-size:5em; padding-top: 0.5em">
-                            <ion-icon name="cube-outline"></ion-icon>
+                            <i class="fas fa-battery-full"></i>
                         </div>
                         <div class="card-content">
                             <div class="content has-text-centered">
@@ -251,14 +263,14 @@
             <div class="column is-8 is-offset-2">
                 <table class="table is-striped is-fullwidth">
                     <tbody id="downloads">
-                        <tr><th>Operating system</th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>
-                        <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version">v0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</td></tr>
-                            <tr><td><ion-icon name="logo-tux"></ion-icon>&nbsp;&nbsp;<b>Linux</b></td><td class="release-version-mini">v0.9.7 <sup>*Mini</sup><td>0.80 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
-                        <tr><td><i class="fab fa-apple"></i>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version">v0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>
-                        <tr><td><i class="fab fa-apple"></i>&nbsp;&nbsp;<b>macOS</b></td><td class="release-version-mini">v0.9.7 <sup>*Mini</sup></td><td>0.72 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></a></td></tr>
-                        <!-- <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7</td><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-full.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr>
-                        <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7 <sup>*Mini</sup><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-mini.tar.gz">Download&nbsp;&nbsp;<ion-icon name="arrow-down-outline"></ion-icon></a></a></td></tr> -->
-                        <tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td class="release-version">v0.9.7</td><td>--</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>
+                        <tr><th></th><th></th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>
+                        <tr><td class="first-td"><i class="fab fa-2x fa-linux"></i></td><td><b>Linux</b></td><td class="release-version">v0.9.7</td><td>1.67 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-full.tar.gz"><i class="far fa-arrow-alt-circle-down"></i>&nbsp;&nbsp;Download</td></tr>
+                        <tr><td class="first-td"><i class="fab fa-2x fa-linux"></i></td><td><b>Linux</b></td><td class="release-version-mini">v0.9.7 <sup>*Mini</sup><td>0.80 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Linux-mini.tar.gz"><i class="far fa-arrow-alt-circle-down"></i>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td class="first-td"><i class="fab fa-2x fa-apple"></i></td><td><b>macOS</b></td><td class="release-version">v0.9.7</td><td>1.16 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-full.tar.gz"><i class="far fa-arrow-alt-circle-down"></i>&nbsp;&nbsp;Download</a></td></tr>
+                        <tr><td class="first-td"><i class="fab fa-2x fa-apple"></i></td><td><b>macOS</b></td><td class="release-version-mini">v0.9.7 <sup>*Mini</sup></td><td>0.72 MB</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-macOS-mini.tar.gz"><i class="far fa-arrow-alt-circle-down"></i>&nbsp;&nbsp;Download</a></a></td></tr>
+                        <!-- <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7</td><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-full.tar.gz">Download&nbsp;&nbsp;<i class="far fa-arrow-alt-circle-down"></i></a></a></td></tr>
+                        <tr><td><ion-icon name="logo-windows"></ion-icon>&nbsp;&nbsp;<b>Windows</b></td><td>0.9.7 <sup>*Mini</sup><td>3.4M</td><td><a href="https://github.com/arturo-lang/arturo/releases/download/v0.9.7/arturo-0.9.7-Windows-mini.tar.gz">Download&nbsp;&nbsp;<i class="far fa-arrow-alt-circle-down"></i></a></a></td></tr> -->
+                        <tr><td class="first-td"><i class="fab fa-2x fa-docker"></i></td><td><b>Docker</b></td><td class="release-version">v0.9.7</td><td>--</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><i class="far fa-arrow-alt-circle-right"></i>&nbsp;&nbsp;Docker Hub</a></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -337,22 +349,22 @@
 
                     ajaxGet(parsed[0].assets_url, function (data){
                         var parsed = JSON.parse(data);
-                        var downloadsTable = `<tr><th>Operating system</th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>`;
+                        var downloadsTable = `<tr><th></th><th></th><th>Version</th><th>Compressed file size</th><th>Link</th></tr>`;
                         for (var i = 0; i < parsed.length; i++){
                             var elem = parsed[i];
                             var logo = "";
                             var os = "";
                             var version = releaseVersion;
-                            if (elem.name.includes("Linux")) { logo = "tux"; os = "Linux"; }
+                            if (elem.name.includes("Linux")) { logo = "linux"; os = "Linux"; }
                             else if (elem.name.includes("macOS")) { logo = "apple"; os = "macOS"; }
                             else if (elem.name.includes("Windows")) { logo = "windows"; os = "Windows"; }
                             if (elem.name.includes("mini")) { version += "<sup>*MINI</sup>"; }
                             var size = ((elem.size)/(1024*1024)).toFixed(2) + " MB";
                             var link = elem.browser_download_url;
 
-                            downloadsTable += `<tr><td><i class="fab fa-${logo}"></i>&nbsp;&nbsp;<b>${os}</b></td><td>${version}</td><td>${size}</td><td><a href="${link}"><ion-icon name="arrow-down-outline"></ion-icon>&nbsp;&nbsp;Download</a></td></tr>`;                            
+                            downloadsTable += `<tr><td class="first-td"><i class="fab fa-2x fa-${logo}"></i></td><td><b>${os}</b></td><td>${version}</td><td>${size}</td><td><a href="${link}"><i class="far fa-arrow-alt-circle-down"></i>&nbsp;&nbsp;Download</a></td></tr>`;                            
                         }
-                        downloadsTable += `<tr><td><ion-icon name="logo-docker"></ion-icon>&nbsp;&nbsp;<b>Docker</b></td><td class="release-version">${releaseVersion}</td><td>--</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><ion-icon name="link-outline">&nbsp;&nbsp;</ion-icon>&nbsp;&nbsp;Docker Hub</a></td></tr>`
+                        downloadsTable += `<tr><td class="first-td"><i class="fab fa-2x fa-docker"></i></td><td><b>Docker</b></td><td class="release-version">${releaseVersion}</td><td>--</td><td><a rel="noopener" target="_blank" href="https://hub.docker.com/repository/docker/arturolang/arturo"><i class="far fa-arrow-alt-circle-right"></i>&nbsp;&nbsp;Docker Hub</a></td></tr>`
                         setDiv("downloads",downloadsTable);
                         console.log(parsed);
                     });
