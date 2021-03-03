@@ -136,14 +136,16 @@ verifyOS(){
         linux*)     currentOS="Linux" ;;
         linux-gnu*) currentOS="Linux" ;;
         darwin*)    currentOS="macOS" ;; 
-        cygwin*)    currentOS="windows" ;;
-        msys*)      currentOS="windows" ;;
-        solaris*)   currentOS="solaris" ;;
-        freebsd*)   currentOS="freebsd" ;;
-        bsd*)       currentOS="bsd" ;;
+        cygwin*)    currentOS="Windows" ;;
+        msys*)      currentOS="Windows" ;;
+        solaris*)   currentOS="Solaris" ;;
+        freebsd*)   currentOS="FreeBSD" ;;
+        bsd*)       currentOS="BSD" ;;
         *)         
             if [ `uname` = "Linux" ]; then 
                 currentOS="Linux"
+            elif [ `uname` = "FreeBSD" ]; then
+                currentOS="FreeBSD"
             else
                 currentOS="Unknown ($OSTYPE / `uname`)"
             fi ;;
