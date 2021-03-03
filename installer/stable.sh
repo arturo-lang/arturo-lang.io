@@ -7,6 +7,12 @@
 ######################################################
 
 ################################################
+# CONSTANTS
+################################################
+
+REPO="arturo"
+
+################################################
 # HELPERS
 ################################################
 
@@ -175,7 +181,7 @@ install_prerequisites() {
 }
 
 get_download_url() {
-    downloadUrl=$(curl -s https://api.github.com/repos/arturo-lang/arturo/releases | grep "browser_download_url.*${1}" | cut -d : -f 2,3 | tr -d \" | head -1)
+    downloadUrl=$(curl -s https://api.github.com/repos/arturo-lang/$REPO/releases | grep "browser_download_url.*${1}" | cut -d : -f 2,3 | tr -d \" | head -1)
 }
 
 download_arturo() {

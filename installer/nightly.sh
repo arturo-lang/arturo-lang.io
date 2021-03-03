@@ -3,8 +3,14 @@
 # Programming Language + Bytecode VM compiler
 # (c) 2019-2021 Yanis Zafirópulos
 #
-# @file: arturo-lang.io/installer/stable.sh
+# @file: arturo-lang.io/installer/nightly.sh
 ######################################################
+
+################################################
+# CONSTANTS
+################################################
+
+REPO="nightly"
 
 ################################################
 # HELPERS
@@ -175,7 +181,7 @@ install_prerequisites() {
 }
 
 get_download_url() {
-    downloadUrl=$(curl -s https://api.github.com/repos/arturo-lang/nightly/releases | grep "browser_download_url.*${1}" | cut -d : -f 2,3 | tr -d \" | head -1)
+    downloadUrl=$(curl -s https://api.github.com/repos/arturo-lang/$REPO/releases | grep "browser_download_url.*${1}" | cut -d : -f 2,3 | tr -d \" | head -1)
 }
 
 download_arturo() {
