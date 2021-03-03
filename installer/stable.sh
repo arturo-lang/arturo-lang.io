@@ -94,11 +94,7 @@ info(){
 }
 
 create_directory() {
-    if [ ! -d "$1" ]; then
-        if ! mkdir -p "$1" 2>/dev/null; then
-            panic "Cannot create directory: $1."
-        fi
-    fi
+    mkdir -p "$1"
 }
 
 create_tmp_directory() {
@@ -137,14 +133,20 @@ animate_progress(){
 
 verifyOS(){
     case "$OSTYPE" in
-        linux*)   currentOS="Linux" ;;
-        darwin*)  currentOS="macOS" ;; 
-        cygwin*)  currentOS="windows" ;;
-        msys*)    currentOS="windows" ;;
-        solaris*) currentOS="solaris" ;;
-        freebsd*) currentOS="freebsd" ;;
-        bsd*)     currentOS="bsd" ;;
-        *)        currentOS="unknown" ;;
+        linux*)     currentOS="Linux" ;;
+        linux-gnu*) currentOS="Linux" ;;
+        darwin*)    currentOS="macOS" ;; 
+        cygwin*)    currentOS="windows" ;;
+        msys*)      currentOS="windows" ;;
+        solaris*)   currentOS="solaris" ;;
+        freebsd*)   currentOS="freebsd" ;;
+        bsd*)       currentOS="bsd" ;;
+        *)         
+            if [ `uname` = "Linux" ]; then 
+                currentOS="Linux"
+            else
+                currentOS="Unknown ($OSTYPE / `uname`)"
+            fi ;;
     esac
 
     info "os: $currentOS"
@@ -172,8 +174,11 @@ verifyShell(){
 install_prerequisites() {
     case "$(uname)" in
         "Linux")
-            sudo apt-fast update
-            sudo apt-fast install -yq libgtk-3-dev libwebkit2gtk-4.0-dev
+            eecho ""
+            printf "   ${GRAY}"
+            sudo apt -qq update
+            sudo apt -qq install -yq libgtk-3-dev libwebkit2gtk-4.0-dev
+            printf "${CLEAR}"
             ;;
         *)
             ;;
@@ -192,9 +197,8 @@ download_arturo() {
 }
 
 install_arturo() {
-    create_directory "~/.arturo"
-    create_directory "~/.arturo/bin"
-    create_directory "~/.arturo/lib"
+    create_directory ~/.arturo/bin
+    create_directory ~/.arturo/lib
 
     cp $ARTURO_TMP_DIR/arturo ~/.arturo/bin
 }
