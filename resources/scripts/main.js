@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(parsed);
             var releaseVersion = parsed[0].tag_name;
             setClass("release-version", parsed[0].tag_name);
-            setClass("release-version-mini", `${parsed[0].tag_name}<sup>*MINI</sup>`);
+            setClass("release-version-mini", `${parsed[0].tag_name}<sup>*</sup>`);
             setDiv("release-date", parsed[0].published_at);
 
             ajaxGet(parsed[0].assets_url, function (data){
@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     else if (elem.name.includes("FreeBSD")) { order = 4; logo = "freebsd"; os = "FreeBSD"; }
                     else if (elem.name.includes("arm-")) { order = 5; logo = "raspberry-pi"; os = "arm"; }
                     else if (elem.name.includes("arm64-")) { order = 6; logo = "raspberry-pi"; os = "arm64"; }
-                    if (elem.name.includes("mini")) { version += "<sup>*MINI</sup>"; }
+                    if (elem.name.includes("mini")) { version += "<sup>*</sup>"; }
                     var size = ((elem.size)/(1024*1024)).toFixed(2) + " MB";
                     var link = elem.browser_download_url;
 
