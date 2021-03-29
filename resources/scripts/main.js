@@ -306,6 +306,22 @@ function ajaxGet(url,action) {
     xmlhttp.send();
 }
 document.addEventListener('DOMContentLoaded', () => {
+	const clipboard = new Clipboard('.copy', {
+		target: (trigger) => {
+		  return trigger.nextElementSibling;
+		}
+	  });
+	  
+	  //
+	  // do stuff when copy is clicked
+	  clipboard.on('success', (event) => {
+		event.trigger.textContent = 'copied!';
+		setTimeout(() => {
+		  event.clearSelection();
+		  event.trigger.textContent = 'copy';
+		}, 2000);
+	  });
+	  
     var element =  document.getElementById('stargazers');
     if (typeof(element) != 'undefined' && element != null)
     {
