@@ -12,7 +12,7 @@ else {
 }
 file_put_contents($temp_file, $code."\n");
 
-$i = exec ("timeout -v --signal=9 5s /var/www/arturo-lang.io/arturo $temp_file 2>&1 | aha --no-header --black",$output, $ret);
+$i = exec ("timeout -v --signal=9 10s /var/www/arturo-lang.io/arturo $temp_file 2>&1 | aha --no-header --black",$output, $ret);
 
 $txt = "";
 foreach ($output as $outp)
