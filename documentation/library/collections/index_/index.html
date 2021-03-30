@@ -5,10 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Arturo programming language: Simple, expressive & portable programming language for efficient scripting">
         <meta name="keywords" content="arturo,programming language,scripting language,rebol,red programming language,portable programming language">
-        <link rel="canonical" href="https://arturo-lang.io/documentation/library/core/when-">
+        <link rel="canonical" href="https://arturo-lang.io/documentation/library/collections/index_">
         <title>Arturo programming language</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bulma@0.9.1/css/bulma.min.css,npm/prismjs@1.23.0/themes/prism-okaidia.min.css,gh/tonsky/FiraCode@4/distr/fira_code.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://kit.fontawesome.com/8bfb2fe6f4.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../../../../resources/styles/main.css">
         <link rel="apple-touch-icon" sizes="57x57" href="../../../../favico/apple-icon-57x57.png">
@@ -36,7 +38,6 @@
 
         gtag('config', 'G-RPNR7PTFYH');
         </script>
-        
     </head>
     <body data-prismjs-copy-timeout="500">
         
@@ -62,7 +63,7 @@
             <a rel="noopener" class="is-active navbar-item is-tab is-warning" href="../../..">
                 <!--<i class="far fa-file-alt"></i>&nbsp;&nbsp;-->Documentation
             </a>
-            <a rel="noopener" target="_blank" class=" navbar-item is-tab " href="https://github.com/arturo-lang/arturo">
+            <a rel="noopener" target="_blank" class="navbar-item is-tab " href="https://github.com/arturo-lang/arturo">
                 <!--<i class="fab fa-github"></i>&nbsp;&nbsp;-->Source
             </a>
             <!-- <div class="is-divider-vertical"></div>
@@ -96,7 +97,79 @@
                             <li><a  href="../../binary">Binary</a></li>
                             
                         
-                            <li><a  href="../../collections">Collections</a></li>
+                            <li><a class="is-active"  href="..">Collections</a></li>
+                            
+                                <ul style="margin-right:0">
+                                    
+                                        <li><a  href="../append">append</a></li>
+                                    
+                                        <li><a  href="../chop">chop</a></li>
+                                    
+                                        <li><a  href="../combine">combine</a></li>
+                                    
+                                        <li><a  href="../contains-">contains?</a></li>
+                                    
+                                        <li><a  href="../drop">drop</a></li>
+                                    
+                                        <li><a  href="../empty">empty</a></li>
+                                    
+                                        <li><a  href="../empty-">empty?</a></li>
+                                    
+                                        <li><a  href="../extend">extend</a></li>
+                                    
+                                        <li><a  href="../first">first</a></li>
+                                    
+                                        <li><a  href="../flatten">flatten</a></li>
+                                    
+                                        <li><a  href="../get">get</a></li>
+                                    
+                                        <li><a  href="../in-">in?</a></li>
+                                    
+                                        <li><a class="is-active"  href="#">index_</a></li>
+                                    
+                                        <li><a  href="../insert">insert</a></li>
+                                    
+                                        <li><a  href="../key-">key?</a></li>
+                                    
+                                        <li><a  href="../keys">keys</a></li>
+                                    
+                                        <li><a  href="../last">last</a></li>
+                                    
+                                        <li><a  href="../max">max</a></li>
+                                    
+                                        <li><a  href="../min">min</a></li>
+                                    
+                                        <li><a  href="../permutate">permutate</a></li>
+                                    
+                                        <li><a  href="../remove">remove</a></li>
+                                    
+                                        <li><a  href="../repeat">repeat</a></li>
+                                    
+                                        <li><a  href="../reverse">reverse</a></li>
+                                    
+                                        <li><a  href="../sample">sample</a></li>
+                                    
+                                        <li><a  href="../set">set</a></li>
+                                    
+                                        <li><a  href="../shuffle">shuffle</a></li>
+                                    
+                                        <li><a  href="../size">size</a></li>
+                                    
+                                        <li><a  href="../slice">slice</a></li>
+                                    
+                                        <li><a  href="../sort">sort</a></li>
+                                    
+                                        <li><a  href="../split">split</a></li>
+                                    
+                                        <li><a  href="../squeeze">squeeze</a></li>
+                                    
+                                        <li><a  href="../take">take</a></li>
+                                    
+                                        <li><a  href="../unique">unique</a></li>
+                                    
+                                        <li><a  href="../values">values</a></li>
+                                    
+                                </ul>
                             
                         
                             <li><a  href="../../comparison">Comparison</a></li>
@@ -105,59 +178,7 @@
                             <li><a  href="../../converters">Converters</a></li>
                             
                         
-                            <li><a class="is-active"  href="..">Core</a></li>
-                            
-                                <ul style="margin-right:0">
-                                    
-                                        <li><a  href="../break">break</a></li>
-                                    
-                                        <li><a  href="../call">call</a></li>
-                                    
-                                        <li><a  href="../case">case</a></li>
-                                    
-                                        <li><a  href="../continue">continue</a></li>
-                                    
-                                        <li><a  href="../do">do</a></li>
-                                    
-                                        <li><a  href="../dup">dup</a></li>
-                                    
-                                        <li><a  href="../else">else</a></li>
-                                    
-                                        <li><a  href="../ensure">ensure</a></li>
-                                    
-                                        <li><a  href="../if">if</a></li>
-                                    
-                                        <li><a  href="../if-">if?</a></li>
-                                    
-                                        <li><a  href="../let">let</a></li>
-                                    
-                                        <li><a  href="../new">new</a></li>
-                                    
-                                        <li><a  href="../null">null</a></li>
-                                    
-                                        <li><a  href="../pop">pop</a></li>
-                                    
-                                        <li><a  href="../return">return</a></li>
-                                    
-                                        <li><a  href="../switch">switch</a></li>
-                                    
-                                        <li><a  href="../try">try</a></li>
-                                    
-                                        <li><a  href="../try-">try?</a></li>
-                                    
-                                        <li><a  href="../unless">unless</a></li>
-                                    
-                                        <li><a  href="../unless-">unless?</a></li>
-                                    
-                                        <li><a  href="../until">until</a></li>
-                                    
-                                        <li><a  href="../var">var</a></li>
-                                    
-                                        <li><a class="is-active"  href="#">when?</a></li>
-                                    
-                                        <li><a  href="../while">while</a></li>
-                                    
-                                </ul>
+                            <li><a  href="../../core">Core</a></li>
                             
                         
                             <li><a  href="../../crypto">Crypto</a></li>
@@ -221,28 +242,28 @@
         
             <li><a href="../../.." style="margin-left:0">Home</a></li>
         
-        <li><a href="../..">Library</a></li><li><a href="..">Core</a></li><li class="is-active"><a href="#">when?</a></li>
+        <li><a href="../..">Library</a></li><li><a href="..">Collections</a></li><li class="is-active"><a href="#">index_</a></li>
     </ul>
 </nav>
                     
                     <!-- Title -->
                     <div class="level mt-6 is-mobile">
                         <div class="level-left">
-                            <h2  class="level-item title is-2" class="title is-2 is-spaced mt-6">when?</h2>
+                            <h2  class="level-item title is-2" class="title is-2 is-spaced mt-6">index</h2>
                         </div>
                         
                     </div>
                     
                     <!-- Description -->
-                    <h3  class="subtitle is-4 is-spaced" class="title is-3 is-spaced mt-6">check if a specific condition is fulfilled and, if so, execute given action</h3>
+                    <h3  class="subtitle is-4 is-spaced" class="title is-3 is-spaced mt-6">return first index of value in given collection</h3>
                     
                     <hr>
 
                     
                         <!-- Parameters -->
                         <h4  class="title is-5 is-spaced mt-6" class="subtitle is-4 is-spaced mt-6">Parameters</h4>
-                        <pre style="font-size:1em"><b>when?</b> <ins>condition</ins> :block
-      <ins>action</ins> :block</pre>
+                        <pre style="font-size:1em"><b>index</b> <ins>collection</ins> :string :dictionary :block
+      <ins>value</ins> :any</pre>
 
                         <!-- Attributes -->
                         
@@ -254,7 +275,11 @@
                     <div class="content">
                         <ul>
                             
-                                <li><em>:boolean</em></li>
+                                <li><em>:null</em></li>
+                            
+                                <li><em>:integer</em></li>
+                            
+                                <li><em>:string</em></li>
                             
                         </ul>
                     </div>
@@ -263,11 +288,13 @@
                         <!-- Examples -->
                         <h4  class="title is-5 is-spaced mt-6" class="subtitle is-4 is-spaced mt-6">Examples</h4>
 
-                        <pre><div class="copy">copy</div><code class="language-arturo">a: 2
-case [a]
-    when? [<2] -> print "a is less than 2"
-    when? [=2] -> print "a is 2"
-    else       -> print "a is greater than 2"</code></pre>
+                        <pre class="mt-4 mb-4"><code class="language-arturo">ind: index "hello" "e"
+print ind                 ; 1
+
+print index [1 2 3] 3     ; 2
+
+type index "hello" "x"
+; :null</code></pre>
                     
 
                     <!-- Related -->
@@ -276,13 +303,13 @@ case [a]
                     <div class="content">
                         <ul class="list">
                             
-                                <li class="list-item"><a href="../../numbers/even-">Numbers / even?</a></li>
+                                <li class="list-item"><a href="../../strings/indent">Strings / indent</a></li>
                             
-                                <li class="list-item"><a href="../../collections/in-">Collections / in?</a></li>
+                                <li class="list-item"><a href="../../arithmetic/dec">Arithmetic / dec</a></li>
                             
-                                <li class="list-item"><a href="../../collections/key-">Collections / key?</a></li>
+                                <li class="list-item"><a href="../../arithmetic/inc">Arithmetic / inc</a></li>
                             
-                                <li class="list-item"><a href="../while">Core / while</a></li>
+                                <li class="list-item"><a href="../../arithmetic/neg">Arithmetic / neg</a></li>
                             
                         </ul>
                     </div>
@@ -315,6 +342,5 @@ case [a]
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 <script src="../../../../resources/scripts/main.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-
 </body>
 </html>
