@@ -12,7 +12,7 @@ else {
 }
 file_put_contents($temp_file, $code."\n");
 
-$i = exec ("/var/www/arturo-lang.io/arturo $temp_file 2>&1 | aha --no-header --black",$output);
+$i = exec ("timeout -v --signal=9 5s /var/www/arturo-lang.io/arturo $temp_file 2>&1 | aha --no-header --black",$output, $ret);
 
 $txt = "";
 foreach ($output as $outp)
@@ -20,9 +20,12 @@ foreach ($output as $outp)
 	$txt .= str_replace("\t","&nbsp;&nbsp;&nbsp;&nbsp;",$outp). "<br>";
 }
 
+if ($txt==""){ $txt = "[no output]"; }
+
 $final = array(
 	"text" => $txt,
-	"code" => str_replace("art_","",str_replace("/tmp/", "", $temp_file))
+	"code" => str_replace("art_","",str_replace("/tmp/", "", $temp_file)),
+	"result" => $ret
 );
 
 echo json_encode($final);
