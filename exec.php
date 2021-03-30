@@ -12,7 +12,7 @@ else {
 }
 file_put_contents($temp_file, $code."\n");
 
-$i = exec ("echo \"\033[0;37m$(/var/www/arturo-lang.io/arturo $temp_file 2>&1)\" | aha --no-header --black",$output);
+$i = exec ("/var/www/arturo-lang.io/arturo $temp_file 2>&1 | aha --no-header --black",$output);
 
 $txt = "";
 foreach ($output as $outp)
