@@ -1,12 +1,411 @@
-<!DOCTYPE html><html class="has-navbar-fixed-top" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1maximum-scale=1,user-scalable=no"><meta name="robots" content="all"><link rel="canonical" href="https://arturo-lang.io/documentation/library/numbers/acosh/"><title>acosh | Numbers | Library | Documentation - Arturo</title><meta name="description" content="calculate the inverse hyperbolic cosine of given angle - Arturo programming"><meta name="keywords" content="arturo,programming language,scripting language,Documentation,Library,Numbers,acosh"><link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bulma@0.9.1/css/bulma.min.css,npm/prismjs@1.23.0/themes/prism-okaidia.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script><script src="https://kit.fontawesome.com/8bfb2fe6f4.js" crossorigin="anonymous"></script><link rel="stylesheet" href="../../../../resources/styles/main.css"><link rel="apple-touch-icon" sizes="57x57" href="../../../../favico/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="../../../../favico/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="../../../../favico/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="../../../../favico/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="../../../../favico/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="../../../../favico/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="../../../../favico/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="../../../../favico/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="../../../../favico/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="../../../../favico/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="../../../../favico/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="../../../../favico/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="../../../../favico/favicon-16x16.png"><link rel="manifest" href="../../../../manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="../../../../favico/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNR7PTFYH"></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="all">
+        <link rel="canonical" href="https://arturo-lang.io/documentation/library/numbers/acosh/">
+        
+
+        
+            <title>acosh | Numbers | Library | Documentation - Arturo</title>
+            <meta name="description" content="calculate the inverse hyperbolic cosine of given angle - Arturo programming">
+            <meta name="keywords" content="arturo,programming language,scripting language,Documentation,Library,Numbers,acosh">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bulma@0.9.1/css/bulma.min.css,npm/prismjs@1.23.0/themes/prism-okaidia.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+        <script src="https://kit.fontawesome.com/8bfb2fe6f4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../../../../resources/styles/main.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="../../../../favico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../../../../favico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../../../../favico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../../../../favico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../../../../favico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../../../../favico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../../../../favico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../../../../favico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../favico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../../../../favico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../../../favico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../../../../favico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../../favico/favicon-16x16.png">
+        <link rel="manifest" href="../../../../manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../../../../favico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNR7PTFYH"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-RPNR7PTFYH');</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"></head><body data-prismjs-copy-timeout="500"><nav class="navbar is-fixed-top is-boxed" aria-label="main navigation" style="border-bottom:2px solid #6a156b;"><div class="navbar-brand"><a class="navbar-item" href="../../../.." style="font-weight:bold; font-size: 1.2em; color: black"><picture><source srcset="../../../../resources/images/navlogo.webp" type="image/webp"><source srcset="../../../../resources/images/navlogo.png" type="image/png"><img class="screenshot" src="../../../../resources/images/navlogo.png" width="28" height="28" alt="arturo logo"></picture>&nbsp;&nbsp;<h1 style="font-weight: inherit !important;">Arturo&nbsp;<span class="logo-secondary">: programming language</span></h1></a><a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain"><span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span></a></div><div id="navbarMain" class="navbar-menu"><div class="navbar-end"><input class="navbar-item is-hidden-touch" id="searchbar" type="search" placeholder="Search..."> <i id="searchbar-icon" class="fa fa-search is-hidden-touch"></i> <a class="is-active navbar-item is-tab is-warning" href="../../..">Documentation </a><a class="navbar-item is-tab" href="../../../../playground">Playground</a></div></div></nav><main><div class="columns doccols"><div class="column is-3 p-6 is-hidden-mobile sidebar"><aside class="menu" style="margin-top: -0.5em;"><ul class="menu-list"><li><a href="../../..">Home</a></li><li><a href="../../../getting-started">Getting Started</a></li><li><a href="../../../language">Language</a></li><li><a href="../../../command-line">Command Line</a></li><li><a class="is-active" href="../..">Library</a><ul style="margin-right:0"><li><a href="../../arithmetic">Arithmetic</a></li><li><a href="../../binary">Binary</a></li><li><a href="../../collections">Collections</a></li><li><a href="../../comparison">Comparison</a></li><li><a href="../../converters">Converters</a></li><li><a href="../../core">Core</a></li><li><a href="../../crypto">Crypto</a></li><li><a href="../../databases">Databases</a></li><li><a href="../../dates">Dates</a></li><li><a href="../../files">Files</a></li><li><a href="../../io">Io</a></li><li><a href="../../iterators">Iterators</a></li><li><a href="../../logic">Logic</a></li><li><a href="../../net">Net</a></li><li><a class="is-active" href="..">Numbers</a><ul style="margin-right:0"><li><a href="../abs">abs</a></li><li><a href="../acos">acos</a></li><li><a class="is-active" href="#">acosh</a></li><li><a href="../asin">asin</a></li><li><a href="../asinh">asinh</a></li><li><a href="../atan">atan</a></li><li><a href="../atanh">atanh</a></li><li><a href="../average">average</a></li><li><a href="../ceil">ceil</a></li><li><a href="../cos">cos</a></li><li><a href="../cosh">cosh</a></li><li><a href="../csec">csec</a></li><li><a href="../csech">csech</a></li><li><a href="../ctan">ctan</a></li><li><a href="../ctanh">ctanh</a></li><li><a href="../epsilon">epsilon</a></li><li><a href="../even-">even?</a></li><li><a href="../exp">exp</a></li><li><a href="../factors">factors</a></li><li><a href="../floor">floor</a></li><li><a href="../gamma">gamma</a></li><li><a href="../gcd">gcd</a></li><li><a href="../hypot">hypot</a></li><li><a href="../ln">ln</a></li><li><a href="../log">log</a></li><li><a href="../median">median</a></li><li><a href="../negative-">negative?</a></li><li><a href="../odd-">odd?</a></li><li><a href="../pi">pi</a></li><li><a href="../positive-">positive?</a></li><li><a href="../powmod">powmod</a></li><li><a href="../prime-">prime?</a></li><li><a href="../product">product</a></li><li><a href="../random">random</a></li><li><a href="../range">range</a></li><li><a href="../round">round</a></li><li><a href="../sec">sec</a></li><li><a href="../sech">sech</a></li><li><a href="../sin">sin</a></li><li><a href="../sinh">sinh</a></li><li><a href="../sqrt">sqrt</a></li><li><a href="../sum">sum</a></li><li><a href="../tan">tan</a></li><li><a href="../tanh">tanh</a></li><li><a href="../zero-">zero?</a></li></ul></li><li><a href="../../paths">Paths</a></li><li><a href="../../reflection">Reflection</a></li><li><a href="../../sets">Sets</a></li><li><a href="../../strings">Strings</a></li><li><a href="../../system">System</a></li><li><a href="../../ui">Ui</a></li></ul></li></ul></aside></div><div class="column is-9 p-6 mb-6"><nav class="breadcrumb is-size-7-mobile is-size-6" aria-label="breadcrumbs"><ul><li><a href="../../.." style="margin-left:0">Home</a></li><li><a href="../..">Library</a></li><li><a href="..">Numbers</a></li><li class="is-active"><a href="#">acosh</a></li></ul></nav><div class="level mt-6 is-mobile"><div class="level-left"><h2 class="level-item title is-size-3-touch is-size-2">acosh</h2></div></div><h3 class="subtitle is-4 is-spaced">calculate the inverse hyperbolic cosine of given angle</h3><hr><h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Parameters</h4><pre class="is-size-7-touch is-size-6"><b>acosh</b> <ins>angle</ins> :integer :floating</pre><h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Returns</h4><div class="content"><ul><li><em>:floating</em></li></ul></div><h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Examples</h4><pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">print acosh 1.0         ; 0.0
+        gtag('config', 'G-RPNR7PTFYH');
+        </script>
+        
+        
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+        
+    </head>
+    <body data-prismjs-copy-timeout="500">
+        
+    <nav class="navbar is-fixed-top is-boxed" aria-label="main navigation" style="border-bottom:2px solid #6a156b;">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="../../../.." style="font-weight:bold; font-size: 1.2em; color: black">
+            <picture>
+                <source srcset="../../../../resources/images/navlogo.webp" type="image/webp">
+                <source srcset="../../../../resources/images/navlogo.png" type="image/png">
+                <img class="screenshot" src="../../../../resources/images/navlogo.png" width="28" height="28" alt="arturo logo">
+            </picture>
+            &nbsp;&nbsp;<h1 style="font-weight: inherit !important;">Arturo&nbsp;<span class="logo-secondary">: programming language</span></h1>
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+  
+    <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-end">
+            
+            
+                <input class="navbar-item is-hidden-touch" id="searchbar" type="search" placeholder="Search...">
+                <i id="searchbar-icon" class="fa fa-search is-hidden-touch"></i>
+            
+            <a class="is-active navbar-item is-tab is-warning" href="../../..">
+                <!--<i class="far fa-file-alt"></i>&nbsp;&nbsp;-->Documentation
+            </a>
+            <a class=" navbar-item is-tab " href="../../../../playground">
+                <!--<i class="fab fa-github"></i>&nbsp;&nbsp;-->Playground
+            </a>
+            <!-- <a rel="noopener" target="_blank" class="navbar-item is-tab " href="https://github.com/arturo-lang/arturo">
+                Source
+            </a> -->
+            <!-- <div class="is-divider-vertical"></div>
+            <a rel="noopener" target="_blank" class="navbar-item is-tab" href="https://twitter.com/ArturoLanguage" aria-label="official twitter page">
+                <i class="fab fa-twitter"></i>
+            </a> -->
+        </div>
+    </div>
+</nav>
+        
+        <main>
+            <div class="columns doccols">
+                <!-- SIDEBAR -->
+                <div class="column is-3 p-6 is-hidden-mobile sidebar"><!-- height: 100vh; overflow-y:auto;">-->
+    <aside class="menu" style="margin-top: -0.5em;">
+        <!-- <p class="menu-label">
+            Documentation
+        </p> -->
+        <ul class="menu-list">
+            <li><a  href="../../..">Home</a></li>
+            <li><a  href="../../../getting-started">Getting Started</a></li>
+            <li><a  href="../../../language">Language</a></li>
+            <li><a  href="../../../command-line">Command Line</a></li>
+            <li><a  class="is-active"  href="../..">Library</a>
+                
+                    <ul style="margin-right:0">
+                        
+                            <li><a  href="../../arithmetic">Arithmetic</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../binary">Binary</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../collections">Collections</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../comparison">Comparison</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../converters">Converters</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../core">Core</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../crypto">Crypto</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../databases">Databases</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../dates">Dates</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../files">Files</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../io">Io</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../iterators">Iterators</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../logic">Logic</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../net">Net</a>
+                            
+                            </li>
+                        
+                            <li><a class="is-active"  href="..">Numbers</a>
+                            
+                                <ul style="margin-right:0">
+                                    
+                                        <li><a  href="../abs">abs</a></li>
+                                    
+                                        <li><a  href="../acos">acos</a></li>
+                                    
+                                        <li><a class="is-active"  href="#">acosh</a></li>
+                                    
+                                        <li><a  href="../asin">asin</a></li>
+                                    
+                                        <li><a  href="../asinh">asinh</a></li>
+                                    
+                                        <li><a  href="../atan">atan</a></li>
+                                    
+                                        <li><a  href="../atanh">atanh</a></li>
+                                    
+                                        <li><a  href="../average">average</a></li>
+                                    
+                                        <li><a  href="../ceil">ceil</a></li>
+                                    
+                                        <li><a  href="../cos">cos</a></li>
+                                    
+                                        <li><a  href="../cosh">cosh</a></li>
+                                    
+                                        <li><a  href="../csec">csec</a></li>
+                                    
+                                        <li><a  href="../csech">csech</a></li>
+                                    
+                                        <li><a  href="../ctan">ctan</a></li>
+                                    
+                                        <li><a  href="../ctanh">ctanh</a></li>
+                                    
+                                        <li><a  href="../epsilon">epsilon</a></li>
+                                    
+                                        <li><a  href="../even-">even?</a></li>
+                                    
+                                        <li><a  href="../exp">exp</a></li>
+                                    
+                                        <li><a  href="../factors">factors</a></li>
+                                    
+                                        <li><a  href="../floor">floor</a></li>
+                                    
+                                        <li><a  href="../gamma">gamma</a></li>
+                                    
+                                        <li><a  href="../gcd">gcd</a></li>
+                                    
+                                        <li><a  href="../hypot">hypot</a></li>
+                                    
+                                        <li><a  href="../ln">ln</a></li>
+                                    
+                                        <li><a  href="../log">log</a></li>
+                                    
+                                        <li><a  href="../median">median</a></li>
+                                    
+                                        <li><a  href="../negative-">negative?</a></li>
+                                    
+                                        <li><a  href="../odd-">odd?</a></li>
+                                    
+                                        <li><a  href="../pi">pi</a></li>
+                                    
+                                        <li><a  href="../positive-">positive?</a></li>
+                                    
+                                        <li><a  href="../powmod">powmod</a></li>
+                                    
+                                        <li><a  href="../prime-">prime?</a></li>
+                                    
+                                        <li><a  href="../product">product</a></li>
+                                    
+                                        <li><a  href="../random">random</a></li>
+                                    
+                                        <li><a  href="../range">range</a></li>
+                                    
+                                        <li><a  href="../round">round</a></li>
+                                    
+                                        <li><a  href="../sec">sec</a></li>
+                                    
+                                        <li><a  href="../sech">sech</a></li>
+                                    
+                                        <li><a  href="../sin">sin</a></li>
+                                    
+                                        <li><a  href="../sinh">sinh</a></li>
+                                    
+                                        <li><a  href="../sqrt">sqrt</a></li>
+                                    
+                                        <li><a  href="../sum">sum</a></li>
+                                    
+                                        <li><a  href="../tan">tan</a></li>
+                                    
+                                        <li><a  href="../tanh">tanh</a></li>
+                                    
+                                        <li><a  href="../zero-">zero?</a></li>
+                                    
+                                </ul>
+                            
+                            </li>
+                        
+                            <li><a  href="../../paths">Paths</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../reflection">Reflection</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../sets">Sets</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../strings">Strings</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../system">System</a>
+                            
+                            </li>
+                        
+                            <li><a  href="../../ui">Ui</a>
+                            
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+      </aside>
+</div>
+
+                <!-- MAIN -->
+                <div class="column is-9 p-6 mb-6">
+
+                    <!-- Breadcrumbs -->
+                    <nav class="breadcrumb is-size-7-mobile is-size-6" aria-label="breadcrumbs">
+    <ul>
+        
+            <li><a href="../../.." style="margin-left:0">Home</a></li>
+        
+        <li><a href="../..">Library</a></li><li><a href="..">Numbers</a></li><li class="is-active"><a href="#">acosh</a></li>
+    </ul>
+</nav>
+                    
+                    <!-- Title -->
+                    <div class="level mt-6 is-mobile">
+                        <div class="level-left">
+                            <h2 class="level-item title is-size-3-touch is-size-2">acosh</h2>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Description -->
+                    <h3 class="subtitle is-4 is-spaced">calculate the inverse hyperbolic cosine of given angle</h3>
+                    
+                    <hr>
+
+                    
+                        <!-- Parameters -->
+                        <h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Parameters</h4>
+                        <pre class="is-size-7-touch is-size-6"><b>acosh</b> <ins>angle</ins> :integer :floating</pre>
+
+                        <!-- Attributes -->
+                        
+                    
+
+                    <!-- Returns -->
+                    <h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Returns</h4>
+
+                    <div class="content">
+                        <ul>
+                            
+                                <li><em>:floating</em></li>
+                            
+                        </ul>
+                    </div>
+
+                    
+                        <!-- Examples -->
+                        <h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Examples</h4>
+
+                        <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">print acosh 1.0         ; 0.0
 print acosh 2           ; 1.316957896924817
-print acosh 5.0         ; 2.292431669561178</code></pre><h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Related</h4><div class="content"><ul class="list"><li class="list-item"><a href="../asinh">Numbers / asinh</a></li><li class="list-item"><a href="../acos">Numbers / acos</a></li><li class="list-item"><a href="../cosh">Numbers / cosh</a></li><li class="list-item"><a href="../atanh">Numbers / atanh</a></li></ul></div></div></div></main><footer class="footer"><div class="content has-text-centered"><p class="block"><a class="footer-icon github" aria-label="github" rel="noopener" href="https://github.com/arturo-lang" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp; <a class="footer-icon twitter" aria-label="twitter" rel="noopener" href="https://twitter.com/ArturoLanguage" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp; <a class="footer-icon discord" aria-label="discord" rel="noopener" href="https://discord.gg/YdVK2CB" target="_blank"><i class="fab fa-discord"></i></a></p></div><div class="content has-text-centered"><p class="block"><strong>Arturo Programming Language</strong><br>Copyright &copy; 2019-2021 Yanis Zafirópulos<br><br><small class="is-size-7-touch">Website built and generated using Arturo + Webize.<span class="is-hidden-touch"> Running on <a rel="noopener" href="https://m.do.co/c/d9efb97aa0f2" target="_blank">DigitalOcean</a>.</span></small><br><small class="is-size-7-touch">Source code <span class="is-hidden-touch">licensed </span>under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Website <span class="is-hidden-touch">content licensed </span><span class="is-hidden-desktop">under </span><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</small></p></div></footer><script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script><script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script><script src="../../../../resources/scripts/main.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script type="text/javascript">docsearch({
+print acosh 5.0         ; 2.292431669561178</code></pre>
+                    
+
+                    <!-- Related -->
+                    <h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Related</h4>
+                    
+                    <div class="content">
+                        <ul class="list">
+                            
+                                <li class="list-item"><a href="../asinh">Numbers / asinh</a></li>
+                            
+                                <li class="list-item"><a href="../acos">Numbers / acos</a></li>
+                            
+                                <li class="list-item"><a href="../cosh">Numbers / cosh</a></li>
+                            
+                                <li class="list-item"><a href="../atanh">Numbers / atanh</a></li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+<!-- <div class="section">
+    <div class="has-text-centered">
+        <p class="motto">•&nbsp;&nbsp;CODE IS <span onmouseenter="this.innerHTML='ARTURO'" onmouseout="this.innerHTML='ART'">ART</span>&nbsp;&nbsp;•</p>
+    </div>
+</div> -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p class="block">
+            <a class="footer-icon github" aria-label="github" rel="noopener" href="https://github.com/arturo-lang" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;
+            <a class="footer-icon twitter" aria-label="twitter" rel="noopener" href="https://twitter.com/ArturoLanguage" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+            <a class="footer-icon discord" aria-label="discord" rel="noopener" href="https://discord.gg/YdVK2CB" target="_blank"><i class="fab fa-discord"></i></a>
+        </p>
+    </div>
+    <div class="content has-text-centered">
+        <p class="block">
+            <strong>Arturo Programming Language</strong><br>Copyright &copy; 2019-2021 Yanis Zafirópulos<br><br>
+            <small class="is-size-7-touch">Website built and generated using Arturo + Webize.<span class="is-hidden-touch"> Running on <a rel="noopener" href="https://m.do.co/c/d9efb97aa0f2" target="_blank">DigitalOcean</a>.</span></small><br>
+            <small class="is-size-7-touch">Source code <span class="is-hidden-touch">licensed </span>under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Website <span class="is-hidden-touch">content licensed </span><span class="is-hidden-desktop">under </span><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</small>
+        </p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<!--
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.6.0/dist/jquery.min.js,npm/typeahead.js@0.11.1/dist/typeahead.jquery.min.js"></script>
+-->
+
+<script src="../../../../resources/scripts/main.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript"> docsearch({
     apiKey: 'c4a83c17dd4a7f0faba0c60321ccd634',
     indexName: 'arturo',
     inputSelector: '#searchbar',
     debug: true // Set debug to true if you want to inspect the dropdown
-    });</script></body></html>
+    });
+    </script>
+
+</body>
+</html>
