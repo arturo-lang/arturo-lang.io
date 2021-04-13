@@ -20,12 +20,31 @@ foreach ($output as $outp)
 	$txt .= str_replace("\t","&nbsp;&nbsp;&nbsp;&nbsp;",$outp). "<br>";
 }
 
+// if ($txt==""){
+// 	// $i2 = exec ("timeout -v --signal=9 10s /var/www/arturo-lang.io/arturo $temp_file",$output2, $ret2);
+// 	// if ($ret2==139) {
+// 		exec("cp /root/arturo/bin/arturo /var/www/arturo-lang.io");
+
+// 		$i = exec ("timeout -v --signal=9 10s /var/www/arturo-lang.io/arturo $temp_file 2>&1 | aha --no-header --black",$output, $ret);
+// 		$txt = "";
+// 		foreach ($output as $outp)
+// 		{
+// 			$txt .= str_replace("\t","&nbsp;&nbsp;&nbsp;&nbsp;",$outp). "<br>";
+// 		}
+// 	// }
+// }
+
 if ($txt==""){ $txt = "[no output]"; }
 
 $final = array(
 	"text" => $txt,
 	"code" => str_replace("art_","",str_replace("/tmp/", "", $temp_file)),
-	"result" => $ret
+	"result" => $ret,
+	"i" => $i,
+	"output" => $output, 
+	"output2" => $output2,
+	"ret" => $ret,
+	"ret2" => $ret2
 );
 
 echo json_encode($final);
