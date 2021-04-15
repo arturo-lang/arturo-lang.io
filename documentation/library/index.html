@@ -1,10 +1,302 @@
-<!DOCTYPE html><html class="has-navbar-fixed-top" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1maximum-scale=1,user-scalable=no"><meta name="robots" content="all"><link rel="canonical" href="https://arturo-lang.io/documentation/library/"><title>Library | Documentation - Arturo</title><meta name="description" content="Documentation - Library - Arturo programming"><meta name="keywords" content="arturo,programming language,scripting language,Documentation,Library"><link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bulma@0.9.1/css/bulma.min.css,npm/prismjs@1.23.0/themes/prism-okaidia.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script><script src="https://kit.fontawesome.com/8bfb2fe6f4.js" crossorigin="anonymous"></script><link rel="stylesheet" href="../../resources/styles/main.css"><link rel="apple-touch-icon" sizes="57x57" href="../../favico/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="../../favico/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="../../favico/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="../../favico/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="../../favico/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="../../favico/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="../../favico/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="../../favico/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="../../favico/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="../../favico/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="../../favico/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="../../favico/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="../../favico/favicon-16x16.png"><link rel="manifest" href="../../manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="../../favico/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNR7PTFYH"></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="all">
+        <link rel="canonical" href="https://arturo-lang.io/documentation/library/">
+        
+
+        
+            <title>Library | Documentation - Arturo</title>
+            <meta name="description" content="Documentation - Library - Arturo programming">
+            <meta name="keywords" content="arturo,programming language,scripting language,Documentation,Library">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bulma@0.9.1/css/bulma.min.css,npm/prismjs@1.23.0/themes/prism-okaidia.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+        <script src="https://kit.fontawesome.com/8bfb2fe6f4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../../resources/styles/main.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="../../favico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../../favico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../../favico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../../favico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../../favico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../../favico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../../favico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../../favico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../../favico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../../favico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../../favico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favico/favicon-16x16.png">
+        <link rel="manifest" href="../../manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../../favico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNR7PTFYH"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-RPNR7PTFYH');</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"></head><body data-prismjs-copy-timeout="500"><nav class="navbar is-fixed-top is-boxed" aria-label="main navigation" style="border-bottom:2px solid #6a156b;"><div class="navbar-brand"><a class="navbar-item" href="../.." style="font-weight:bold; font-size: 1.2em; color: black"><picture><source srcset="../../resources/images/navlogo.webp" type="image/webp"><source srcset="../../resources/images/navlogo.png" type="image/png"><img class="screenshot" src="../../resources/images/navlogo.png" width="28" height="28" alt="arturo logo"></picture>&nbsp;&nbsp;<h1 style="font-weight: inherit !important;">Arturo&nbsp;<span class="logo-secondary">: programming language</span></h1></a><a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain"><span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span></a></div><div id="navbarMain" class="navbar-menu"><div class="navbar-end"><input class="navbar-item is-hidden-touch" id="searchbar" type="search" placeholder="Search..."> <i id="searchbar-icon" class="fa fa-search is-hidden-touch"></i> <a class="is-active navbar-item is-tab is-warning" href="..">Documentation </a><a class="navbar-item is-tab" href="../../playground">Playground</a></div></div></nav><main><div class="columns doccols"><div class="column is-3 p-6 is-hidden-mobile sidebar"><aside class="menu" style="margin-top: -0.5em;"><ul class="menu-list"><li><a href="..">Home</a></li><li><a href="../getting-started">Getting Started</a></li><li><a href="../language">Language</a></li><li><a href="../command-line">Command Line</a></li><li><a class="is-active" href=".">Library</a><ul style="margin-right:0"><li><a href="arithmetic">Arithmetic</a></li><li><a href="binary">Binary</a></li><li><a href="collections">Collections</a></li><li><a href="comparison">Comparison</a></li><li><a href="converters">Converters</a></li><li><a href="core">Core</a></li><li><a href="crypto">Crypto</a></li><li><a href="databases">Databases</a></li><li><a href="dates">Dates</a></li><li><a href="files">Files</a></li><li><a href="io">Io</a></li><li><a href="iterators">Iterators</a></li><li><a href="logic">Logic</a></li><li><a href="net">Net</a></li><li><a href="numbers">Numbers</a></li><li><a href="paths">Paths</a></li><li><a href="reflection">Reflection</a></li><li><a href="sets">Sets</a></li><li><a href="strings">Strings</a></li><li><a href="system">System</a></li><li><a href="ui">Ui</a></li></ul></li><li><a href="../examples">Examples<span class="tag is-small is-success is-pulled-right" style="border-radius: 20px !important; height: 1.7em !important;">new</span></a></li></ul></aside></div><div class="column is-9 p-6 mb-6"><nav class="breadcrumb is-size-7-mobile is-size-6" aria-label="breadcrumbs"><ul><li><a href=".." style="margin-left:0">Home</a></li><li class="is-active"><a href="#">Library</a></li></ul></nav><h2 class="title is-size-3-touch is-size-2 is-spaced">Library</h2><p class="pt-1 pb-1">The Standard Library is split into different modules/dictionaries in order to keep things better organized.</p><p class="pt-1 pb-1">Here is the complete list of modules, each one containing all the defined words/functions:</p><hr><div class="content"><ul><li><a href="arithmetic">Arithmetic</a></li><li><a href="binary">Binary</a></li><li><a href="collections">Collections</a></li><li><a href="comparison">Comparison</a></li><li><a href="converters">Converters</a></li><li><a href="core">Core</a></li><li><a href="crypto">Crypto</a></li><li><a href="databases">Databases</a></li><li><a href="dates">Dates</a></li><li><a href="files">Files</a></li><li><a href="io">Io</a></li><li><a href="iterators">Iterators</a></li><li><a href="logic">Logic</a></li><li><a href="net">Net</a></li><li><a href="numbers">Numbers</a></li><li><a href="paths">Paths</a></li><li><a href="reflection">Reflection</a></li><li><a href="sets">Sets</a></li><li><a href="strings">Strings</a></li><li><a href="system">System</a></li><li><a href="ui">Ui</a></li></ul></div><hr><p class="pt-1 pb-1"></p><h3 id="alphabetical-index" class="title is-size-4-touch is-size-3 is-spaced mt-6">Alphabetical Index</h3><p></p><p class="pt-1 pb-1">Yes, all the 269 library functions &amp; constants in one place!</p><p align="justify"><a href="numbers/abs">abs</a> ▪︎ <a href="numbers/acos">acos</a> ▪︎ <a href="numbers/acosh">acosh</a> ▪︎ <a href="arithmetic/add">add</a> ▪︎ <a href="dates/after">after</a> ▪︎ <a href="logic/all-">all?</a> ▪︎ <a href="binary/and">and</a> ▪︎ <a href="logic/and-">and?</a> ▪︎ <a href="logic/any-">any?</a> ▪︎ <a href="collections/append">append</a> ▪︎ <a href="system/arg">arg</a> ▪︎ <a href="system/args">args</a> ▪︎ <a href="reflection/arity">arity</a> ▪︎ <a href="converters/array">array</a> ▪︎ <a href="converters/as">as</a> ▪︎ <a href="strings/ascii-">ascii?</a> ▪︎ <a href="numbers/asin">asin</a> ▪︎ <a href="numbers/asinh">asinh</a> ▪︎ <a href="numbers/atan">atan</a> ▪︎ <a href="numbers/atanh">atanh</a> ▪︎ <a href="reflection/attr">attr</a> ▪︎ <a href="reflection/attr-">attr?</a> ▪︎ <a href="reflection/attribute-">attribute?</a> ▪︎ <a href="reflection/attributelabel-">attributeLabel?</a> ▪︎ <a href="reflection/attrs">attrs</a> ▪︎ <a href="numbers/average">average</a> ▪︎ <a href="dates/before">before</a> ▪︎ <a href="reflection/benchmark">benchmark</a> ▪︎ <a href="reflection/binary-">binary?</a> ▪︎ <a href="reflection/block-">block?</a> ▪︎ <a href="reflection/boolean-">boolean?</a> ▪︎ <a href="core/break">break</a> ▪︎ <a href="core/call">call</a> ▪︎ <a href="strings/capitalize">capitalize</a> ▪︎ <a href="core/case">case</a> ▪︎ <a href="numbers/ceil">ceil</a> ▪︎ <a href="reflection/char-">char?</a> ▪︎ <a href="collections/chop">chop</a> ▪︎ <a href="io/clear">clear</a> ▪︎ <a href="databases/close">close</a> ▪︎ <a href="strings/color">color</a> ▪︎ <a href="collections/combine">combine</a> ▪︎ <a href="collections/contains-">contains?</a> ▪︎ <a href="core/continue">continue</a> ▪︎ <a href="files/copy">copy</a> ▪︎ <a href="numbers/cos">cos</a> ▪︎ <a href="numbers/cosh">cosh</a> ▪︎ <a href="numbers/csec">csec</a> ▪︎ <a href="numbers/csech">csech</a> ▪︎ <a href="numbers/ctan">ctan</a> ▪︎ <a href="numbers/ctanh">ctanh</a> ▪︎ <a href="io/cursor">cursor</a> ▪︎ <a href="reflection/database-">database?</a> ▪︎ <a href="reflection/date-">date?</a> ▪︎ <a href="arithmetic/dec">dec</a> ▪︎ <a href="crypto/decode">decode</a> ▪︎ <a href="converters/define">define</a> ▪︎ <a href="files/delete">delete</a> ▪︎ <a href="converters/dictionary">dictionary</a> ▪︎ <a href="reflection/dictionary-">dictionary?</a> ▪︎ <a href="sets/difference">difference</a> ▪︎ <a href="crypto/digest">digest</a> ▪︎ <a href="arithmetic/div">div</a> ▪︎ <a href="core/do">do</a> ▪︎ <a href="net/download">download</a> ▪︎ <a href="collections/drop">drop</a> ▪︎ <a href="core/dup">dup</a> ▪︎ <a href="core/else">else</a> ▪︎ <a href="collections/empty">empty</a> ▪︎ <a href="collections/empty-">empty?</a> ▪︎ <a href="crypto/encode">encode</a> ▪︎ <a href="core/ensure">ensure</a> ▪︎ <a href="system/env">env</a> ▪︎ <a href="numbers/epsilon">epsilon</a> ▪︎ <a href="comparison/equal-">equal?</a> ▪︎ <a href="strings/escape">escape</a> ▪︎ <a href="numbers/even-">even?</a> ▪︎ <a href="iterators/every-">every?</a> ▪︎ <a href="system/execute">execute</a> ▪︎ <a href="files/exists-">exists?</a> ▪︎ <a href="system/exit">exit</a> ▪︎ <a href="numbers/exp">exp</a> ▪︎ <a href="collections/extend">extend</a> ▪︎ <a href="paths/extract">extract</a> ▪︎ <a href="numbers/factors">factors</a> ▪︎ <a href="logic/false">false</a> ▪︎ <a href="logic/false-">false?</a> ▪︎ <a href="arithmetic/fdiv">fdiv</a> ▪︎ <a href="iterators/filter">filter</a> ▪︎ <a href="collections/first">first</a> ▪︎ <a href="collections/flatten">flatten</a> ▪︎ <a href="reflection/floating-">floating?</a> ▪︎ <a href="numbers/floor">floor</a> ▪︎ <a href="iterators/fold">fold</a> ▪︎ <a href="converters/from">from</a> ▪︎ <a href="converters/function">function</a> ▪︎ <a href="reflection/function-">function?</a> ▪︎ <a href="numbers/gamma">gamma</a> ▪︎ <a href="numbers/gcd">gcd</a> ▪︎ <a href="collections/get">get</a> ▪︎ <a href="io/goto">goto</a> ▪︎ <a href="comparison/greater-">greater?</a> ▪︎ <a href="comparison/greaterorequal-">greaterOrEqual?</a> ▪︎ <a href="crypto/hash">hash</a> ▪︎ <a href="reflection/help">help</a> ▪︎ <a href="numbers/hypot">hypot</a> ▪︎ <a href="core/if">if</a> ▪︎ <a href="core/if-">if?</a> ▪︎ <a href="collections/in-">in?</a> ▪︎ <a href="arithmetic/inc">inc</a> ▪︎ <a href="strings/indent">indent</a> ▪︎ <a href="collections/index">index</a> ▪︎ <a href="reflection/info">info</a> ▪︎ <a href="reflection/inline-">inline?</a> ▪︎ <a href="io/input">input</a> ▪︎ <a href="collections/insert">insert</a> ▪︎ <a href="reflection/inspect">inspect</a> ▪︎ <a href="reflection/integer-">integer?</a> ▪︎ <a href="sets/intersection">intersection</a> ▪︎ <a href="reflection/is-">is?</a> ▪︎ <a href="strings/join">join</a> ▪︎ <a href="collections/key-">key?</a> ▪︎ <a href="collections/keys">keys</a> ▪︎ <a href="reflection/label-">label?</a> ▪︎ <a href="collections/last">last</a> ▪︎ <a href="dates/leap-">leap?</a> ▪︎ <a href="comparison/less-">less?</a> ▪︎ <a href="comparison/lessorequal-">lessOrEqual?</a> ▪︎ <a href="core/let">let</a> ▪︎ <a href="strings/levenshtein">levenshtein</a> ▪︎ <a href="paths/list">list</a> ▪︎ <a href="reflection/literal-">literal?</a> ▪︎ <a href="numbers/ln">ln</a> ▪︎ <a href="numbers/log">log</a> ▪︎ <a href="iterators/loop">loop</a> ▪︎ <a href="strings/lower">lower</a> ▪︎ <a href="strings/lower-">lower?</a> ▪︎ <a href="net/mail">mail</a> ▪︎ <a href="iterators/map">map</a> ▪︎ <a href="strings/match">match</a> ▪︎ <a href="collections/max">max</a> ▪︎ <a href="numbers/median">median</a> ▪︎ <a href="collections/min">min</a> ▪︎ <a href="arithmetic/mod">mod</a> ▪︎ <a href="paths/module">module</a> ▪︎ <a href="arithmetic/mul">mul</a> ▪︎ <a href="binary/nand">nand</a> ▪︎ <a href="logic/nand-">nand?</a> ▪︎ <a href="arithmetic/neg">neg</a> ▪︎ <a href="numbers/negative-">negative?</a> ▪︎ <a href="core/new">new</a> ▪︎ <a href="binary/nor">nor</a> ▪︎ <a href="logic/nor-">nor?</a> ▪︎ <a href="paths/normalize">normalize</a> ▪︎ <a href="binary/not">not</a> ▪︎ <a href="logic/not-">not?</a> ▪︎ <a href="comparison/notequal-">notEqual?</a> ▪︎ <a href="dates/now">now</a> ▪︎ <a href="core/null">null</a> ▪︎ <a href="reflection/null-">null?</a> ▪︎ <a href="strings/numeric-">numeric?</a> ▪︎ <a href="numbers/odd-">odd?</a> ▪︎ <a href="databases/open">open</a> ▪︎ <a href="binary/or">or</a> ▪︎ <a href="logic/or-">or?</a> ▪︎ <a href="strings/outdent">outdent</a> ▪︎ <a href="strings/pad">pad</a> ▪︎ <a href="system/panic">panic</a> ▪︎ <a href="paths/path">path</a> ▪︎ <a href="reflection/path-">path?</a> ▪︎ <a href="reflection/pathlabel-">pathLabel?</a> ▪︎ <a href="system/pause">pause</a> ▪︎ <a href="files/permissions">permissions</a> ▪︎ <a href="collections/permutate">permutate</a> ▪︎ <a href="numbers/pi">pi</a> ▪︎ <a href="core/pop">pop</a> ▪︎ <a href="numbers/positive-">positive?</a> ▪︎ <a href="arithmetic/pow">pow</a> ▪︎ <a href="numbers/powmod">powmod</a> ▪︎ <a href="strings/prefix">prefix</a> ▪︎ <a href="strings/prefix-">prefix?</a> ▪︎ <a href="numbers/prime-">prime?</a> ▪︎ <a href="io/print">print</a> ▪︎ <a href="io/prints">prints</a> ▪︎ <a href="numbers/product">product</a> ▪︎ <a href="databases/query">query</a> ▪︎ <a href="numbers/random">random</a> ▪︎ <a href="numbers/range">range</a> ▪︎ <a href="files/read">read</a> ▪︎ <a href="paths/relative">relative</a> ▪︎ <a href="collections/remove">remove</a> ▪︎ <a href="files/rename">rename</a> ▪︎ <a href="strings/render">render</a> ▪︎ <a href="collections/repeat">repeat</a> ▪︎ <a href="strings/replace">replace</a> ▪︎ <a href="net/request">request</a> ▪︎ <a href="core/return">return</a> ▪︎ <a href="collections/reverse">reverse</a> ▪︎ <a href="numbers/round">round</a> ▪︎ <a href="collections/sample">sample</a> ▪︎ <a href="system/script">script</a> ▪︎ <a href="numbers/sec">sec</a> ▪︎ <a href="numbers/sech">sech</a> ▪︎ <a href="iterators/select">select</a> ▪︎ <a href="net/serve">serve</a> ▪︎ <a href="collections/set">set</a> ▪︎ <a href="reflection/set-">set?</a> ▪︎ <a href="binary/shl">shl</a> ▪︎ <a href="binary/shr">shr</a> ▪︎ <a href="collections/shuffle">shuffle</a> ▪︎ <a href="numbers/sin">sin</a> ▪︎ <a href="numbers/sinh">sinh</a> ▪︎ <a href="collections/size">size</a> ▪︎ <a href="collections/slice">slice</a> ▪︎ <a href="iterators/some-">some?</a> ▪︎ <a href="collections/sort">sort</a> ▪︎ <a href="collections/split">split</a> ▪︎ <a href="numbers/sqrt">sqrt</a> ▪︎ <a href="collections/squeeze">squeeze</a> ▪︎ <a href="reflection/stack">stack</a> ▪︎ <a href="reflection/standalone-">standalone?</a> ▪︎ <a href="reflection/string-">string?</a> ▪︎ <a href="strings/strip">strip</a> ▪︎ <a href="arithmetic/sub">sub</a> ▪︎ <a href="sets/subset-">subset?</a> ▪︎ <a href="strings/suffix">suffix</a> ▪︎ <a href="strings/suffix-">suffix?</a> ▪︎ <a href="numbers/sum">sum</a> ▪︎ <a href="sets/superset-">superset?</a> ▪︎ <a href="core/switch">switch</a> ▪︎ <a href="reflection/symbol-">symbol?</a> ▪︎ <a href="reflection/symbols">symbols</a> ▪︎ <a href="files/symlink">symlink</a> ▪︎ <a href="system/sys">sys</a> ▪︎ <a href="collections/take">take</a> ▪︎ <a href="numbers/tan">tan</a> ▪︎ <a href="numbers/tanh">tanh</a> ▪︎ <a href="io/terminal">terminal</a> ▪︎ <a href="converters/to">to</a> ▪︎ <a href="logic/true">true</a> ▪︎ <a href="logic/true-">true?</a> ▪︎ <a href="strings/truncate">truncate</a> ▪︎ <a href="core/try">try</a> ▪︎ <a href="core/try-">try?</a> ▪︎ <a href="reflection/type">type</a> ▪︎ <a href="reflection/type-">type?</a> ▪︎ <a href="sets/union">union</a> ▪︎ <a href="collections/unique">unique</a> ▪︎ <a href="core/unless">unless</a> ▪︎ <a href="core/unless-">unless?</a> ▪︎ <a href="core/until">until</a> ▪︎ <a href="files/unzip">unzip</a> ▪︎ <a href="strings/upper">upper</a> ▪︎ <a href="strings/upper-">upper?</a> ▪︎ <a href="collections/values">values</a> ▪︎ <a href="core/var">var</a> ▪︎ <a href="ui/webview">webview</a> ▪︎ <a href="core/when-">when?</a> ▪︎ <a href="core/while">while</a> ▪︎ <a href="strings/whitespace-">whitespace?</a> ▪︎ <a href="converters/with">with</a> ▪︎ <a href="reflection/word-">word?</a> ▪︎ <a href="files/write">write</a> ▪︎ <a href="binary/xnor">xnor</a> ▪︎ <a href="logic/xnor-">xnor?</a> ▪︎ <a href="binary/xor">xor</a> ▪︎ <a href="logic/xor-">xor?</a> ▪︎ <a href="numbers/zero-">zero?</a> ▪︎ <a href="files/zip">zip</a></p><hr><p class="pt-1 pb-1"></p><h3 id="symbol-index" class="title is-size-4-touch is-size-3 is-spaced mt-6">Symbol index</h3><p></p><p align="justify"><a href="arithmetic/add"><b>+</b></a>&nbsp;&nbsp;&nbsp;<a href="collections/append"><b>++</b></a>&nbsp;&nbsp;&nbsp;<a href="converters/array"><b>@</b></a>&nbsp;&nbsp;&nbsp;<a href="converters/dictionary"><b>#</b></a>&nbsp;&nbsp;&nbsp;<a href="arithmetic/div"><b>/</b></a>&nbsp;&nbsp;&nbsp;<a href="core/dup"><b>&lt;=</b></a>&nbsp;&nbsp;&nbsp;<a href="comparison/equal-"><b>=</b></a>&nbsp;&nbsp;&nbsp;<a href="arithmetic/fdiv"><b>//</b></a>&nbsp;&nbsp;&nbsp;<a href="converters/function"><b>$</b></a>&nbsp;&nbsp;&nbsp;<a href="collections/get"><b>\</b></a>&nbsp;&nbsp;&nbsp;<a href="comparison/greater-"><b>&gt;</b></a>&nbsp;&nbsp;&nbsp;<a href="comparison/greaterorequal-"><b>&gt;=</b></a>&nbsp;&nbsp;&nbsp;<a href="comparison/less-"><b>&lt;</b></a>&nbsp;&nbsp;&nbsp;<a href="comparison/lessorequal-"><b>=&lt;</b></a>&nbsp;&nbsp;&nbsp;<a href="core/let"><b>:</b></a>&nbsp;&nbsp;&nbsp;<a href="arithmetic/mod"><b>%</b></a>&nbsp;&nbsp;&nbsp;<a href="arithmetic/mul"><b>*</b></a>&nbsp;&nbsp;&nbsp;<a href="comparison/notequal-"><b>&lt;&gt;</b></a>&nbsp;&nbsp;&nbsp;<a href="arithmetic/pow"><b>^</b></a>&nbsp;&nbsp;&nbsp;<a href="numbers/range"><b>..</b></a>&nbsp;&nbsp;&nbsp;<a href="files/read"><b>&lt;&lt;</b></a>&nbsp;&nbsp;&nbsp;<a href="paths/relative"><b>./</b></a>&nbsp;&nbsp;&nbsp;<a href="collections/remove"><b>--</b></a>&nbsp;&nbsp;&nbsp;<a href="strings/render"><b>~</b></a>&nbsp;&nbsp;&nbsp;<a href="arithmetic/sub"><b>-</b></a>&nbsp;&nbsp;&nbsp;<a href="core/switch"><b>?</b></a>&nbsp;&nbsp;&nbsp;<a href="files/write"><b>&gt;&gt;</b></a></p></div></div></main><footer class="footer"><div class="content has-text-centered"><p class="block"><a class="footer-icon github" aria-label="github" rel="noopener" href="https://github.com/arturo-lang" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp; <a class="footer-icon twitter" aria-label="twitter" rel="noopener" href="https://twitter.com/ArturoLanguage" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp; <a class="footer-icon discord" aria-label="discord" rel="noopener" href="https://discord.gg/YdVK2CB" target="_blank"><i class="fab fa-discord"></i></a></p></div><div class="content has-text-centered"><p class="block"><strong>Arturo Programming Language</strong><br>Copyright &copy; 2019-2021 Yanis Zafirópulos<br><br><small class="is-size-7-touch">Website built and generated using Arturo + Webize.<span class="is-hidden-touch"> Running on <a rel="noopener" href="https://m.do.co/c/d9efb97aa0f2" target="_blank">DigitalOcean</a>.</span></small><br><small class="is-size-7-touch">Source code <span class="is-hidden-touch">licensed </span>under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Website <span class="is-hidden-touch">content licensed </span><span class="is-hidden-desktop">under </span><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</small></p></div></footer><script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script><script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script><script src="../../resources/scripts/main.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script type="text/javascript">docsearch({
+        gtag('config', 'G-RPNR7PTFYH');
+        </script>
+        
+        
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+        
+    </head>
+    <body data-prismjs-copy-timeout="500">
+        
+    <nav class="navbar is-fixed-top is-boxed" aria-label="main navigation" style="border-bottom:2px solid #6a156b;">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="../.." style="font-weight:bold; font-size: 1.2em; color: black">
+            <picture>
+                <source srcset="../../resources/images/navlogo.webp" type="image/webp">
+                <source srcset="../../resources/images/navlogo.png" type="image/png">
+                <img class="screenshot" src="../../resources/images/navlogo.png" width="28" height="28" alt="arturo logo">
+            </picture>
+            &nbsp;&nbsp;<h1 style="font-weight: inherit !important;">Arturo&nbsp;<span class="logo-secondary">: programming language</span></h1>
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+  
+    <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-end">
+            
+            
+                <input class="navbar-item is-hidden-touch" id="searchbar" type="search" placeholder="Search...">
+                <i id="searchbar-icon" class="fa fa-search is-hidden-touch"></i>
+            
+            <a class="is-active navbar-item is-tab is-warning" href="..">
+                <!--<i class="far fa-file-alt"></i>&nbsp;&nbsp;-->Documentation
+            </a>
+            <a class=" navbar-item is-tab " href="../../playground">
+                <!--<i class="fab fa-github"></i>&nbsp;&nbsp;-->Playground
+            </a>
+            <!-- <a rel="noopener" target="_blank" class="navbar-item is-tab " href="https://github.com/arturo-lang/arturo">
+                Source
+            </a> -->
+            <!-- <div class="is-divider-vertical"></div>
+            <a rel="noopener" target="_blank" class="navbar-item is-tab" href="https://twitter.com/ArturoLanguage" aria-label="official twitter page">
+                <i class="fab fa-twitter"></i>
+            </a> -->
+        </div>
+    </div>
+</nav>
+        
+        <main>
+            <div class="columns doccols"><!--is-gapless" style="height: 100vh; overflow-y:auto;">-->
+                <!-- SIDEBAR -->
+                <div class="column is-3 p-6 is-hidden-mobile sidebar"><!-- height: 100vh; overflow-y:auto;">-->
+    <aside class="menu" style="margin-top: -0.5em;">
+        <!-- <p class="menu-label">
+            Documentation
+        </p> -->
+        <ul class="menu-list">
+            <li><a  href="..">Home</a></li>
+            <li><a  href="../getting-started">Getting Started</a></li>
+            <li><a  href="../language">Language</a></li>
+            <li><a  href="../command-line">Command Line</a></li>
+            <li><a  class="is-active"  href=".">Library</a>
+                
+                    <ul style="margin-right:0">
+                        
+                            <li><a  href="arithmetic">Arithmetic</a>
+                            
+                            </li>
+                        
+                            <li><a  href="binary">Binary</a>
+                            
+                            </li>
+                        
+                            <li><a  href="collections">Collections</a>
+                            
+                            </li>
+                        
+                            <li><a  href="comparison">Comparison</a>
+                            
+                            </li>
+                        
+                            <li><a  href="converters">Converters</a>
+                            
+                            </li>
+                        
+                            <li><a  href="core">Core</a>
+                            
+                            </li>
+                        
+                            <li><a  href="crypto">Crypto</a>
+                            
+                            </li>
+                        
+                            <li><a  href="databases">Databases</a>
+                            
+                            </li>
+                        
+                            <li><a  href="dates">Dates</a>
+                            
+                            </li>
+                        
+                            <li><a  href="files">Files</a>
+                            
+                            </li>
+                        
+                            <li><a  href="io">Io</a>
+                            
+                            </li>
+                        
+                            <li><a  href="iterators">Iterators</a>
+                            
+                            </li>
+                        
+                            <li><a  href="logic">Logic</a>
+                            
+                            </li>
+                        
+                            <li><a  href="net">Net</a>
+                            
+                            </li>
+                        
+                            <li><a  href="numbers">Numbers</a>
+                            
+                            </li>
+                        
+                            <li><a  href="paths">Paths</a>
+                            
+                            </li>
+                        
+                            <li><a  href="reflection">Reflection</a>
+                            
+                            </li>
+                        
+                            <li><a  href="sets">Sets</a>
+                            
+                            </li>
+                        
+                            <li><a  href="strings">Strings</a>
+                            
+                            </li>
+                        
+                            <li><a  href="system">System</a>
+                            
+                            </li>
+                        
+                            <li><a  href="ui">Ui</a>
+                            
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+            <li><a  href="../examples">Examples<span class="tag is-small is-success is-pulled-right" style="border-radius: 20px !important; height: 1.7em !important;">new</span></a></li>
+        </ul>
+      </aside>
+</div>
+
+                <!-- MAIN -->
+                <div class="column is-9 p-6 mb-6">
+
+                    <!-- Breadcrumbs -->
+                    <nav class="breadcrumb is-size-7-mobile is-size-6" aria-label="breadcrumbs">
+    <ul>
+        
+            <li><a href=".." style="margin-left:0">Home</a></li>
+        
+        <li class="is-active"><a href="#">Library</a></li>
+    </ul>
+</nav>
+
+                    
+                        <h2 class="title is-size-3-touch is-size-2 is-spaced">Library</h2>
+                    
+
+                    <p class="pt-1 pb-1">The Standard Library is split into different modules/dictionaries in order to keep things better organized.</p>
+<p class="pt-1 pb-1">Here is the complete list of modules, each one containing all the defined words/functions:</p>
+<hr>
+<div class="content"><ul>
+<li><a href="arithmetic">Arithmetic</a></li>
+<li><a href="binary">Binary</a></li>
+<li><a href="collections">Collections</a></li>
+<li><a href="comparison">Comparison</a></li>
+<li><a href="converters">Converters</a></li>
+<li><a href="core">Core</a></li>
+<li><a href="crypto">Crypto</a></li>
+<li><a href="databases">Databases</a></li>
+<li><a href="dates">Dates</a></li>
+<li><a href="files">Files</a></li>
+<li><a href="io">Io</a></li>
+<li><a href="iterators">Iterators</a></li>
+<li><a href="logic">Logic</a></li>
+<li><a href="net">Net</a></li>
+<li><a href="numbers">Numbers</a></li>
+<li><a href="paths">Paths</a></li>
+<li><a href="reflection">Reflection</a></li>
+<li><a href="sets">Sets</a></li>
+<li><a href="strings">Strings</a></li>
+<li><a href="system">System</a></li>
+<li><a href="ui">Ui</a></li>
+</ul></div>
+<hr>
+<p class="pt-1 pb-1"><h3 id="alphabetical-index" class="title is-size-4-touch is-size-3 is-spaced mt-6">Alphabetical Index</h3></p>
+<p class="pt-1 pb-1">Yes, all the 269 library functions &amp; constants in one place!</p>
+<p align="justify">
+<a href='numbers/abs'>abs</a> ▪︎ <a href='numbers/acos'>acos</a> ▪︎ <a href='numbers/acosh'>acosh</a> ▪︎ <a href='arithmetic/add'>add</a> ▪︎ <a href='dates/after'>after</a> ▪︎ <a href='logic/all-'>all?</a> ▪︎ <a href='binary/and'>and</a> ▪︎ <a href='logic/and-'>and?</a> ▪︎ <a href='logic/any-'>any?</a> ▪︎ <a href='collections/append'>append</a> ▪︎ <a href='system/arg'>arg</a> ▪︎ <a href='system/args'>args</a> ▪︎ <a href='reflection/arity'>arity</a> ▪︎ <a href='converters/array'>array</a> ▪︎ <a href='converters/as'>as</a> ▪︎ <a href='strings/ascii-'>ascii?</a> ▪︎ <a href='numbers/asin'>asin</a> ▪︎ <a href='numbers/asinh'>asinh</a> ▪︎ <a href='numbers/atan'>atan</a> ▪︎ <a href='numbers/atanh'>atanh</a> ▪︎ <a href='reflection/attr'>attr</a> ▪︎ <a href='reflection/attr-'>attr?</a> ▪︎ <a href='reflection/attribute-'>attribute?</a> ▪︎ <a href='reflection/attributelabel-'>attributeLabel?</a> ▪︎ <a href='reflection/attrs'>attrs</a> ▪︎ <a href='numbers/average'>average</a> ▪︎ <a href='dates/before'>before</a> ▪︎ <a href='reflection/benchmark'>benchmark</a> ▪︎ <a href='reflection/binary-'>binary?</a> ▪︎ <a href='reflection/block-'>block?</a> ▪︎ <a href='reflection/boolean-'>boolean?</a> ▪︎ <a href='core/break'>break</a> ▪︎ <a href='core/call'>call</a> ▪︎ <a href='strings/capitalize'>capitalize</a> ▪︎ <a href='core/case'>case</a> ▪︎ <a href='numbers/ceil'>ceil</a> ▪︎ <a href='reflection/char-'>char?</a> ▪︎ <a href='collections/chop'>chop</a> ▪︎ <a href='io/clear'>clear</a> ▪︎ <a href='databases/close'>close</a> ▪︎ <a href='strings/color'>color</a> ▪︎ <a href='collections/combine'>combine</a> ▪︎ <a href='collections/contains-'>contains?</a> ▪︎ <a href='core/continue'>continue</a> ▪︎ <a href='files/copy'>copy</a> ▪︎ <a href='numbers/cos'>cos</a> ▪︎ <a href='numbers/cosh'>cosh</a> ▪︎ <a href='numbers/csec'>csec</a> ▪︎ <a href='numbers/csech'>csech</a> ▪︎ <a href='numbers/ctan'>ctan</a> ▪︎ <a href='numbers/ctanh'>ctanh</a> ▪︎ <a href='io/cursor'>cursor</a> ▪︎ <a href='reflection/database-'>database?</a> ▪︎ <a href='reflection/date-'>date?</a> ▪︎ <a href='arithmetic/dec'>dec</a> ▪︎ <a href='crypto/decode'>decode</a> ▪︎ <a href='converters/define'>define</a> ▪︎ <a href='files/delete'>delete</a> ▪︎ <a href='converters/dictionary'>dictionary</a> ▪︎ <a href='reflection/dictionary-'>dictionary?</a> ▪︎ <a href='sets/difference'>difference</a> ▪︎ <a href='crypto/digest'>digest</a> ▪︎ <a href='arithmetic/div'>div</a> ▪︎ <a href='core/do'>do</a> ▪︎ <a href='net/download'>download</a> ▪︎ <a href='collections/drop'>drop</a> ▪︎ <a href='core/dup'>dup</a> ▪︎ <a href='core/else'>else</a> ▪︎ <a href='collections/empty'>empty</a> ▪︎ <a href='collections/empty-'>empty?</a> ▪︎ <a href='crypto/encode'>encode</a> ▪︎ <a href='core/ensure'>ensure</a> ▪︎ <a href='system/env'>env</a> ▪︎ <a href='numbers/epsilon'>epsilon</a> ▪︎ <a href='comparison/equal-'>equal?</a> ▪︎ <a href='strings/escape'>escape</a> ▪︎ <a href='numbers/even-'>even?</a> ▪︎ <a href='iterators/every-'>every?</a> ▪︎ <a href='system/execute'>execute</a> ▪︎ <a href='files/exists-'>exists?</a> ▪︎ <a href='system/exit'>exit</a> ▪︎ <a href='numbers/exp'>exp</a> ▪︎ <a href='collections/extend'>extend</a> ▪︎ <a href='paths/extract'>extract</a> ▪︎ <a href='numbers/factors'>factors</a> ▪︎ <a href='logic/false'>false</a> ▪︎ <a href='logic/false-'>false?</a> ▪︎ <a href='arithmetic/fdiv'>fdiv</a> ▪︎ <a href='iterators/filter'>filter</a> ▪︎ <a href='collections/first'>first</a> ▪︎ <a href='collections/flatten'>flatten</a> ▪︎ <a href='reflection/floating-'>floating?</a> ▪︎ <a href='numbers/floor'>floor</a> ▪︎ <a href='iterators/fold'>fold</a> ▪︎ <a href='converters/from'>from</a> ▪︎ <a href='converters/function'>function</a> ▪︎ <a href='reflection/function-'>function?</a> ▪︎ <a href='numbers/gamma'>gamma</a> ▪︎ <a href='numbers/gcd'>gcd</a> ▪︎ <a href='collections/get'>get</a> ▪︎ <a href='io/goto'>goto</a> ▪︎ <a href='comparison/greater-'>greater?</a> ▪︎ <a href='comparison/greaterorequal-'>greaterOrEqual?</a> ▪︎ <a href='crypto/hash'>hash</a> ▪︎ <a href='reflection/help'>help</a> ▪︎ <a href='numbers/hypot'>hypot</a> ▪︎ <a href='core/if'>if</a> ▪︎ <a href='core/if-'>if?</a> ▪︎ <a href='collections/in-'>in?</a> ▪︎ <a href='arithmetic/inc'>inc</a> ▪︎ <a href='strings/indent'>indent</a> ▪︎ <a href='collections/index'>index</a> ▪︎ <a href='reflection/info'>info</a> ▪︎ <a href='reflection/inline-'>inline?</a> ▪︎ <a href='io/input'>input</a> ▪︎ <a href='collections/insert'>insert</a> ▪︎ <a href='reflection/inspect'>inspect</a> ▪︎ <a href='reflection/integer-'>integer?</a> ▪︎ <a href='sets/intersection'>intersection</a> ▪︎ <a href='reflection/is-'>is?</a> ▪︎ <a href='strings/join'>join</a> ▪︎ <a href='collections/key-'>key?</a> ▪︎ <a href='collections/keys'>keys</a> ▪︎ <a href='reflection/label-'>label?</a> ▪︎ <a href='collections/last'>last</a> ▪︎ <a href='dates/leap-'>leap?</a> ▪︎ <a href='comparison/less-'>less?</a> ▪︎ <a href='comparison/lessorequal-'>lessOrEqual?</a> ▪︎ <a href='core/let'>let</a> ▪︎ <a href='strings/levenshtein'>levenshtein</a> ▪︎ <a href='paths/list'>list</a> ▪︎ <a href='reflection/literal-'>literal?</a> ▪︎ <a href='numbers/ln'>ln</a> ▪︎ <a href='numbers/log'>log</a> ▪︎ <a href='iterators/loop'>loop</a> ▪︎ <a href='strings/lower'>lower</a> ▪︎ <a href='strings/lower-'>lower?</a> ▪︎ <a href='net/mail'>mail</a> ▪︎ <a href='iterators/map'>map</a> ▪︎ <a href='strings/match'>match</a> ▪︎ <a href='collections/max'>max</a> ▪︎ <a href='numbers/median'>median</a> ▪︎ <a href='collections/min'>min</a> ▪︎ <a href='arithmetic/mod'>mod</a> ▪︎ <a href='paths/module'>module</a> ▪︎ <a href='arithmetic/mul'>mul</a> ▪︎ <a href='binary/nand'>nand</a> ▪︎ <a href='logic/nand-'>nand?</a> ▪︎ <a href='arithmetic/neg'>neg</a> ▪︎ <a href='numbers/negative-'>negative?</a> ▪︎ <a href='core/new'>new</a> ▪︎ <a href='binary/nor'>nor</a> ▪︎ <a href='logic/nor-'>nor?</a> ▪︎ <a href='paths/normalize'>normalize</a> ▪︎ <a href='binary/not'>not</a> ▪︎ <a href='logic/not-'>not?</a> ▪︎ <a href='comparison/notequal-'>notEqual?</a> ▪︎ <a href='dates/now'>now</a> ▪︎ <a href='core/null'>null</a> ▪︎ <a href='reflection/null-'>null?</a> ▪︎ <a href='strings/numeric-'>numeric?</a> ▪︎ <a href='numbers/odd-'>odd?</a> ▪︎ <a href='databases/open'>open</a> ▪︎ <a href='binary/or'>or</a> ▪︎ <a href='logic/or-'>or?</a> ▪︎ <a href='strings/outdent'>outdent</a> ▪︎ <a href='strings/pad'>pad</a> ▪︎ <a href='system/panic'>panic</a> ▪︎ <a href='paths/path'>path</a> ▪︎ <a href='reflection/path-'>path?</a> ▪︎ <a href='reflection/pathlabel-'>pathLabel?</a> ▪︎ <a href='system/pause'>pause</a> ▪︎ <a href='files/permissions'>permissions</a> ▪︎ <a href='collections/permutate'>permutate</a> ▪︎ <a href='numbers/pi'>pi</a> ▪︎ <a href='core/pop'>pop</a> ▪︎ <a href='numbers/positive-'>positive?</a> ▪︎ <a href='arithmetic/pow'>pow</a> ▪︎ <a href='numbers/powmod'>powmod</a> ▪︎ <a href='strings/prefix'>prefix</a> ▪︎ <a href='strings/prefix-'>prefix?</a> ▪︎ <a href='numbers/prime-'>prime?</a> ▪︎ <a href='io/print'>print</a> ▪︎ <a href='io/prints'>prints</a> ▪︎ <a href='numbers/product'>product</a> ▪︎ <a href='databases/query'>query</a> ▪︎ <a href='numbers/random'>random</a> ▪︎ <a href='numbers/range'>range</a> ▪︎ <a href='files/read'>read</a> ▪︎ <a href='paths/relative'>relative</a> ▪︎ <a href='collections/remove'>remove</a> ▪︎ <a href='files/rename'>rename</a> ▪︎ <a href='strings/render'>render</a> ▪︎ <a href='collections/repeat'>repeat</a> ▪︎ <a href='strings/replace'>replace</a> ▪︎ <a href='net/request'>request</a> ▪︎ <a href='core/return'>return</a> ▪︎ <a href='collections/reverse'>reverse</a> ▪︎ <a href='numbers/round'>round</a> ▪︎ <a href='collections/sample'>sample</a> ▪︎ <a href='system/script'>script</a> ▪︎ <a href='numbers/sec'>sec</a> ▪︎ <a href='numbers/sech'>sech</a> ▪︎ <a href='iterators/select'>select</a> ▪︎ <a href='net/serve'>serve</a> ▪︎ <a href='collections/set'>set</a> ▪︎ <a href='reflection/set-'>set?</a> ▪︎ <a href='binary/shl'>shl</a> ▪︎ <a href='binary/shr'>shr</a> ▪︎ <a href='collections/shuffle'>shuffle</a> ▪︎ <a href='numbers/sin'>sin</a> ▪︎ <a href='numbers/sinh'>sinh</a> ▪︎ <a href='collections/size'>size</a> ▪︎ <a href='collections/slice'>slice</a> ▪︎ <a href='iterators/some-'>some?</a> ▪︎ <a href='collections/sort'>sort</a> ▪︎ <a href='collections/split'>split</a> ▪︎ <a href='numbers/sqrt'>sqrt</a> ▪︎ <a href='collections/squeeze'>squeeze</a> ▪︎ <a href='reflection/stack'>stack</a> ▪︎ <a href='reflection/standalone-'>standalone?</a> ▪︎ <a href='reflection/string-'>string?</a> ▪︎ <a href='strings/strip'>strip</a> ▪︎ <a href='arithmetic/sub'>sub</a> ▪︎ <a href='sets/subset-'>subset?</a> ▪︎ <a href='strings/suffix'>suffix</a> ▪︎ <a href='strings/suffix-'>suffix?</a> ▪︎ <a href='numbers/sum'>sum</a> ▪︎ <a href='sets/superset-'>superset?</a> ▪︎ <a href='core/switch'>switch</a> ▪︎ <a href='reflection/symbol-'>symbol?</a> ▪︎ <a href='reflection/symbols'>symbols</a> ▪︎ <a href='files/symlink'>symlink</a> ▪︎ <a href='system/sys'>sys</a> ▪︎ <a href='collections/take'>take</a> ▪︎ <a href='numbers/tan'>tan</a> ▪︎ <a href='numbers/tanh'>tanh</a> ▪︎ <a href='io/terminal'>terminal</a> ▪︎ <a href='converters/to'>to</a> ▪︎ <a href='logic/true'>true</a> ▪︎ <a href='logic/true-'>true?</a> ▪︎ <a href='strings/truncate'>truncate</a> ▪︎ <a href='core/try'>try</a> ▪︎ <a href='core/try-'>try?</a> ▪︎ <a href='reflection/type'>type</a> ▪︎ <a href='reflection/type-'>type?</a> ▪︎ <a href='sets/union'>union</a> ▪︎ <a href='collections/unique'>unique</a> ▪︎ <a href='core/unless'>unless</a> ▪︎ <a href='core/unless-'>unless?</a> ▪︎ <a href='core/until'>until</a> ▪︎ <a href='files/unzip'>unzip</a> ▪︎ <a href='strings/upper'>upper</a> ▪︎ <a href='strings/upper-'>upper?</a> ▪︎ <a href='collections/values'>values</a> ▪︎ <a href='core/var'>var</a> ▪︎ <a href='ui/webview'>webview</a> ▪︎ <a href='core/when-'>when?</a> ▪︎ <a href='core/while'>while</a> ▪︎ <a href='strings/whitespace-'>whitespace?</a> ▪︎ <a href='converters/with'>with</a> ▪︎ <a href='reflection/word-'>word?</a> ▪︎ <a href='files/write'>write</a> ▪︎ <a href='binary/xnor'>xnor</a> ▪︎ <a href='logic/xnor-'>xnor?</a> ▪︎ <a href='binary/xor'>xor</a> ▪︎ <a href='logic/xor-'>xor?</a> ▪︎ <a href='numbers/zero-'>zero?</a> ▪︎ <a href='files/zip'>zip</a>
+</p>
+<hr>
+<p class="pt-1 pb-1"><h3 id="symbol-index" class="title is-size-4-touch is-size-3 is-spaced mt-6">Symbol index</h3></p>
+<p align="justify">
+<a href='arithmetic/add'><b>+</b></a>&nbsp;&nbsp;&nbsp;<a href='collections/append'><b>++</b></a>&nbsp;&nbsp;&nbsp;<a href='converters/array'><b>@</b></a>&nbsp;&nbsp;&nbsp;<a href='converters/dictionary'><b>#</b></a>&nbsp;&nbsp;&nbsp;<a href='arithmetic/div'><b>/</b></a>&nbsp;&nbsp;&nbsp;<a href='core/dup'><b>&lt;=</b></a>&nbsp;&nbsp;&nbsp;<a href='comparison/equal-'><b>=</b></a>&nbsp;&nbsp;&nbsp;<a href='arithmetic/fdiv'><b>//</b></a>&nbsp;&nbsp;&nbsp;<a href='converters/function'><b>$</b></a>&nbsp;&nbsp;&nbsp;<a href='collections/get'><b>\</b></a>&nbsp;&nbsp;&nbsp;<a href='comparison/greater-'><b>&gt;</b></a>&nbsp;&nbsp;&nbsp;<a href='comparison/greaterorequal-'><b>&gt;=</b></a>&nbsp;&nbsp;&nbsp;<a href='comparison/less-'><b>&lt;</b></a>&nbsp;&nbsp;&nbsp;<a href='comparison/lessorequal-'><b>=&lt;</b></a>&nbsp;&nbsp;&nbsp;<a href='core/let'><b>:</b></a>&nbsp;&nbsp;&nbsp;<a href='arithmetic/mod'><b>%</b></a>&nbsp;&nbsp;&nbsp;<a href='arithmetic/mul'><b>*</b></a>&nbsp;&nbsp;&nbsp;<a href='comparison/notequal-'><b>&lt;&gt;</b></a>&nbsp;&nbsp;&nbsp;<a href='arithmetic/pow'><b>^</b></a>&nbsp;&nbsp;&nbsp;<a href='numbers/range'><b>..</b></a>&nbsp;&nbsp;&nbsp;<a href='files/read'><b>&lt;&lt;</b></a>&nbsp;&nbsp;&nbsp;<a href='paths/relative'><b>./</b></a>&nbsp;&nbsp;&nbsp;<a href='collections/remove'><b>--</b></a>&nbsp;&nbsp;&nbsp;<a href='strings/render'><b>~</b></a>&nbsp;&nbsp;&nbsp;<a href='arithmetic/sub'><b>-</b></a>&nbsp;&nbsp;&nbsp;<a href='core/switch'><b>?</b></a>&nbsp;&nbsp;&nbsp;<a href='files/write'><b>&gt;&gt;</b></a>
+</p>
+
+
+                </div>
+            </div>
+        </main>
+
+<!-- <div class="section">
+    <div class="has-text-centered">
+        <p class="motto">•&nbsp;&nbsp;CODE IS <span onmouseenter="this.innerHTML='ARTURO'" onmouseout="this.innerHTML='ART'">ART</span>&nbsp;&nbsp;•</p>
+    </div>
+</div> -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p class="block">
+            <a class="footer-icon github" aria-label="github" rel="noopener" href="https://github.com/arturo-lang" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;
+            <a class="footer-icon twitter" aria-label="twitter" rel="noopener" href="https://twitter.com/ArturoLanguage" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+            <a class="footer-icon discord" aria-label="discord" rel="noopener" href="https://discord.gg/YdVK2CB" target="_blank"><i class="fab fa-discord"></i></a>
+        </p>
+    </div>
+    <div class="content has-text-centered">
+        <p class="block">
+            <strong>Arturo Programming Language</strong><br>Copyright &copy; 2019-2021 Yanis Zafirópulos<br><br>
+            <small class="is-size-7-touch">Website built and generated using Arturo + Webize.<span class="is-hidden-touch"> Running on <a rel="noopener" href="https://m.do.co/c/d9efb97aa0f2" target="_blank">DigitalOcean</a>.</span></small><br>
+            <small class="is-size-7-touch">Source code <span class="is-hidden-touch">licensed </span>under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Website <span class="is-hidden-touch">content licensed </span><span class="is-hidden-desktop">under </span><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</small>
+        </p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<!--
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.6.0/dist/jquery.min.js,npm/typeahead.js@0.11.1/dist/typeahead.jquery.min.js"></script>
+-->
+
+<script src="../../resources/scripts/main.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript"> docsearch({
     apiKey: 'c4a83c17dd4a7f0faba0c60321ccd634',
     indexName: 'arturo',
     inputSelector: '#searchbar',
     debug: true // Set debug to true if you want to inspect the dropdown
-    });</script></body></html>
+    });
+    </script>
+
+</body>
+</html>
