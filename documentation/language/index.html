@@ -119,7 +119,7 @@ print type db   ; would print: :database
 </code></pre><p class="pt-1 pb-1"></p><h4 id="binary" class="subtitle is-size-5-touch is-size-4 is-spaced mt-6">:binary</h4><p></p><p class="pt-1 pb-1">Binary values are used to represent <em>binary</em> data, that is: an array of bytes. You cannot define them directly, however, you can sure convert other data to binary.</p><pre class="mt-4 mb-4 is-size-7-touch is-size-6"><code class="language-arturo">print to :binary &quot;Hello world!&quot;
 
 ; would print 4865 6C6C 6F20 776F 726C 6421
-</code></pre><p class="pt-1 pb-1"></p><h4 id="database" class="subtitle is-size-5-touch is-size-4 is-spaced mt-6">:bytecode</h4><p></p><p class="pt-1 pb-1">Bytecode values cannot be constructed literally. However, you can create them indirectly, e.g. using the function <code>to</code>.</p><pre class="mt-4 mb-4 is-size-7-touch is-size-6"><code class="language-arturo">; let's create some Arturo bytecode from scratch 
+</code></pre><p class="pt-1 pb-1"></p><h4 id="bytecode" class="subtitle is-size-5-touch is-size-4 is-spaced mt-6">:bytecode</h4><p></p><p class="pt-1 pb-1">Bytecode values cannot be constructed literally. However, you can create them indirectly, e.g. using the function <code>to</code>.</p><pre class="mt-4 mb-4 is-size-7-touch is-size-6"><code class="language-arturo">; let's create some Arturo bytecode from scratch 
 x: to :bytecode [
     [&quot;print&quot;]     ; first block contains our constants
     [1 112 155]   ; second block contains the opcodes to be executed,
