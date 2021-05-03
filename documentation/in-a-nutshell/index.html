@@ -1,0 +1,428 @@
+<!DOCTYPE html><html class="has-navbar-fixed-top" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1maximum-scale=1"><meta name="robots" content="all"><link rel="canonical" href="https://arturo-lang.io/documentation/in-a-nutshell/"><title>In a nutshell | Documentation - Arturo</title><meta name="description" content="Documentation - In a nutshell - Arturo programming"><meta name="keywords" content="arturo,programming language,scripting language,Documentation,In a nutshell"><link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bulma@0.9.1/css/bulma.min.css,npm/prismjs@1.23.0/themes/prism-okaidia.min.css"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/gh/zenorocha/clipboard.js@1.5.12/dist/clipboard.min.js"></script><script src="https://kit.fontawesome.com/8bfb2fe6f4.js" crossorigin="anonymous"></script><link rel="stylesheet" href="../../resources/styles/main.css"><link rel="apple-touch-icon" sizes="57x57" href="../../favico/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="../../favico/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="../../favico/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="../../favico/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="../../favico/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="../../favico/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="../../favico/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="../../favico/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="../../favico/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="../../favico/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="../../favico/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="../../favico/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="../../favico/favicon-16x16.png"><link rel="manifest" href="../../manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="../../favico/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNR7PTFYH"></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RPNR7PTFYH');</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"></head><body data-prismjs-copy-timeout="500"><nav class="navbar is-fixed-top is-boxed" aria-label="main navigation" style="border-bottom:2px solid #6a156b;"><div class="navbar-brand"><a class="navbar-item" href="../.." style="font-weight:bold; font-size: 1.2em; color: black"><picture><source srcset="../../resources/images/navlogo.webp" type="image/webp"><source srcset="../../resources/images/navlogo.png" type="image/png"><img class="screenshot" src="../../resources/images/navlogo.png" width="28" height="28" alt="arturo logo"></picture>&nbsp;&nbsp;<h1 id="mainTitle" style="font-weight: inherit !important;">Arturo&nbsp;<span class="logo-secondary">: programming language</span></h1></a><a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain"><span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span></a></div><div id="navbarMain" class="navbar-menu"><div class="navbar-end"><input class="navbar-item is-hidden-touch" id="searchbar" type="search" placeholder="Search..."> <i id="searchbar-icon" class="fa fa-search is-hidden-touch"></i> <a class="is-active navbar-item is-tab is-warning" href="..">Documentation </a><a class="navbar-item is-tab" href="../../playground">Playground</a></div></div></nav><main><div class="columns doccols"><div class="column is-3 p-6 is-hidden-mobile sidebar"><aside class="menu" style="margin-top: -0.5em;"><ul class="menu-list"><li><a href="..">Home</a></li><li><a href="../getting-started">Getting Started</a></li><li><a class="is-active" href="#">In A Nutshell<span class="tag is-small is-success is-pulled-right" style="border-radius: 20px !important; font-weight: bold; height: 1.7em !important;">NEW</span></a></li><li><a href="../language">Language</a></li><li><a href="../command-line">Command Line</a></li><li><a href="../library">Library</a></li><li><a href="../examples">Examples</a></li></ul></aside></div><div class="column is-9 p-6 mb-6"><nav class="breadcrumb is-size-7-mobile is-size-6" aria-label="breadcrumbs"><ul><li><a href=".." style="margin-left:0">Home</a></li><li class="is-active"><a href="#">In A Nutshell</a></li></ul></nav><h2 class="title is-size-3-touch is-size-2 is-spaced">In A Nutshell</h2><p class="pt-1 pb-1">This section is inspired by <a href="https://learnxinyminutes.com/">Learn X in Y minutes</a> and its goal is to present the most basic features of Arturo, in a concise way, so that you can get started fast.</p><p class="pt-1 pb-1">So... <strong>With X = Arturo and Y = ~15 minutes</strong>, here you are:</p><hr><pre class="mt-4 mb-4 is-size-7-touch is-size-6"><code class="language-arturo">; this is a comment
+; this is another comment
+
+;---------------------------------
+; VARIABLES &amp; VALUES
+;---------------------------------
+
+; numbers
+a1: 2
+a2: 3.14
+a3: to :complex [1 2.0]     ; 1.0+2.0i
+
+; strings
+c1: &quot;this is a string&quot;
+c2: {
+    this is a multiline string
+    that is indentation-agnostic
+}
+c3: {:
+    this is 
+        a verbatim
+            multiline string
+                which will remain exactly
+                    as the original
+:}
+
+; characters
+ch: `c`
+
+; blocks/arrays
+d: [1 2 3]
+
+; dictionaries
+e: #[
+    name: &quot;John&quot;
+    surname: &quot;Doe&quot;
+    age: 34
+    likes: [pizza spaghetti]
+]
+
+; yes, functions are values too
+f: function [x][
+    2 * x
+]
+
+; dates
+g: now              ; 2021-05-03T17:10:48+02:00
+
+; booleans
+h1: true
+h2: false
+
+;---------------------------------
+; BASIC OPERATORS
+;---------------------------------
+
+; simple arithmetic
+1 + 1       ; =&gt; 2
+8 - 1       ; =&gt; 7
+4.2 - 1.1   ; =&gt; 3.1
+10 * 2      ; =&gt; 20
+35 / 4      ; =&gt; 8
+35 // 4     ; =&gt; 8.75
+2 ^ 5       ; =&gt; 32
+5 % 3       ; =&gt; 2
+
+; bitwise operators
+and 3 5     ; =&gt; 1
+or 3 5      ; =&gt; 7
+xor 3 5     ; =&gt; 6
+
+; pre-defined constants
+pi          ; =&gt; 3.141592653589793
+epsilon     ; =&gt; 2.718281828459045
+null        ; =&gt; null
+true        ; =&gt; true
+false       ; =&gt; false
+
+;---------------------------------
+; COMPARISON OPERATORS
+;---------------------------------
+
+; equality
+1 = 1       ; =&gt; true
+2 = 1       ; =&gt; false
+
+; inequality
+1 &lt;&gt; 1      ; =&gt; false
+2 &lt;&gt; 1      ; =&gt; true
+
+; more comparisons
+1 &lt; 10      ; =&gt; true
+1 =&lt; 10     ; =&gt; true
+10 =&lt; 10    ; =&gt; true
+1 &gt; 10      ; =&gt; false
+1 &gt;= 10     ; =&gt; false
+11 &gt;= 10    ; =&gt; true
+
+;---------------------------------
+; CONDITIONALS
+;---------------------------------
+
+; logical operators
+and? true true      ; =&gt; true
+and? true false     ; =&gt; false
+or? true false      ; =&gt; true
+or? false false     ; =&gt; false
+
+and? [1=2][2&lt;3]     ; =&gt; false 
+                    ; (the second block will not be evaluated)
+
+; simple if statements
+if 2 &gt; 1 [ print &quot;yes!&quot;]    ; yes!
+if 3 &lt;&gt; 2 -&gt; print &quot;true!&quot;  ; true!
+
+; if/else statements
+if? 2 &gt; 3 -&gt; print &quot;2 is greater than 3&quot;
+else -&gt; print &quot;2 is not greater than 3&quot;         ; 2 is not greater than 3
+
+; switch statements
+switch 2 &gt; 3 -&gt; print &quot;2 is greater than 3&quot;
+             -&gt; print &quot;2 is not greater than 3&quot; ; 2 is not greater than 3
+
+a: (2 &gt; 3)[&quot;yes&quot;][&quot;no&quot;]         ; a: &quot;no&quot;
+a: (2 &gt; 3)? -&gt; &quot;yes&quot; -&gt; &quot;no&quot;    ; a: &quot;no&quot; (exactly the same as above)
+
+; case/when statements
+case [1]
+    when? [&gt;2] -&gt; print &quot;1 is greater than 2. what?!&quot;
+    when? [&lt;0] -&gt; print &quot;1 is less than 0. nope...&quot;
+    else -&gt; print &quot;here we are!&quot;                ; here we are!
+
+;---------------------------------
+; LOOPS
+;---------------------------------
+
+; with `loop`
+arr: [1 4 5 3]
+loop arr 'x [
+    print [&quot;x =&quot; x]
+]
+; x = 1
+; x = 4
+; x = 5
+; x = 3
+
+; with loop and custom index
+loop.with:'i arr 'x [
+    print [&quot;item at position&quot; i &quot;=&gt;&quot; x]
+]
+; item at position 0 =&gt; 1
+; item at position 1 =&gt; 4
+; item at position 2 =&gt; 5
+; item at position 3 =&gt; 3
+
+; using ranges
+loop 1..3 'x -&gt;         ; since it's a single statement
+    print x             ; there's no need for [block] notation
+                        ; we can wrap it up using the `-&gt;` syntactic sugar
+
+loop `a`..`c` 'ch -&gt;
+    print ch
+; a
+; b
+; c
+
+; picking multiple items
+loop 1..10 [x y] -&gt;
+    print [&quot;x =&quot; x &quot;, y =&quot; y]
+; x = 1 , y = 2 
+; x = 3 , y = 4 
+; x = 5 , y = 6 
+; x = 7 , y = 8 
+; x = 9 , y = 10 
+
+; looping through a dictionary
+dict: #[name: &quot;John&quot;, surname: &quot;Doe&quot;, age: 34]
+loop dict [key value][
+    print [key &quot;-&gt;&quot; value]
+]
+; name -&gt; John 
+; surname -&gt; Doe 
+; age -&gt; 34 
+                    
+; while loops
+i: new 0
+while [i&lt;3][
+    print [&quot;i =&quot; i]
+    inc 'i
+]
+; i = 0
+; i = 1
+; i = 2
+ 
+;---------------------------------
+; STRINGS
+;---------------------------------
+
+; case
+a: &quot;tHis Is a stRinG&quot;
+print upper a               ; THIS IS A STRING
+print lower a               ; this is a string
+print capitalize a          ; tHis Is a stRinG
+
+; concatenation
+a: &quot;Hello &quot; ++ &quot;World!&quot;     ; a: &quot;Hello World!&quot;
+
+; strings as an array
+split &quot;hello&quot;               ; =&gt; [h e l l o]
+split.words &quot;hello world&quot;   ; =&gt; [hello world]
+
+print first &quot;hello&quot;         ; h
+print last &quot;hello&quot;          ; o
+
+; conversion
+to :string 123              ; =&gt; &quot;123&quot;
+to :integer &quot;123&quot;           ; =&gt; 123
+
+; joining strings together
+join [&quot;hello&quot; &quot;world&quot;]              ; =&gt; &quot;helloworld&quot;
+join.with:&quot;-&quot; [&quot;hello&quot; &quot;world&quot;]     ; =&gt; &quot;hello-world&quot;
+
+; string interpolation
+x: 2
+print ~&quot;x = |x|&quot;            ; x = 2
+
+; interpolation with `print`
+print [&quot;x =&quot; x]             ; x = 2
+                            ; (`print` works by calculating the given block
+                            ;  and joining the different values as strings
+                            ;  with a single space between them)
+
+; templates
+print render.template {
+    &lt;||= switch x=2 [ ||&gt;
+        Yes, x = 2
+    &lt;||][||&gt;
+        No, x is not 2
+    &lt;||]||&gt; 
+} ; Yes, x = 2
+
+; matching
+prefix? &quot;hello&quot; &quot;he&quot;        ; =&gt; true
+suffix? &quot;hello&quot; &quot;he&quot;        ; =&gt; false
+
+contains? &quot;hello&quot; &quot;ll&quot;      ; =&gt; true
+contains? &quot;hello&quot; &quot;he&quot;      ; =&gt; true
+contains? &quot;hello&quot; &quot;x&quot;       ; =&gt; false
+
+in? &quot;ll&quot; &quot;hello&quot;            ; =&gt; true 
+in? &quot;x&quot; &quot;hello&quot;             ; =&gt; false
+
+;---------------------------------
+; BLOCKS
+;---------------------------------
+
+; calculate a block
+arr: [1 1+1 1+1+1]
+@arr                        ; =&gt; [1 2 3]
+
+; execute a block
+sth: [print &quot;Hello world&quot;]  ; this is perfectly valid,
+                            ; could contain *anything*
+                            ; and will not be executed...
+
+do sth                      ; Hello world
+                            ; (...until we tell it to)
+
+; array indexing
+arr: [&quot;zero&quot; &quot;one&quot; &quot;two&quot; &quot;three&quot;]
+print first arr             ; zero
+print arr\0                 ; zero
+print last arr              ; three
+print arr\3                 ; three
+
+x: 2
+print get arr x             ; two
+print arr \ 2               ; two
+                            ; (using the `\` infix alias for get -
+                            ;  notice space between the operands! 
+                            ;  otherwise, it'll be parsed as a path)
+
+; setting an array element
+arr\0: &quot;nada&quot;
+set arr 2 &quot;dos&quot;
+print arr                   ; nada one dos three
+
+; adding elements to an array
+arr: new []
+'arr ++ &quot;one&quot;
+'arr ++ &quot;two&quot;
+print arr                   ; one two
+
+; remove elements from an array
+arr: new [&quot;one&quot; &quot;two&quot; &quot;three&quot; &quot;four&quot;]
+'arr -- &quot;two&quot;               ; arr: [&quot;one&quot; &quot;three&quot; &quot;four&quot;]
+remove 'arr .index 0        ; arr: [&quot;three&quot; &quot;four&quot;]
+
+; getting the size of an array
+arr: [&quot;one&quot; 2 &quot;three&quot; 4]
+print size arr              ; 4
+
+; getting a slice of an array
+print slice [&quot;one&quot; &quot;two&quot; &quot;three&quot; &quot;four&quot;] 0 1        ; one two
+
+; check if array contains a specific element
+print contains? arr &quot;one&quot;   ; true
+print contains? arr &quot;five&quot;  ; false
+
+; sorting array
+arr: [1 5 3 2 4]
+sort arr                    ; =&gt; [1 2 3 4 5]
+sort.descending arr         ; =&gt; [5 4 3 2 1]
+
+; mapping values
+map 1..10 [x][2*x]          ; =&gt; [2 4 6 8 10 12 14 16 18 20]
+map 1..10 'x -&gt; 2*x         ; same as above
+map 1..10 =&gt; [2*&amp;]          ; same as above
+map 1..10 =&gt; [2*]           ; same as above
+
+; selecting/filtering array values
+select 1..10 [x][odd? x]    ; =&gt; [1 3 5 7 9]
+select 1..10 =&gt; odd?        ; same as above
+
+filter 1..10 =&gt; odd?        ; =&gt; [2 4 6 8 10]
+                            ; (now, we leave out all odd numbers - 
+                            ;  while select keeps them)
+
+; misc operations
+arr: [&quot;one&quot; 2 &quot;three&quot; 4]
+reverse arr                 ; =&gt; [4 &quot;three&quot; 2 &quot;one&quot;]
+shuffle arr                 ; =&gt; [2 4 &quot;three&quot; &quot;one&quot;]
+unique [1 2 3 2 3 1]        ; =&gt; [1 2 3]
+permutate [1 2 3]           ; =&gt; [[1 2 3] [1 3 2] [3 1 2] [2 1 3] [2 3 1] [3 2 1]]
+take 1..10 3                ; =&gt; [1 2 3]
+repeat [1 2] 3              ; =&gt; [1 2 1 2 1 2]
+
+;---------------------------------
+; FUNCTIONS
+;---------------------------------
+
+; declaring a function
+f: function [x][ 2*x ]
+f: function [x]-&gt; 2*x       ; same as above
+f: $[x]-&gt;2*x                ; same as above (only using the `$` alias 
+                            ;  for the `function`... function)
+
+; calling a function
+f 10                        ; =&gt; 20
+
+; returning a value
+g: function [x][
+    if x &lt; 2 -&gt; return 0
+
+    res: 0
+    loop 0..x 'z [
+        res: res + z
+    ]
+    return res
+]
+
+;---------------------------------
+; CUSTOM TYPES
+;---------------------------------
+
+; defining a custom type
+define :person [                            ; define a new custom type &quot;Person&quot;
+    name                                    ; with fields: name, surname, age
+    surname
+    age 
+][ 
+    ; with custom post-construction initializer
+    init: [
+        this\name: capitalize this\name
+    ]
+
+    ; custom print function
+    print: [
+        render &quot;NAME: |this\name|, SURNAME: |this\surname|, AGE: |this\age|&quot;
+    ]
+
+    ; custom comparison operator
+    compare: 'age
+]
+
+; create a method for our custom type
+sayHello: function [this][
+    ensure -&gt; is? :person this
+
+    print [&quot;Hello&quot; this\name]
+]
+
+; create new objects of our custom type
+a: to :person [&quot;John&quot; &quot;Doe&quot; 34]                 ; let's create 2 &quot;Person&quot;s
+b: to :person [&quot;jane&quot; &quot;Doe&quot; 33]                 ; and another one
+
+; call pseudo-inner method
+sayHello a                                      ; Hello John                       
+sayHello b                                      ; Hello Jane
+
+; access object fields
+print [&quot;The first person's name is:&quot; a\name]    ; The first person's name is: John
+print [&quot;The second person's name is:&quot; b\name]   ; The second person's name is: Jane
+
+; changing object fields
+a\name: &quot;Bob&quot;                                   
+sayHello a                                      ; Hello Bob
+
+; verifying object type
+print type a                                    ; :person
+print is? :person a                             ; true
+
+; printing objects
+print a                                         ; NAME: John, SURNAME: Doe, AGE: 34
+
+; sorting user objects (using custom comparator)
+sort @[a b]                                     ; Jane..., John...
+sort.descending @[a b]                          ; John..., Jane...       
+</code></pre></div></div></main><footer class="footer"><div class="content has-text-centered"><p class="block"><a class="footer-icon github" aria-label="github" rel="noopener" href="https://github.com/arturo-lang" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp; <a class="footer-icon twitter" aria-label="twitter" rel="noopener" href="https://twitter.com/ArturoLanguage" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp; <a class="footer-icon discord" aria-label="discord" rel="noopener" href="https://discord.gg/YdVK2CB" target="_blank"><i class="fab fa-discord"></i></a></p></div><div class="content has-text-centered"><p class="block"><strong>Arturo Programming Language</strong><br>Copyright &copy; 2019-2021 Yanis Zafirópulos<br><br><small class="is-size-7-touch">Website built and generated using Arturo + Webize.<span class="is-hidden-touch"> Running on <a rel="noopener" href="https://m.do.co/c/d9efb97aa0f2" target="_blank">DigitalOcean</a>.</span></small><br><small class="is-size-7-touch">Source code <span class="is-hidden-touch">licensed </span>under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Website <span class="is-hidden-touch">content licensed </span><span class="is-hidden-desktop">under </span><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</small></p></div></footer><script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script><script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script><script src="../../resources/scripts/main.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script type="text/javascript">docsearch({
+    apiKey: 'c4a83c17dd4a7f0faba0c60321ccd634',
+    indexName: 'arturo',
+    inputSelector: '#searchbar',
+    debug: true // Set debug to true if you want to inspect the dropdown
+    });</script></body></html>
