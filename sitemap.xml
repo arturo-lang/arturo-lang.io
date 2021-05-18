@@ -4,1617 +4,2487 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://arturo-lang.io/</loc>
-  <lastmod>2021-03-30T09:41:16+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/.</loc>
-  <lastmod>2021-03-30T09:41:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://arturo-lang.io/documentation/</loc>
-  <lastmod>2021-03-30T09:41:17+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/playground/</loc>
-  <lastmod>2021-03-30T09:41:16+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/getting-started/</loc>
-  <lastmod>2021-03-30T09:41:17+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://arturo-lang.io/documentation/.</loc>
-  <lastmod>2021-03-30T09:41:17+00:00</lastmod>
+  <loc>https://arturo-lang.io/documentation/in-a-nutshell/</loc>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/language/</loc>
-  <lastmod>2021-03-30T09:41:16+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/command-line/</loc>
-  <lastmod>2021-03-30T09:41:16+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/</loc>
-  <lastmod>2021-03-30T09:41:18+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/playground/.</loc>
-  <lastmod>2021-03-30T09:41:16+00:00</lastmod>
+  <loc>https://arturo-lang.io/documentation/examples/</loc>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/.</loc>
-  <lastmod>2021-03-30T09:41:18+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/arithmetic/</loc>
-  <lastmod>2021-03-30T09:42:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/</loc>
-  <lastmod>2021-03-30T09:42:36+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/</loc>
-  <lastmod>2021-03-30T09:42:26+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/comparison/</loc>
-  <lastmod>2021-03-30T09:42:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/converters/</loc>
-  <lastmod>2021-03-30T09:43:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/</loc>
-  <lastmod>2021-03-30T09:43:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/crypto/</loc>
-  <lastmod>2021-03-30T09:45:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/databases/</loc>
-  <lastmod>2021-03-30T09:45:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/dates/</loc>
-  <lastmod>2021-03-30T09:44:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/</loc>
-  <lastmod>2021-03-30T09:42:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/</loc>
-  <lastmod>2021-03-30T09:43:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/</loc>
-  <lastmod>2021-03-30T09:41:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/</loc>
-  <lastmod>2021-03-30T09:43:33+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/net/</loc>
-  <lastmod>2021-03-30T09:44:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/</loc>
-  <lastmod>2021-03-30T09:44:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/paths/</loc>
-  <lastmod>2021-03-30T09:43:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/</loc>
-  <lastmod>2021-03-30T09:41:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/sets/</loc>
-  <lastmod>2021-03-30T09:42:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/</loc>
-  <lastmod>2021-03-30T09:45:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/</loc>
-  <lastmod>2021-03-30T09:43:03+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/ui/</loc>
-  <lastmod>2021-03-30T09:45:26+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/abs/</loc>
-  <lastmod>2021-03-30T09:44:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/acos/</loc>
-  <lastmod>2021-03-30T09:44:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/acosh/</loc>
-  <lastmod>2021-03-30T09:44:46+00:00</lastmod>
-  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/add/</loc>
-  <lastmod>2021-03-30T09:42:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/dates/after/</loc>
-  <lastmod>2021-03-30T09:44:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/all-/</loc>
-  <lastmod>2021-03-30T09:43:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/and/</loc>
-  <lastmod>2021-03-30T09:42:33+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/and-/</loc>
-  <lastmod>2021-03-30T09:43:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/any-/</loc>
-  <lastmod>2021-03-30T09:43:21+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/collections/append/</loc>
-  <lastmod>2021-03-30T09:42:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/arg/</loc>
-  <lastmod>2021-03-30T09:43:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/args/</loc>
-  <lastmod>2021-03-30T09:43:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/arity/</loc>
-  <lastmod>2021-03-30T09:41:28+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/converters/array/</loc>
-  <lastmod>2021-03-30T09:43:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/converters/as/</loc>
-  <lastmod>2021-03-30T09:43:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/ascii-/</loc>
-  <lastmod>2021-03-30T09:44:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/asin/</loc>
-  <lastmod>2021-03-30T09:44:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/asinh/</loc>
-  <lastmod>2021-03-30T09:44:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/atan/</loc>
-  <lastmod>2021-03-30T09:44:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/atanh/</loc>
-  <lastmod>2021-03-30T09:44:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/attr/</loc>
-  <lastmod>2021-03-30T09:41:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/attr-/</loc>
-  <lastmod>2021-03-30T09:41:26+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/attribute-/</loc>
-  <lastmod>2021-03-30T09:41:45+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/attributelabel-/</loc>
-  <lastmod>2021-03-30T09:41:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/attrs/</loc>
-  <lastmod>2021-03-30T09:41:36+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/average/</loc>
-  <lastmod>2021-03-30T09:44:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/dates/before/</loc>
-  <lastmod>2021-03-30T09:44:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/benchmark/</loc>
-  <lastmod>2021-03-30T09:41:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/binary-/</loc>
-  <lastmod>2021-03-30T09:41:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/block-/</loc>
-  <lastmod>2021-03-30T09:41:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/boolean-/</loc>
-  <lastmod>2021-03-30T09:41:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/break/</loc>
-  <lastmod>2021-03-30T09:43:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/call/</loc>
-  <lastmod>2021-03-30T09:43:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/capitalize/</loc>
-  <lastmod>2021-03-30T09:45:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/case/</loc>
-  <lastmod>2021-03-30T09:43:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/ceil/</loc>
-  <lastmod>2021-03-30T09:44:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/char-/</loc>
-  <lastmod>2021-03-30T09:41:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/chop/</loc>
-  <lastmod>2021-03-30T09:42:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/clear/</loc>
-  <lastmod>2021-03-30T09:43:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/databases/close/</loc>
-  <lastmod>2021-03-30T09:45:18+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/color/</loc>
-  <lastmod>2021-03-30T09:45:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/combine/</loc>
-  <lastmod>2021-03-30T09:42:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/contains-/</loc>
-  <lastmod>2021-03-30T09:42:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/continue/</loc>
-  <lastmod>2021-03-30T09:43:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/copy/</loc>
-  <lastmod>2021-03-30T09:42:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/cos/</loc>
-  <lastmod>2021-03-30T09:44:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/cosh/</loc>
-  <lastmod>2021-03-30T09:44:07+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/csec/</loc>
-  <lastmod>2021-03-30T09:44:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/csech/</loc>
-  <lastmod>2021-03-30T09:44:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/ctan/</loc>
-  <lastmod>2021-03-30T09:44:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/ctanh/</loc>
-  <lastmod>2021-03-30T09:44:16+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/cursor/</loc>
-  <lastmod>2021-03-30T09:43:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/database-/</loc>
-  <lastmod>2021-03-30T09:41:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/date-/</loc>
-  <lastmod>2021-03-30T09:41:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/arithmetic/dec/</loc>
-  <lastmod>2021-03-30T09:42:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/crypto/decode/</loc>
-  <lastmod>2021-03-30T09:45:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/converters/define/</loc>
-  <lastmod>2021-03-30T09:43:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/delete/</loc>
-  <lastmod>2021-03-30T09:42:41+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/converters/dictionary/</loc>
-  <lastmod>2021-03-30T09:43:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/dictionary-/</loc>
-  <lastmod>2021-03-30T09:41:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/sets/difference/</loc>
-  <lastmod>2021-03-30T09:42:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/crypto/digest/</loc>
-  <lastmod>2021-03-30T09:45:23+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/div/</loc>
-  <lastmod>2021-03-30T09:42:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/do/</loc>
-  <lastmod>2021-03-30T09:43:45+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/net/download/</loc>
-  <lastmod>2021-03-30T09:44:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/drop/</loc>
-  <lastmod>2021-03-30T09:42:16+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/core/dup/</loc>
-  <lastmod>2021-03-30T09:43:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/else/</loc>
-  <lastmod>2021-03-30T09:44:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/empty/</loc>
-  <lastmod>2021-03-30T09:42:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/empty-/</loc>
-  <lastmod>2021-03-30T09:42:26+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/crypto/encode/</loc>
-  <lastmod>2021-03-30T09:45:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/ensure/</loc>
-  <lastmod>2021-03-30T09:43:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/env/</loc>
-  <lastmod>2021-03-30T09:42:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/epsilon/</loc>
-  <lastmod>2021-03-30T09:44:37+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/comparison/equal-/</loc>
-  <lastmod>2021-03-30T09:42:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/escape/</loc>
-  <lastmod>2021-03-30T09:45:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/even-/</loc>
-  <lastmod>2021-03-30T09:44:36+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/every-/</loc>
-  <lastmod>2021-03-30T09:41:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/execute/</loc>
-  <lastmod>2021-03-30T09:42:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/exists-/</loc>
-  <lastmod>2021-03-30T09:42:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/exit/</loc>
-  <lastmod>2021-03-30T09:43:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/exp/</loc>
-  <lastmod>2021-03-30T09:44:33+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/extend/</loc>
-  <lastmod>2021-03-30T09:42:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/paths/extract/</loc>
-  <lastmod>2021-03-30T09:43:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/factors/</loc>
-  <lastmod>2021-03-30T09:44:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/false/</loc>
-  <lastmod>2021-03-30T09:43:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/false-/</loc>
-  <lastmod>2021-03-30T09:43:20+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/fdiv/</loc>
-  <lastmod>2021-03-30T09:42:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/filter/</loc>
-  <lastmod>2021-03-30T09:41:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/first/</loc>
-  <lastmod>2021-03-30T09:42:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/flatten/</loc>
-  <lastmod>2021-03-30T09:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/floating-/</loc>
-  <lastmod>2021-03-30T09:41:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/floor/</loc>
-  <lastmod>2021-03-30T09:44:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/fold/</loc>
-  <lastmod>2021-03-30T09:41:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/converters/from/</loc>
-  <lastmod>2021-03-30T09:43:05+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/converters/function/</loc>
-  <lastmod>2021-03-30T09:43:07+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/function-/</loc>
-  <lastmod>2021-03-30T09:41:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/gamma/</loc>
-  <lastmod>2021-03-30T09:44:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/gcd/</loc>
-  <lastmod>2021-03-30T09:44:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/get/</loc>
-  <lastmod>2021-03-30T09:41:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/goto/</loc>
-  <lastmod>2021-03-30T09:43:35+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/comparison/greater-/</loc>
-  <lastmod>2021-03-30T09:42:29+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/comparison/greaterorequal-/</loc>
-  <lastmod>2021-03-30T09:42:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/crypto/hash/</loc>
-  <lastmod>2021-03-30T09:45:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/help/</loc>
-  <lastmod>2021-03-30T09:41:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/hypot/</loc>
-  <lastmod>2021-03-30T09:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/if/</loc>
-  <lastmod>2021-03-30T09:43:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/if-/</loc>
-  <lastmod>2021-03-30T09:44:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/in-/</loc>
-  <lastmod>2021-03-30T09:42:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/arithmetic/inc/</loc>
-  <lastmod>2021-03-30T09:42:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/indent/</loc>
-  <lastmod>2021-03-30T09:44:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/index/</loc>
-  <lastmod>2021-03-30T09:41:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/info/</loc>
-  <lastmod>2021-03-30T09:41:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/inline-/</loc>
-  <lastmod>2021-03-30T09:41:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/input/</loc>
-  <lastmod>2021-03-30T09:43:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/insert/</loc>
-  <lastmod>2021-03-30T09:42:03+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/inspect/</loc>
-  <lastmod>2021-03-30T09:41:26+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/integer-/</loc>
-  <lastmod>2021-03-30T09:41:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/sets/intersection/</loc>
-  <lastmod>2021-03-30T09:42:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/is-/</loc>
-  <lastmod>2021-03-30T09:41:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/join/</loc>
-  <lastmod>2021-03-30T09:44:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/key-/</loc>
-  <lastmod>2021-03-30T09:42:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/keys/</loc>
-  <lastmod>2021-03-30T09:42:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/label-/</loc>
-  <lastmod>2021-03-30T09:41:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/last/</loc>
-  <lastmod>2021-03-30T09:42:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/dates/leap-/</loc>
-  <lastmod>2021-03-30T09:44:54+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/comparison/less-/</loc>
-  <lastmod>2021-03-30T09:42:27+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/comparison/lessorequal-/</loc>
-  <lastmod>2021-03-30T09:42:28+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/core/let/</loc>
-  <lastmod>2021-03-30T09:43:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/levenshtein/</loc>
-  <lastmod>2021-03-30T09:45:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/paths/list/</loc>
-  <lastmod>2021-03-30T09:43:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/literal-/</loc>
-  <lastmod>2021-03-30T09:41:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/ln/</loc>
-  <lastmod>2021-03-30T09:44:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/log/</loc>
-  <lastmod>2021-03-30T09:44:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/loop/</loc>
-  <lastmod>2021-03-30T09:41:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/lower/</loc>
-  <lastmod>2021-03-30T09:45:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/lower-/</loc>
-  <lastmod>2021-03-30T09:45:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/net/mail/</loc>
-  <lastmod>2021-03-30T09:44:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/map/</loc>
-  <lastmod>2021-03-30T09:41:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/match/</loc>
-  <lastmod>2021-03-30T09:45:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/max/</loc>
-  <lastmod>2021-03-30T09:42:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/median/</loc>
-  <lastmod>2021-03-30T09:44:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/min/</loc>
-  <lastmod>2021-03-30T09:42:02+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/mod/</loc>
-  <lastmod>2021-03-30T09:42:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/paths/module/</loc>
-  <lastmod>2021-03-30T09:43:17+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/mul/</loc>
-  <lastmod>2021-03-30T09:42:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/nand/</loc>
-  <lastmod>2021-03-30T09:42:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/nand-/</loc>
-  <lastmod>2021-03-30T09:43:28+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/arithmetic/neg/</loc>
-  <lastmod>2021-03-30T09:42:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/negative-/</loc>
-  <lastmod>2021-03-30T09:44:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/new/</loc>
-  <lastmod>2021-03-30T09:43:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/nor/</loc>
-  <lastmod>2021-03-30T09:42:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/nor-/</loc>
-  <lastmod>2021-03-30T09:43:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/paths/normalize/</loc>
-  <lastmod>2021-03-30T09:43:16+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/not/</loc>
-  <lastmod>2021-03-30T09:42:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/not-/</loc>
-  <lastmod>2021-03-30T09:43:30+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/comparison/notequal-/</loc>
-  <lastmod>2021-03-30T09:42:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/dates/now/</loc>
-  <lastmod>2021-03-30T09:44:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/null/</loc>
-  <lastmod>2021-03-30T09:43:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/null-/</loc>
-  <lastmod>2021-03-30T09:41:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/numeric-/</loc>
-  <lastmod>2021-03-30T09:44:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/odd-/</loc>
-  <lastmod>2021-03-30T09:44:18+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/databases/open/</loc>
-  <lastmod>2021-03-30T09:45:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/or/</loc>
-  <lastmod>2021-03-30T09:42:36+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/or-/</loc>
-  <lastmod>2021-03-30T09:43:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/outdent/</loc>
-  <lastmod>2021-03-30T09:45:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/pad/</loc>
-  <lastmod>2021-03-30T09:45:03+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/panic/</loc>
-  <lastmod>2021-03-30T09:42:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/paths/path/</loc>
-  <lastmod>2021-03-30T09:43:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/path-/</loc>
-  <lastmod>2021-03-30T09:41:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/pathlabel-/</loc>
-  <lastmod>2021-03-30T09:41:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/pause/</loc>
-  <lastmod>2021-03-30T09:43:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/permissions/</loc>
-  <lastmod>2021-03-30T09:42:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/permutate/</loc>
-  <lastmod>2021-03-30T09:42:07+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/pi/</loc>
-  <lastmod>2021-03-30T09:44:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/pop/</loc>
-  <lastmod>2021-03-30T09:43:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/positive-/</loc>
-  <lastmod>2021-03-30T09:44:49+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/pow/</loc>
-  <lastmod>2021-03-30T09:42:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/powmod/</loc>
-  <lastmod>2021-03-30T09:44:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/prefix/</loc>
-  <lastmod>2021-03-30T09:44:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/prefix-/</loc>
-  <lastmod>2021-03-30T09:45:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/prime-/</loc>
-  <lastmod>2021-03-30T09:44:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/print/</loc>
-  <lastmod>2021-03-30T09:43:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/prints/</loc>
-  <lastmod>2021-03-30T09:43:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/product/</loc>
-  <lastmod>2021-03-30T09:44:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/databases/query/</loc>
-  <lastmod>2021-03-30T09:45:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/random/</loc>
-  <lastmod>2021-03-30T09:44:32+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/numbers/range/</loc>
-  <lastmod>2021-03-30T09:44:45+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/files/read/</loc>
-  <lastmod>2021-03-30T09:42:42+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/paths/relative/</loc>
-  <lastmod>2021-03-30T09:43:18+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/collections/remove/</loc>
-  <lastmod>2021-03-30T09:42:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/rename/</loc>
-  <lastmod>2021-03-30T09:42:39+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/strings/render/</loc>
-  <lastmod>2021-03-30T09:45:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/repeat/</loc>
-  <lastmod>2021-03-30T09:42:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/replace/</loc>
-  <lastmod>2021-03-30T09:45:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/return/</loc>
-  <lastmod>2021-03-30T09:43:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/reverse/</loc>
-  <lastmod>2021-03-30T09:42:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/round/</loc>
-  <lastmod>2021-03-30T09:44:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/sample/</loc>
-  <lastmod>2021-03-30T09:42:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/sec/</loc>
-  <lastmod>2021-03-30T09:44:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/sech/</loc>
-  <lastmod>2021-03-30T09:44:03+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/select/</loc>
-  <lastmod>2021-03-30T09:41:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/net/serve/</loc>
-  <lastmod>2021-03-30T09:44:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/set/</loc>
-  <lastmod>2021-03-30T09:42:18+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/set-/</loc>
-  <lastmod>2021-03-30T09:41:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/shl/</loc>
-  <lastmod>2021-03-30T09:42:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/binary/shr/</loc>
-  <lastmod>2021-03-30T09:42:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/shuffle/</loc>
-  <lastmod>2021-03-30T09:42:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/sin/</loc>
-  <lastmod>2021-03-30T09:44:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/sinh/</loc>
-  <lastmod>2021-03-30T09:44:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/size/</loc>
-  <lastmod>2021-03-30T09:42:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/slice/</loc>
-  <lastmod>2021-03-30T09:42:17+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/some-/</loc>
-  <lastmod>2021-03-30T09:41:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/sort/</loc>
-  <lastmod>2021-03-30T09:42:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/split/</loc>
-  <lastmod>2021-03-30T09:42:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/sqrt/</loc>
-  <lastmod>2021-03-30T09:44:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/squeeze/</loc>
-  <lastmod>2021-03-30T09:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/stack/</loc>
-  <lastmod>2021-03-30T09:41:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/standalone-/</loc>
-  <lastmod>2021-03-30T09:41:33+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/string-/</loc>
-  <lastmod>2021-03-30T09:41:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/strip/</loc>
-  <lastmod>2021-03-30T09:45:12+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/arithmetic/sub/</loc>
-  <lastmod>2021-03-30T09:42:45+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/sets/subset-/</loc>
-  <lastmod>2021-03-30T09:42:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/suffix/</loc>
-  <lastmod>2021-03-30T09:45:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/suffix-/</loc>
-  <lastmod>2021-03-30T09:45:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/sum/</loc>
-  <lastmod>2021-03-30T09:44:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/sets/superset-/</loc>
-  <lastmod>2021-03-30T09:42:53+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/core/switch/</loc>
-  <lastmod>2021-03-30T09:43:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/symbol-/</loc>
-  <lastmod>2021-03-30T09:41:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/symbols/</loc>
-  <lastmod>2021-03-30T09:41:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/symlink/</loc>
-  <lastmod>2021-03-30T09:42:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/system/sys/</loc>
-  <lastmod>2021-03-30T09:42:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/take/</loc>
-  <lastmod>2021-03-30T09:42:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/tan/</loc>
-  <lastmod>2021-03-30T09:44:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/tanh/</loc>
-  <lastmod>2021-03-30T09:44:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/io/terminal/</loc>
-  <lastmod>2021-03-30T09:43:36+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/converters/to/</loc>
-  <lastmod>2021-03-30T09:43:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/true/</loc>
-  <lastmod>2021-03-30T09:43:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/logic/true-/</loc>
-  <lastmod>2021-03-30T09:43:26+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/truncate/</loc>
-  <lastmod>2021-03-30T09:45:16+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/try/</loc>
-  <lastmod>2021-03-30T09:44:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/try-/</loc>
-  <lastmod>2021-03-30T09:43:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/type/</loc>
-  <lastmod>2021-03-30T09:41:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/type-/</loc>
-  <lastmod>2021-03-30T09:41:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/sets/union/</loc>
-  <lastmod>2021-03-30T09:42:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/unique/</loc>
-  <lastmod>2021-03-30T09:42:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/unless/</loc>
-  <lastmod>2021-03-30T09:43:45+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/unless-/</loc>
-  <lastmod>2021-03-30T09:43:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/until/</loc>
-  <lastmod>2021-03-30T09:43:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/files/unzip/</loc>
-  <lastmod>2021-03-30T09:42:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/upper/</loc>
-  <lastmod>2021-03-30T09:45:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/upper-/</loc>
-  <lastmod>2021-03-30T09:45:07+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/collections/values/</loc>
-  <lastmod>2021-03-30T09:41:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/var/</loc>
-  <lastmod>2021-03-30T09:43:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/ui/webview/</loc>
-  <lastmod>2021-03-30T09:45:25+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/when-/</loc>
-  <lastmod>2021-03-30T09:43:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/core/while/</loc>
-  <lastmod>2021-03-30T09:44:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/strings/whitespace-/</loc>
-  <lastmod>2021-03-30T09:45:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/converters/with/</loc>
-  <lastmod>2021-03-30T09:43:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/word-/</loc>
-  <lastmod>2021-03-30T09:41:29+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/files/write/</loc>
-  <lastmod>2021-03-30T09:42:45+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/arithmetic/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/comparison/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/converters/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/crypto/</loc>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/databases/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/dates/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/net/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/paths/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/</loc>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/</loc>
+  <lastmod>2021-05-18T12:35:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/ui/</loc>
+  <lastmod>2021-05-18T12:35:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/abs/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/acos/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/acosh/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/acsec/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/acsech/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/actan/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/actanh/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/dates/after/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/all-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/and/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/and-/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/angle/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/any-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/arg/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/args/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/arity/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/converters/as/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/ascii-/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/asec/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/asech/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/asin/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/asinh/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/atan/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/atan2/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/atanh/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/attr/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/attr-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/attribute-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/attributelabel-/</loc>
+  <lastmod>2021-05-18T12:35:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/attrs/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/average/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/dates/before/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/benchmark/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/binary-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/blend/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/block-/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/boolean-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/break/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/call/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/capitalize/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/case/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/ceil/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/char-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/chop/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/clear/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/databases/close/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/color/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/combine/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/conj/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/contains-/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/continue/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/copy/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/cos/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/cosh/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/csec/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/csech/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/ctan/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/ctanh/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/cursor/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/darken/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/database-/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/date-/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/arithmetic/dec/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/crypto/decode/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/converters/define/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/delete/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/desaturate/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/deviation/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/dictionary-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/difference/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/crypto/digest/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/do/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/net/download/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/drop/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/else/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/empty/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/empty-/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/crypto/encode/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/ensure/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/env/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/epsilon/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/escape/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/even-/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/every-/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/execute/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/exists-/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/exit/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/exp/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/extend/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/paths/extract/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/factors/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/false/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/false-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/filter/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/first/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/flatten/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/floating-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/floor/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/fold/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/converters/from/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/function-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/gamma/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/gcd/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/get/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/goto/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/crypto/hash/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/help/</loc>
+  <lastmod>2021-05-18T12:35:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/hypot/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/if/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/if-/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/in-/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/arithmetic/inc/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/indent/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/index/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/info/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/inline-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/input/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/insert/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/inspect/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/integer-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/intersection/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/invert/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/is-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/join/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/key-/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/keys/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/kurtosis/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/label-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/last/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/dates/leap-/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/levenshtein/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/lighten/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/paths/list/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/literal-/</loc>
+  <lastmod>2021-05-18T12:35:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/ln/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/log/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/loop/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/lower/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/lower-/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/net/mail/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/map/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/match/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/max/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/median/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/min/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/paths/module/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/nand/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/nand-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/arithmetic/neg/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/negative-/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/new/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/nor/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/nor-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/paths/normalize/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/not/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/not-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/dates/now/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/null/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/null-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/numeric-/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/odd-/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/databases/open/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/or/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/or-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/outdent/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/pad/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/panic/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/paths/path/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/path-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/pathlabel-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/pause/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/permissions/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/permutate/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/pi/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/pop/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/positive-/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/powerset/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/powmod/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/prefix/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/prefix-/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/prime-/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/print/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/prints/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/product/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/databases/query/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/random/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/rename/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/repeat/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/replace/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/net/request/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/return/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/reverse/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/round/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/sample/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/colors/saturate/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/script/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/sec/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/sech/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/select/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/net/serve/</loc>
+  <lastmod>2021-05-18T12:35:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/set/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/set-/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/shl/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/binary/shr/</loc>
+  <lastmod>2021-05-18T12:35:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/shuffle/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/sin/</loc>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/sinh/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/size/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/skewness/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/slice/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/iterators/some-/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/sort/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/split/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/sqrt/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/squeeze/</loc>
+  <lastmod>2021-05-18T12:35:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/stack/</loc>
+  <lastmod>2021-05-18T12:35:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/standalone-/</loc>
+  <lastmod>2021-05-18T12:35:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/string-/</loc>
+  <lastmod>2021-05-18T12:35:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/strip/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/subset-/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/suffix/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/suffix-/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/sum/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/superset-/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/symbol-/</loc>
+  <lastmod>2021-05-18T12:35:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/symbols/</loc>
+  <lastmod>2021-05-18T12:35:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/symlink/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/system/sys/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/take/</loc>
+  <lastmod>2021-05-18T12:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/tan/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/numbers/tanh/</loc>
+  <lastmod>2021-05-18T12:35:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/io/terminal/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/converters/to/</loc>
+  <lastmod>2021-05-18T12:35:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/true/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/logic/true-/</loc>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/truncate/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/try/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/try-/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/type/</loc>
+  <lastmod>2021-05-18T12:35:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/type-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/sets/union/</loc>
+  <lastmod>2021-05-18T12:35:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/unique/</loc>
+  <lastmod>2021-05-18T12:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/unless/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/unless-/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/until/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/files/unzip/</loc>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/upper/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/upper-/</loc>
+  <lastmod>2021-05-18T12:35:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/collections/values/</loc>
+  <lastmod>2021-05-18T12:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/var/</loc>
+  <lastmod>2021-05-18T12:35:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/statistics/variance/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/ui/webview/</loc>
+  <lastmod>2021-05-18T12:35:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/when-/</loc>
+  <lastmod>2021-05-18T12:35:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/core/while/</loc>
+  <lastmod>2021-05-18T12:35:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/whitespace-/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/converters/with/</loc>
+  <lastmod>2021-05-18T12:35:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/reflection/word-/</loc>
+  <lastmod>2021-05-18T12:35:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/documentation/library/strings/wordwrap/</loc>
+  <lastmod>2021-05-18T12:35:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/binary/xnor/</loc>
-  <lastmod>2021-03-30T09:42:34+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/logic/xnor-/</loc>
-  <lastmod>2021-03-30T09:43:24+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/binary/xor/</loc>
-  <lastmod>2021-03-30T09:42:32+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/logic/xor-/</loc>
-  <lastmod>2021-03-30T09:43:27+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:24+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/numbers/zero-/</loc>
-  <lastmod>2021-03-30T09:44:26+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:19+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://arturo-lang.io/documentation/library/files/zip/</loc>
-  <lastmod>2021-03-30T09:42:38+00:00</lastmod>
+  <lastmod>2021-05-18T12:35:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/arithmetic/.</loc>
-  <lastmod>2021-03-30T09:42:52+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=100%20doors</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/binary/.</loc>
-  <lastmod>2021-03-30T09:42:36+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=99%20bottles%20of%20beer</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/collections/.</loc>
-  <lastmod>2021-03-30T09:42:26+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=abc%20problem</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/comparison/.</loc>
-  <lastmod>2021-03-30T09:42:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=abundant%2C%20deficient%20and%20perfect%20number%20classifications</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/converters/.</loc>
-  <lastmod>2021-03-30T09:43:11+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=ackermann%20function</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/core/.</loc>
-  <lastmod>2021-03-30T09:43:57+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=align%20columns</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/crypto/.</loc>
-  <lastmod>2021-03-30T09:45:24+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=amicable%20pairs</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/databases/.</loc>
-  <lastmod>2021-03-30T09:45:19+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=anti-primes</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/dates/.</loc>
-  <lastmod>2021-03-30T09:44:55+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=apply%20a%20callback%20to%20an%20array</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/files/.</loc>
-  <lastmod>2021-03-30T09:42:44+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=arithmetic%20-%20complex</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/io/.</loc>
-  <lastmod>2021-03-30T09:43:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=array%20concatenation</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/iterators/.</loc>
-  <lastmod>2021-03-30T09:41:56+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=array%20length</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/logic/.</loc>
-  <lastmod>2021-03-30T09:43:33+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=arrays</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/net/.</loc>
-  <lastmod>2021-03-30T09:44:52+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=assertions</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/numbers/.</loc>
-  <lastmod>2021-03-30T09:44:44+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=associative%20array%20-%20creation</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/paths/.</loc>
-  <lastmod>2021-03-30T09:43:17+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=associative%20array%20-%20iteration</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/reflection/.</loc>
-  <lastmod>2021-03-30T09:41:47+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=associative%20array%20-%20merging</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/sets/.</loc>
-  <lastmod>2021-03-30T09:42:54+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=attractive%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/strings/.</loc>
-  <lastmod>2021-03-30T09:45:14+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=averages%20-%20arithmetic%20mean</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/system/.</loc>
-  <lastmod>2021-03-30T09:43:03+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=averages%20-%20median</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/system/ensure/</loc>
-  <lastmod>2021-03-30T09:43:02+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=averages%20-%20mode</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/system/list/</loc>
-  <lastmod>2021-03-30T09:42:56+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=averages%20-%20pythagorean%20means</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://arturo-lang.io/documentation/library/ui/.</loc>
-  <lastmod>2021-03-30T09:45:26+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://arturo-lang.io/playground/?example=averages%20-%20root%20mean%20square</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=babbage%20problem</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=base64%20decode%20data</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=binary%20digits</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=binary%20search</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=binary%20strings</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=bioinformatics%20-%20base%20count</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=bitwise%20operations</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=boolean%20values</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=calculating%20the%20value%20of%20e</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=call%20a%20function</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=case-sensitivity%20of%20identifiers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=casting%20out%20nines</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=catalan%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=catamorphism</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=character%20codes</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=collections%20-%20array</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=collections%20-%20dictionary</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=comma%20quibbling</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=compound%20data%20type%20-%201</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=conditional%20structures%20-%20case%20when</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=conditional%20structures%20-%20if%20then%20else</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=copy%20a%20string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=count%20in%20octal</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=csv%20to%20html%20translation</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=damm%20algorithm</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=date%20manipulation</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=day%20of%20the%20week</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=days%20between%20dates</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=deepcopy</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=department%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=detect%20division%20by%20zero</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=determine%20if%20a%20string%20has%20all%20the%20same%20characters</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=determine%20if%20a%20string%20has%20all%20unique%20characters</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=determine%20if%20a%20string%20is%20numeric</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=dot%20product</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=empty%20directory</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=empty%20string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=ethiopian%20multiplication</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=even%20or%20odd</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=execute%20brainfuck</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=execute%20hq9%2B</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=extend%20your%20language</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=factorial%20-%20fold</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=factorial%20-%20product</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=factorial%20-%20recursive</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=factors%20of%20a%20mersenne%20number</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=factors%20of%20an%20integer</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=fasta%20format</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=file%20extension%20is%20in%20extensions%20list</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=filter</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=find%20common%20directory%20path</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=find%20the%20last%20sunday%20of%20each%20month</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=find%20the%20missing%20permutation</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=first-class%20functions</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=fivenum</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=fizzbuzz</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=flatten%20a%20list</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=forward%20difference</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=function%20composition</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=function%20definition</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=gapful%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=generate%20lower%20case%20ascii%20alphabet</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=gray%20code</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=greatest%20common%20divisor</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=greatest%20element%20of%20a%20list</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=greatest%20subsequential%20sum</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=happy%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=hash%20from%20two%20arrays</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=hello%20world%20-%20newbie</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=hello%20world%20-%20newline%20omission</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=hello%20world%20-%20text</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=here%20document</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=higher-order%20functions</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=iban</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=idiomatically%20determine%20all%20the%20lowercase%20and%20uppercase%20letters</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=increment%20a%20numerical%20string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=integer%20overflow</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=integer%20roots</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=introspection</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=isbn13%20check%20digit</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=jewels%20and%20stones</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=josephus%20problem</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=json</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=kernighans%20large%20earthquake%20problem</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=last%20friday%20of%20each%20month</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=leap%20year</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=least%20common%20multiple</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=letter%20frequency</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=levenshtein%20distance</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=levenshtein%20distance%20-%20alignment</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=literals%20-%20floating%20point</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=literals%20-%20integer</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=literals%20-%20string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=logical%20operations</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=long%20literals%2C%20with%20continuations%20-%20using%20concatenations</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=long%20literals%2C%20with%20continuations%20-%20using%20string%20blocks</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=long%20year</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=longest%20common%20prefix</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=longest%20common%20substring</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loop%20over%20multiple%20arrays%20simultaneously</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20continue</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20do-while</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20downward%20for</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20for</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20for%20with%20a%20specified%20step</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20foreach</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20increment%20loop%20index%20within%20loop%20body</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20n%20plus%20one%20half</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=loops%20-%20while</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=magic%20squares%20of%20odd%20order</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=map%20range</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=md5</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=middle%20three%20digits</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=modular%20exponentation</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=modular%20inverse</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=modulinos%20-%20library</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=modulinos%20-%20main</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=morse%20code</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=multifactorial</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=multiplication%20tables</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=multisplit</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=munchausen%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=mutual%20recursion</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=n%27th</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=named%20parameters</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=nested%20function</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=non-decimal%20radices%20-%20convert</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=non-decimal%20radices%20-%20input</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=non-decimal%20radices%20-%20output</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=null%20object</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=one-dimensional%20cellular%20automata</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=palindrome%20detection</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=pangram%20checker</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=perfect%20shuffle</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=permutations</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=pernicious%20numbers</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=population%20count</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=power%20set</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=primality%20by%20trial%20division</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=prime%20decomposition</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=proper%20divisors</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=quickselect%20algorithm</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=quine</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=real%20constants%20and%20functions</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=regular%20expressions</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=remove%20duplicate%20elements</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=rep-string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=repeat</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=repeat%20a%20string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=return%20multiple%20values</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arturo-lang.io/playground/?example=reverse%20a%20string</loc>
+  <lastmod>2021-05-18T12:35:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
