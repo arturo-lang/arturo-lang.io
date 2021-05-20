@@ -347,17 +347,23 @@
                         <!-- Examples -->
                         <h4 class="title is-size-6-touch is-size-5 is-spaced mt-6">Examples</h4>
 
-                        <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; reading a simple local file
-str: read "somefile.txt"
-
-; also works with remote urls
-page: read "http://www.somewebsite.com/page.html"
-
-; we can also "read" JSON data as an object
-data: read.json "mydata.json"
-
-; or even convert Markdown to HTML on-the-fly
+                        
+                            <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; reading a simple local file
+str: read "somefile.txt"</code></pre>
+                            <br>
+                        
+                            <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; also works with remote urls
+page: read "http://www.somewebsite.com/page.html"</code></pre>
+                            <br>
+                        
+                            <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; we can also "read" JSON data as an object
+data: read.json "mydata.json"</code></pre>
+                            <br>
+                        
+                            <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; or even convert Markdown to HTML on-the-fly
 html: read.markdown "## Hello"     ; "<h2 class="title is-size-3-touch is-size-2 is-spaced mt-6">Hello</h2>"</code></pre>
+                            
+                        
                     
 
                     <!-- Related -->
