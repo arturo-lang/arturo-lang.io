@@ -36,6 +36,8 @@ foreach ($output as $outp)
 
 if ($txt==""){ $txt = "[no output]"; }
 
+// preg_match('/<\/span><span style="filter: contrast(70%) brightness(190%);color:dimgray;">art<\/span><span style="font-weight:bold;filter: contrast(70%) brightness(190%);color:dimgray;">([^<]+)<br>/', $txt, $matcch);
+
 $final = array(
 	"text" => $txt,
 	"code" => str_replace("art_","",str_replace("/tmp/", "", $temp_file)),
