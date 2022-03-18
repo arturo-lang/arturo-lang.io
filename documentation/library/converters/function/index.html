@@ -331,6 +331,54 @@ print f 10                ; 12</code></pre>
 print multiply 3 5        ; 15</code></pre>
                             <br>
                         
+                            <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; forcing typed parameters
+addThem: function [
+    x :integer
+    y :integer :floating
+][
+    x + y
+]</code></pre>
+                            <br>
+                        
+                            <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">; adding complete documentation for user function
+; using data comments within the body
+addThem: function [
+    x :integer :floating
+    y :integer :floating
+][
+    ;; description: « takes two numbers and adds them up
+    ;; options: [
+    ;;      mul: :integer « also multiply by given number
+    ;; ]
+    ;; returns: :integer :floating
+    ;; example: {
+    ;;      addThem 10 20
+    ;;      addThem.mult:3 10 20
+    ;; }
+
+    mult?: attr 'mult
+    if? not? null? mult? ->
+        return mult? * x + y
+    else ->
+        return x + y
+]
+
+info'addThem
+
+; |--------------------------------------------------------------------------------
+; |        addThem  :function                                          0x10EF0E528
+; |--------------------------------------------------------------------------------
+; |                 takes two numbers and adds them up
+; |--------------------------------------------------------------------------------
+; |          usage  addThem x :integer :floating
+; |                         y :integer :floating
+; |
+; |        options  .mult :integer -> also multiply by given number
+; |
+; |        returns  :integer :floating
+; |--------------------------------------------------------------------------------</code></pre>
+                            <br>
+                        
                             <pre class="is-size-7-touch is-size-6"><div class="copy">copy</div><code class="language-arturo">publicF: function .export['x] [z][
     print ["z =>" z]
     x: 5
@@ -362,13 +410,13 @@ loop 1..25 [x][
                     <div class="content">
                         <ul class="list">
                             
-                                <li class="list-item"><a href="../../reflection/function-">Reflection / function?</a></li>
+                                <li class="list-item"><a href="../dictionary">Converters / dictionary</a></li>
                             
-                                <li class="list-item"><a href="../../sets/union">Sets / union</a></li>
+                                <li class="list-item"><a href="../from">Converters / from</a></li>
                             
-                                <li class="list-item"><a href="../../core/until">Core / until</a></li>
+                                <li class="list-item"><a href="../with">Converters / with</a></li>
                             
-                                <li class="list-item"><a href="../../collections/flatten">Collections / flatten</a></li>
+                                <li class="list-item"><a href="../define">Converters / define</a></li>
                             
                         </ul>
                     </div>
