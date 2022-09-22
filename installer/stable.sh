@@ -228,6 +228,28 @@ msys_download_arturo() {
 
 }
 
+# To generate this file on Msys2, use:
+# curl -sSL \
+#  https://github.com/arturo-lang/arturo/releases/download/v0.9.80/arturo-0.9.80-Windows-full.zip \
+#  --output /home/development/arturo_setup/arturo.zip
+# explorer .
+# Unzip with WinRar with extract here, and run:
+# tar czf arturo.tar.gz arturo-full-windows-latest/*
+msys_fake_download_arturo() {
+    # simulates the tar.gz for WindowsMsys2
+    # The file is the same .zip for Windows
+    # But the format is .tar.gz for unpack with tar command
+    BIN_PATH="$ARTURO_DIR/bin"
+    cp /home/development/arturo_setup/arturo.tar.gz $BIN_PATH
+    info "Arturo downloaded into ~/.arturo/bin Folder!"
+
+    info "Unpacking Arturo..."
+    tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
+    mv $BIN_PATH/arturo-full-windows-latest/* $BIN_PATH/
+    info "Unpacked!"
+
+}
+
 msys_cleanup() {
     rm -f "$BIN_PATH/arturo.tar.gz"
     rm --dir -f "$BIN_PATH/arturo-full-windows-latest"
@@ -247,7 +269,6 @@ main() {
     verifyShell
 
     if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ]; then
-
         section "Checking prerequisites..."
         install_prerequisites
 
@@ -266,9 +287,9 @@ main() {
         eecho ""
         showFooter
 
-    else if [ "$currentOS" = "WindowsMsys2" ]; then
-
+    elif [[ "$currentOS" = "WindowsMsys2" ]]; then
         section "Creating environment..."
+        info "\nOS: $currentOS"
         msys_create_arturo_path
 
         section "Downloading..."
@@ -282,9 +303,8 @@ main() {
         section "Done!"
         eecho ""
         showFooter
-
     else
-        panic "Cannot continue. Unfortunately your OS is not supported by this auto-installer."
+        panic "Cannot continue. Unfortunately your OS is not supported by this auto-installer.";
     fi
 }
 
