@@ -216,7 +216,7 @@ msys_create_arturo_path() {
 
 msys_download_arturo() {
 
-    BIN_PATH="$ARTURO_PATH/bin"
+    BIN_PATH="$ARTURO_DIR/bin"
     get_download_url $currentOS
 
     info "Arturo downloaded into ~/.arturo/bin Folder!"
