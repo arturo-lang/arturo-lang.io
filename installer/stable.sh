@@ -206,7 +206,11 @@ install_arturo() {
 }
 
 msys_create_arturo_path() {
+
     ARTURO_DIR="$HOME/.arturo"
+
+    create_directory "$ARTURO_DIR/bin"
+    create_directory "$ARTURO_DIR/lib"
     info "~/.arturo/bin and ~/.arturo/lib created!"
 }
 
