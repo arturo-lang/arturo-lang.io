@@ -211,7 +211,7 @@ msys_create_arturo_path() {
 
     create_directory "$ARTURO_DIR/bin"
     create_directory "$ARTURO_DIR/lib"
-    info "~/.arturo/bin and ~/.arturo/lib created!"
+    # info "~/.arturo/bin and ~/.arturo/lib created!"
 }
 
 msys_download_arturo() {
@@ -219,12 +219,12 @@ msys_download_arturo() {
     BIN_PATH="$ARTURO_DIR/bin"
     get_download_url $currentOS
 
-    info "Arturo downloaded into ~/.arturo/bin Folder!"
+    # info "Arturo downloaded into ~/.arturo/bin Folder!"
     curl -sSL $downloadUrl --output "$BIN_PATH/arturo.tar.gz"
 
-    info "Unpacking Arturo..."
+    # info "Unpacking Arturo..."
     tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
-    info "Unpacked!"
+    # info "Unpacked!"
 
 }
 
@@ -241,19 +241,19 @@ msys_fake_download_arturo() {
     # But the format is .tar.gz for unpack with tar command
     BIN_PATH="$ARTURO_DIR/bin"
     cp /home/development/arturo_setup/arturo.tar.gz $BIN_PATH
-    info "Arturo downloaded into ~/.arturo/bin Folder!"
+    # info "Arturo downloaded into ~/.arturo/bin Folder!"
 
-    info "Unpacking Arturo..."
+    # info "Unpacking Arturo..."
     tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
     mv $BIN_PATH/arturo-full-windows-latest/* $BIN_PATH/
-    info "Unpacked!"
+    # info "Unpacked!"
 
 }
 
 msys_cleanup() {
     rm -f "$BIN_PATH/arturo.tar.gz"
     rm --dir -f "$BIN_PATH/arturo-full-windows-latest"
-    info "~/.arturo/bin/arturo.tar.gz and ~/.arturo/bin/arturo-full-windows-latest/ removed!"
+    # info "~/.arturo/bin/arturo.tar.gz and ~/.arturo/bin/arturo-full-windows-latest/ removed!"
 }
 
 ################################################
