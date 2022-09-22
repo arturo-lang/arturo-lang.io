@@ -135,14 +135,14 @@ verifyOS(){
     case "$OSTYPE" in
         linux*)     currentOS="Linux" ;;
         linux-gnu*) currentOS="Linux" ;;
-        darwin*)    currentOS="macOS" ;; 
+        darwin*)    currentOS="macOS" ;;
         cygwin*)    currentOS="Windows" ;;
         msys*)      currentOS="Windows" ;;
         solaris*)   currentOS="Solaris" ;;
         freebsd*)   currentOS="FreeBSD" ;;
         bsd*)       currentOS="BSD" ;;
-        *)         
-            if [ `uname` = "Linux" ]; then 
+        *)
+            if [ `uname` = "Linux" ]; then
                 currentOS="Linux"
             elif [ `uname` = "FreeBSD" ]; then
                 currentOS="FreeBSD"
@@ -156,16 +156,16 @@ verifyOS(){
 
 verifyShell(){
     case "$SHELL" in
-        "/bin/zsh")     
+        "/bin/zsh")
             currentShell="zsh" ;
             shellRcFile="~/.zshrc" ;;
-        "/bin/bash")    
+        "/bin/bash")
             currentShell="bash" ;
             shellRcFile="~/.bashrc or ~/.profile" ;;
-        "/bin/sh")      
+        "/bin/sh")
             currentSheel="sh" ;
             shellRcFile="~/.profile" ;;
-        *)              
+        *)
             currentShell="unrecognized" ;
             shellRcFile="~/.profile" ;;
     esac
@@ -205,6 +205,24 @@ install_arturo() {
     cp $ARTURO_TMP_DIR/arturo ~/.arturo/bin
 }
 
+msys_create_arturo_path() {
+    ARTURO_PATH="~/.arturo"
+    mkdir "$ARTURO_PATH/bin" "$ARTURO_PATH/lib"
+}
+
+msys_download_arturo() {
+
+    BIN_PATH="$ARTURO_PATH/bin"
+
+    get_download_url $currentOS
+    curl -sSL $downloadUrl --output "$BIN_PATH/arturo.tar.gz"
+    tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
+}
+
+msys_cleanup() {
+    rm -f "$BIN_PATH/arturo.tar.gz"
+}
+
 ################################################
 # MAIN
 ################################################
@@ -220,7 +238,7 @@ main() {
     if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ]; then
         section "Checking prerequisites..."
         install_prerequisites
-        
+
         section "Downloading..."
         download_arturo
 
