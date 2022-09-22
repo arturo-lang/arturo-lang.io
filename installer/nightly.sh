@@ -286,6 +286,23 @@ main() {
         section "Done!"
         eecho ""
         showFooter
+
+    elif [[ "$currentOS" = "WindowsMsys2" ]]; then
+        section "Creating environment..."
+        info "\nOS: $currentOS"
+        msys_create_arturo_path
+
+        section "Downloading..."
+        msys_download_arturo
+
+        section "Cleaning up..."
+        msys_cleanup
+
+        eecho ""
+
+        section "Done!"
+        eecho ""
+        showFooter
     else
         panic "Cannot continue. Unfortunately your OS is not supported by this auto-installer."
     fi
