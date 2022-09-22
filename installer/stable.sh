@@ -208,19 +208,26 @@ install_arturo() {
 msys_create_arturo_path() {
     ARTURO_PATH="~/.arturo"
     mkdir "$ARTURO_PATH/bin" "$ARTURO_PATH/lib"
+    info "~/.arturo/bin and ~/.arturo/lib created!"
 }
 
 msys_download_arturo() {
 
     BIN_PATH="$ARTURO_PATH/bin"
-
     get_download_url $currentOS
+
+    info "Arturo downloaded into ~/.arturo/bin Folder!"
     curl -sSL $downloadUrl --output "$BIN_PATH/arturo.tar.gz"
+
+    info "Unpacking Arturo..."
     tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
+    info "Unpacked!"
+
 }
 
 msys_cleanup() {
     rm -f "$BIN_PATH/arturo.tar.gz"
+    info "~/.arturo/bin/arturo.tar.gz removed!"
 }
 
 ################################################
@@ -236,6 +243,7 @@ main() {
     verifyShell
 
     if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ]; then
+
         section "Checking prerequisites..."
         install_prerequisites
 
@@ -253,6 +261,24 @@ main() {
         section "Done!"
         eecho ""
         showFooter
+
+    else if [ "$currentOS" = "WindowsMsys2" ]; then
+
+        section "Creating environment..."
+        msys_create_arturo_path
+
+        section "Downloading..."
+        msys_download_arturo
+
+        section "Cleaning up..."
+        msys_cleanup
+
+        eecho ""
+
+        section "Done!"
+        eecho ""
+        showFooter
+
     else
         panic "Cannot continue. Unfortunately your OS is not supported by this auto-installer."
     fi
