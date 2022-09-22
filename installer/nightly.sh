@@ -135,14 +135,14 @@ verifyOS(){
     case "$OSTYPE" in
         linux*)     currentOS="Linux" ;;
         linux-gnu*) currentOS="Linux" ;;
-        darwin*)    currentOS="macOS" ;; 
+        darwin*)    currentOS="macOS" ;;
         cygwin*)    currentOS="Windows" ;;
-        msys*)      currentOS="Windows" ;;
+        msys*)      currentOS="WindowsMsys2" ;;
         solaris*)   currentOS="Solaris" ;;
         freebsd*)   currentOS="FreeBSD" ;;
         bsd*)       currentOS="BSD" ;;
-        *)         
-            if [ `uname` = "Linux" ]; then 
+        *)
+            if [ `uname` = "Linux" ]; then
                 currentOS="Linux"
             elif [ `uname` = "FreeBSD" ]; then
                 currentOS="FreeBSD"
@@ -156,16 +156,16 @@ verifyOS(){
 
 verifyShell(){
     case "$SHELL" in
-        "/bin/zsh")     
+        "/bin/zsh")
             currentShell="zsh" ;
             shellRcFile="~/.zshrc" ;;
-        "/bin/bash")    
+        "/bin/bash")
             currentShell="bash" ;
             shellRcFile="~/.bashrc or ~/.profile" ;;
-        "/bin/sh")      
+        "/bin/sh")
             currentSheel="sh" ;
             shellRcFile="~/.profile" ;;
-        *)              
+        *)
             currentShell="unrecognized" ;
             shellRcFile="~/.profile" ;;
     esac
@@ -220,7 +220,7 @@ main() {
     if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ]; then
         section "Checking prerequisites..."
         install_prerequisites
-        
+
         section "Downloading..."
         download_arturo
 
