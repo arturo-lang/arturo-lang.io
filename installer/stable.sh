@@ -137,7 +137,7 @@ verifyOS(){
         linux-gnu*) currentOS="Linux" ;;
         darwin*)    currentOS="macOS" ;;
         cygwin*)    currentOS="Windows" ;;
-        msys*)      currentOS="Windows" ;;
+        msys*)      currentOS="WindowsMsys2" ;;
         solaris*)   currentOS="Solaris" ;;
         freebsd*)   currentOS="FreeBSD" ;;
         bsd*)       currentOS="BSD" ;;
