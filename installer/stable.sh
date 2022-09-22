@@ -230,7 +230,8 @@ msys_download_arturo() {
 
 msys_cleanup() {
     rm -f "$BIN_PATH/arturo.tar.gz"
-    info "~/.arturo/bin/arturo.tar.gz removed!"
+    rm --dir -f "$BIN_PATH/arturo-full-windows-latest"
+    info "~/.arturo/bin/arturo.tar.gz and ~/.arturo/bin/arturo-full-windows-latest/ removed!"
 }
 
 ################################################
