@@ -228,6 +228,15 @@ msys_download_arturo() {
 
 }
 
+msys_install_arturo() {
+    # info "Unpacking Arturo..."
+    tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
+    # info "Unpacked!"
+
+    mv $BIN_PATH/arturo-full-windows-latest/* $BIN_PATH/
+
+}
+
 # To generate this file on Msys2, use:
 # curl -sSL \
 #  https://github.com/arturo-lang/arturo/releases/download/v0.9.80/arturo-0.9.80-Windows-full.zip \
@@ -294,6 +303,9 @@ main() {
 
         section "Downloading..."
         msys_download_arturo
+
+        section "Installing..."
+        msys_install_arturo
 
         section "Cleaning up..."
         msys_cleanup

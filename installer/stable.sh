@@ -222,9 +222,14 @@ msys_download_arturo() {
     # info "Arturo downloaded into ~/.arturo/bin Folder!"
     curl -sSL $downloadUrl --output "$BIN_PATH/arturo.tar.gz"
 
+}
+
+msys_install_arturo() {
     # info "Unpacking Arturo..."
     tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
     # info "Unpacked!"
+
+    mv $BIN_PATH/arturo-full-windows-latest/* $BIN_PATH/
 
 }
 
@@ -294,6 +299,9 @@ main() {
 
         section "Downloading..."
         msys_download_arturo
+
+        section "Installing..."
+        msys_install_arturo
 
         section "Cleaning up..."
         msys_cleanup
