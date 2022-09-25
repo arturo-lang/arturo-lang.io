@@ -156,13 +156,13 @@ verifyOS(){
 
 verifyShell(){
     case "$SHELL" in
-        "/bin/zsh")
+        */bin/zsh)
             currentShell="zsh" ;
             shellRcFile="~/.zshrc" ;;
-        "/bin/bash")
+        */bin/bash)
             currentShell="bash" ;
             shellRcFile="~/.bashrc or ~/.profile" ;;
-        "/bin/sh")
+        */bin/sh)
             currentSheel="sh" ;
             shellRcFile="~/.profile" ;;
         *)
