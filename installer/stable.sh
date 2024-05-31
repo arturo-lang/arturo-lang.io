@@ -11,6 +11,14 @@
 ################################################
 
 REPO="arturo"
+VERSION="full"
+
+for cmd in $@; do
+    case $cmd in
+        --nightly|-n) REPO="nightly";;
+        --mini|-m)    VERSION="mini";; 
+    esac
+done
 
 ################################################
 # HELPERS
