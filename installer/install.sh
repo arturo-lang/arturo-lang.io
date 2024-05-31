@@ -144,7 +144,7 @@ verifyOS(){
         linux*)     currentOS="Linux" ;;
         darwin*)    currentOS="macOS" ;;
         cygwin*)    currentOS="Windows" ;;
-        msys*)      currentOS="WindowsMsys2" ;;
+        msys*)      currentOS="windows-msys2" ;;
         solaris*)   currentOS="Solaris" ;;
         freebsd*)   currentOS="FreeBSD" ;;
         bsd*)       currentOS="BSD" ;;
@@ -212,7 +212,7 @@ download_arturo() {
 }
 
 install_arturo() {
-    if [[ "$currentOS" = "WindowsMsys2" ]]; then
+    if [[ "$currentOS" = "windows-msys2" ]]; then
         HOME=$USERPROFILE
     fi
 
@@ -234,7 +234,7 @@ main() {
     verifyOS
     verifyShell
 
-    if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ] || [ "$currentOS" = "WindowsMsys2" ]; then
+    if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ] || [ "$currentOS" = "windows-msys2" ]; then
         section "Checking prerequisites..."
         install_prerequisites
 
