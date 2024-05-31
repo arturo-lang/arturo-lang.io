@@ -11,6 +11,14 @@
 ################################################
 
 REPO="arturo"
+VERSION="full"
+
+for cmd in $@; do
+    case $cmd in
+        --nightly|-n) REPO="nightly";;
+        --mini|-m)    VERSION="mini";; 
+    esac
+done
 
 ################################################
 # HELPERS
@@ -102,9 +110,9 @@ create_tmp_directory() {
 }
 
 cleanup_tmp_directory() {
-    if [ -n "$ARTURO_TEMP_DIR" ] ; then
-        rm -rf "$ARTURO_TEMP_DIR"
-        ARTURO_TEMP_DIR=""
+    if [ -n "$ARTURO_TMP_DIR" ] ; then
+        rm -rf "$ARTURO_TMP_DIR"
+        ARTURO_TMP_DIR=""
     fi
 }
 
@@ -134,10 +142,9 @@ animate_progress(){
 verifyOS(){
     case "$OSTYPE" in
         linux*)     currentOS="Linux" ;;
-        linux-gnu*) currentOS="Linux" ;;
         darwin*)    currentOS="macOS" ;;
         cygwin*)    currentOS="Windows" ;;
-        msys*)      currentOS="WindowsMsys2" ;;
+        msys*)      currentOS="windows-msys2" ;;
         solaris*)   currentOS="Solaris" ;;
         freebsd*)   currentOS="FreeBSD" ;;
         bsd*)       currentOS="BSD" ;;
@@ -163,7 +170,7 @@ verifyShell(){
             currentShell="bash" ;
             shellRcFile="~/.bashrc or ~/.profile" ;;
         */bin/sh)
-            currentSheel="sh" ;
+            currentShell="sh" ;
             shellRcFile="~/.profile" ;;
         *)
             currentShell="unrecognized" ;
@@ -188,7 +195,13 @@ install_prerequisites() {
 }
 
 get_download_url() {
-    downloadUrl=$(curl -s https://api.github.com/repos/arturo-lang/$REPO/releases | grep "browser_download_url.*${1}" | cut -d : -f 2,3 | tr -d \" | head -1)
+    downloadUrl=$(
+        curl -s https://api.github.com/repos/arturo-lang/$REPO/releases | 
+            grep "browser_download_url.*${1}-${VERSION}"                | 
+            cut -d : -f 2,3                                             | 
+            tr -d \"                                                    | 
+            head -1
+    )
 }
 
 download_arturo() {
@@ -199,66 +212,14 @@ download_arturo() {
 }
 
 install_arturo() {
-    create_directory ~/.arturo/bin
-    create_directory ~/.arturo/lib
+    if [[ "$currentOS" = "windows-msys2" ]]; then
+        HOME=$USERPROFILE
+    fi
 
-    cp $ARTURO_TMP_DIR/arturo ~/.arturo/bin
-}
+    create_directory $HOME/.arturo/bin
+    create_directory $HOME/.arturo/lib
 
-msys_create_arturo_path() {
-
-    ARTURO_DIR="$HOME/.arturo"
-
-    create_directory "$ARTURO_DIR/bin"
-    create_directory "$ARTURO_DIR/lib"
-    # info "~/.arturo/bin and ~/.arturo/lib created!"
-}
-
-msys_download_arturo() {
-
-    BIN_PATH="$ARTURO_DIR/bin"
-    get_download_url $currentOS
-
-    # info "Arturo downloaded into ~/.arturo/bin Folder!"
-    curl -sSL $downloadUrl --output "$BIN_PATH/arturo.tar.gz"
-
-}
-
-msys_install_arturo() {
-    # info "Unpacking Arturo..."
-    tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
-    # info "Unpacked!"
-
-    mv $BIN_PATH/arturo-full-windows-latest/* $BIN_PATH/
-
-}
-
-# To generate this file on Msys2, use:
-# curl -sSL \
-#  https://github.com/arturo-lang/arturo/releases/download/v0.9.80/arturo-0.9.80-Windows-full.zip \
-#  --output /home/development/arturo_setup/arturo.zip
-# explorer .
-# Unzip with WinRar with extract here, and run:
-# tar czf arturo.tar.gz arturo-full-windows-latest/*
-msys_fake_download_arturo() {
-    # simulates the tar.gz for WindowsMsys2
-    # The file is the same .zip for Windows
-    # But the format is .tar.gz for unpack with tar command
-    BIN_PATH="$ARTURO_DIR/bin"
-    cp /home/development/arturo_setup/arturo.tar.gz $BIN_PATH
-    # info "Arturo downloaded into ~/.arturo/bin Folder!"
-
-    # info "Unpacking Arturo..."
-    tar -zxf "$BIN_PATH/arturo.tar.gz" -C $BIN_PATH
-    mv $BIN_PATH/arturo-full-windows-latest/* $BIN_PATH/
-    # info "Unpacked!"
-
-}
-
-msys_cleanup() {
-    rm -f "$BIN_PATH/arturo.tar.gz"
-    rm --dir -f "$BIN_PATH/arturo-full-windows-latest"
-    # info "~/.arturo/bin/arturo.tar.gz and ~/.arturo/bin/arturo-full-windows-latest/ removed!"
+    cp $ARTURO_TMP_DIR/arturo $HOME/.arturo/bin
 }
 
 ################################################
@@ -273,7 +234,7 @@ main() {
     verifyOS
     verifyShell
 
-    if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ]; then
+    if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ] || [ "$currentOS" = "windows-msys2" ]; then
         section "Checking prerequisites..."
         install_prerequisites
 
@@ -291,31 +252,10 @@ main() {
         section "Done!"
         eecho ""
         showFooter
-
-    elif [[ "$currentOS" = "WindowsMsys2" ]]; then
-        section "Creating environment..."
-        info "\nOS: $currentOS"
-        msys_create_arturo_path
-
-        section "Downloading..."
-        msys_download_arturo
-
-        section "Installing..."
-        msys_install_arturo
-
-        section "Cleaning up..."
-        msys_cleanup
-
-        eecho ""
-
-        section "Done!"
-        eecho ""
-        showFooter
     else
         panic "Cannot continue. Unfortunately your OS is not supported by this auto-installer.";
     fi
 }
-
 
 
 #echo $downloadUrl
