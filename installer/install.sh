@@ -142,7 +142,6 @@ animate_progress(){
 verifyOS(){
     case "$OSTYPE" in
         linux*)     currentOS="Linux" ;;
-        linux-gnu*) currentOS="Linux" ;;
         darwin*)    currentOS="macOS" ;;
         cygwin*)    currentOS="Windows" ;;
         msys*)      currentOS="WindowsMsys2" ;;
