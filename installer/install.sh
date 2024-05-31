@@ -107,12 +107,13 @@ create_directory() {
 
 create_tmp_directory() {
     ARTURO_TMP_DIR="$(mktemp -d 2>/dev/null || mktemp -d -t art)"
+    echo $ARTURO_TMP_DIR
 }
 
 cleanup_tmp_directory() {
-    if [ -n "$ARTURO_TEMP_DIR" ] ; then
-        rm -rf "$ARTURO_TEMP_DIR"
-        ARTURO_TEMP_DIR=""
+    if [ -n "$ARTURO_TMP_DIR" ] ; then
+        rm -rf "$ARTURO_TMP_DIR"
+        ARTURO_TMP_DIR=""
     fi
 }
 
