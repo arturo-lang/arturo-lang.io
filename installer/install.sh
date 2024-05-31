@@ -170,7 +170,7 @@ verifyShell(){
             currentShell="bash" ;
             shellRcFile="~/.bashrc or ~/.profile" ;;
         */bin/sh)
-            currentSheel="sh" ;
+            currentShell="sh" ;
             shellRcFile="~/.profile" ;;
         *)
             currentShell="unrecognized" ;
@@ -256,7 +256,6 @@ main() {
         panic "Cannot continue. Unfortunately your OS is not supported by this auto-installer.";
     fi
 }
-
 
 
 #echo $downloadUrl
