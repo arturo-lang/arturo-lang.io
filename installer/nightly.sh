@@ -163,7 +163,7 @@ verifyShell(){
             currentShell="bash" ;
             shellRcFile="~/.bashrc or ~/.profile" ;;
         */bin/sh)
-            currentSheel="sh" ;
+            currentShell="sh" ;
             shellRcFile="~/.profile" ;;
         *)
             currentShell="unrecognized" ;
