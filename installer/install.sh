@@ -63,7 +63,7 @@ showHeader() {
     eecho "${CLEAR}"
     printf "     \e[1mArturo"
     printf " Programming Language\e[0m\n"
-    eecho "      (c)2021 Yanis Zafirópulos"
+    eecho "      (c)2024 Yanis Zafirópulos"
     eecho ""
 
     eecho "======================================"
@@ -141,18 +141,18 @@ animate_progress(){
 
 verifyOS(){
     case "$OSTYPE" in
-        linux*)     currentOS="Linux" ;;
-        darwin*)    currentOS="macOS" ;;
-        cygwin*)    currentOS="Windows" ;;
-        msys*)      currentOS="windows-msys2" ;;
-        solaris*)   currentOS="Solaris" ;;
-        freebsd*)   currentOS="FreeBSD" ;;
-        bsd*)       currentOS="BSD" ;;
+        linux*)     currentOS="linux" ;;
+        darwin*)    currentOS="macos" ;;
+        cygwin*)    currentOS="windows" ;;
+        msys*)      currentOS="windows" ;;
+        solaris*)   currentOS="solaris" ;;
+        freebsd*)   currentOS="freebsd" ;;
+        bsd*)       currentOS="bsd" ;;
         *)
             if [ `uname` = "Linux" ]; then
-                currentOS="Linux"
+                currentOS="linux"
             elif [ `uname` = "FreeBSD" ]; then
-                currentOS="FreeBSD"
+                currentOS="freebsd"
             else
                 currentOS="Unknown ($OSTYPE / `uname`)"
             fi ;;
@@ -234,7 +234,7 @@ main() {
     verifyOS
     verifyShell
 
-    if [ "$currentOS" = "Linux" ] || [ "$currentOS" = "macOS" ] || [ "$currentOS" = "windows-msys2" ]; then
+    if [ "$currentOS" = "linux" ] || [ "$currentOS" = "macos" ] || [ "$currentOS" = "windows" ]; then
         section "Checking prerequisites..."
         install_prerequisites
 
