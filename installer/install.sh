@@ -222,7 +222,10 @@ install_arturo() {
     create_directory $HOME/.arturo/bin
     create_directory $HOME/.arturo/lib
 
-    cp $ARTURO_TMP_DIR/arturo $HOME/.arturo/bin
+    # Since Arturo's folder is named as arturo-{version-information}
+    # this is better to use wildcard 
+    # to copy the whole content to the bin folder.
+    cp $ARTURO_TMP_DIR/arturo-*/* $HOME/.arturo/bin
 }
 
 ################################################
