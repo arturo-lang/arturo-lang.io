@@ -201,13 +201,13 @@ install_prerequisites() {
 
 get_download_url() { 
     downloadUrl=$( 
-        curl -s "$API_URL"                  \
-          | grep "browser_download_url"     \
-          | grep "$currentOS"               \
-          | grep $VERSION                   \
-          | head -1                         \
-          | cut -d : -f 2,3                 \
-          | tr -d \" 
+        curl -s "$API_URL"                      \
+          | grep "browser_download_url"         \
+          | grep "$currentOS"                   \
+          | grep $VERSION                       \
+          | head --lines 1                      \
+          | cut --delimiter ":" --fields 2,3    \
+          | tr --delete \" 
     )
 }
 
