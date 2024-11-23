@@ -220,6 +220,15 @@ download_arturo() {
          --silent                                   \
          --show-error
 
+    # This piece of code is using traditional option style due
+    # to compatibility issues between `tar`'s versions.
+    # Long versions are accepted for `GNU's tar`, and for others ones
+    # this behavior may vary.
+    # 
+    # So, here is the definition of each term:
+    #   -z: --gzip
+    #   -x: --extract 
+    #   -f: --file 
     tar -zxf "$ARTURO_TMP_DIR/arturo.tar.gz" -C $ARTURO_TMP_DIR
 }
 
