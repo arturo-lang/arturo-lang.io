@@ -199,19 +199,21 @@ install_prerequisites() {
     esac
 }
 
-get_download_url() {
-    downloadUrl=$(
-        curl -s https://api.github.com/repos/arturo-lang/$REPO/releases | 
-            grep "browser_download_url.*${1}-${VERSION}"                | 
-            cut -d : -f 2,3                                             | 
-            tr -d \"                                                    | 
-            head -1
+get_download_url() { 
+    downloadUrl=$( 
+        curl -s "$API_URL"                  \
+          | grep "browser_download_url"     \
+          | grep "$currentOS"               \
+          | grep $VERSION                   \
+          | head -1                         \
+          | cut -d : -f 2,3                 \
+          | tr -d \" 
     )
 }
 
 download_arturo() {
     create_tmp_directory
-    get_download_url $currentOS
+    get_download_url
     curl -sSL $downloadUrl --output "$ARTURO_TMP_DIR/arturo.tar.gz"
     tar -zxf "$ARTURO_TMP_DIR/arturo.tar.gz" -C $ARTURO_TMP_DIR
 }
