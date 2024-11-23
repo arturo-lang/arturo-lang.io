@@ -237,7 +237,7 @@ main() {
     verifyOS
     verifyShell
 
-    if [ "$currentOS" = "linux" ] || [ "$currentOS" = "macos" ] || [ "$currentOS" = "windows" ]; then
+    if [ "$currentOS" = "linux" ] || [ "$currentOS" = "macos" ] || [ "$currentOS" = "windows-msys2" ]; then
         section "Checking prerequisites..."
         install_prerequisites
 
