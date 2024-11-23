@@ -219,10 +219,6 @@ download_arturo() {
 }
 
 install_arturo() {
-    if [[ "$currentOS" = "windows-msys2" ]]; then
-        HOME=$USERPROFILE
-    fi
-
     create_directory $HOME/.arturo/bin
     create_directory $HOME/.arturo/lib
 
