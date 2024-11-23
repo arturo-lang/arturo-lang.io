@@ -229,6 +229,7 @@ download_arturo() {
     #   -z: --gzip
     #   -x: --extract 
     #   -f: --file 
+    #   -C: --directory 
     tar -zxf "$ARTURO_TMP_DIR/arturo.tar.gz" -C $ARTURO_TMP_DIR
 }
 
