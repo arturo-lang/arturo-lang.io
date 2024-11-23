@@ -23,6 +23,8 @@ for cmd in $@; do
     esac
 done
 
+API_URL="https://api.github.com/repos/arturo-lang/${REPO}/releases"
+
 ################################################
 # HELPERS
 ################################################
