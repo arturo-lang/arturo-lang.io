@@ -107,7 +107,7 @@ info(){
 }
 
 create_directory() {
-    mkdir -p "$1"
+    mkdir --tmpdir "$1"
 }
 
 create_tmp_directory() {
