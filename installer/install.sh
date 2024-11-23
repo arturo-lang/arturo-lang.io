@@ -206,8 +206,8 @@ get_download_url() {
           | grep "$currentOS"                   \
           | grep $VERSION                       \
           | head --lines 1                      \
-          | cut --delimiter ":" --fields 2,3    \
-          | tr --delete \" 
+          | cut  --delimiter ":" --fields 2,3   \
+          | tr   --delete \" 
     )
 }
 
