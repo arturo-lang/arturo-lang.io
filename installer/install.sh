@@ -214,7 +214,12 @@ get_download_url() {
 download_arturo() {
     create_tmp_directory
     get_download_url
-    curl -sSL $downloadUrl --output "$ARTURO_TMP_DIR/arturo.tar.gz"
+
+    curl --location $downloadUrl                    \
+         --output "$ARTURO_TMP_DIR/arturo.tar.gz"   \
+         --silent                                   \
+         --show-error
+
     tar -zxf "$ARTURO_TMP_DIR/arturo.tar.gz" -C $ARTURO_TMP_DIR
 }
 
