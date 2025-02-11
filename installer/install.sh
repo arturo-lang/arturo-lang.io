@@ -1,3 +1,5 @@
+#! /usr/bin/env sh
+
 ######################################################
 # Arturo
 # Programming Language + Bytecode VM compiler
@@ -6,6 +8,8 @@
 # @file: arturo-lang.io/installer/stable.sh
 ######################################################
 
+set -o errexit
+# set -o xtrace
 ################################################
 # CONSTANTS
 ################################################
@@ -19,6 +23,8 @@ for cmd in $@; do
         --mini|-m)    VERSION="mini";; 
     esac
 done
+
+API_URL="https://api.github.com/repos/arturo-lang/${REPO}/releases"
 
 ################################################
 # HELPERS
@@ -102,11 +108,14 @@ info(){
 }
 
 create_directory() {
-    mkdir -p "$1"
+    mkdir --parents "$1"
 }
 
 create_tmp_directory() {
-    ARTURO_TMP_DIR="$(mktemp -d 2>/dev/null || mktemp -d -t art)"
+    ARTURO_TMP_DIR="$(
+        mktemp --directory 2>/dev/null || 
+        mktemp --directory -t art
+    )"
 }
 
 cleanup_tmp_directory() {
@@ -143,8 +152,8 @@ verifyOS(){
     case "$OSTYPE" in
         linux*)     currentOS="linux" ;;
         darwin*)    currentOS="macos" ;;
-        cygwin*)    currentOS="windows" ;;
-        msys*)      currentOS="windows" ;;
+        cygwin*)    currentOS="windows-msys2" ;;
+        msys*)      currentOS="windows-msys2" ;;
         solaris*)   currentOS="solaris" ;;
         freebsd*)   currentOS="freebsd" ;;
         bsd*)       currentOS="bsd" ;;
@@ -194,32 +203,48 @@ install_prerequisites() {
     esac
 }
 
-get_download_url() {
-    downloadUrl=$(
-        curl -s https://api.github.com/repos/arturo-lang/$REPO/releases | 
-            grep "browser_download_url.*${1}-${VERSION}"                | 
-            cut -d : -f 2,3                                             | 
-            tr -d \"                                                    | 
-            head -1
+get_download_url() { 
+    downloadUrl=$( 
+        curl "$API_URL" --silent                \
+          | grep "browser_download_url"         \
+          | grep "$currentOS"                   \
+          | grep $VERSION                       \
+          | head --lines 1                      \
+          | cut  --delimiter ":" --fields 2,3   \
+          | tr   --delete \" 
     )
 }
 
 download_arturo() {
     create_tmp_directory
-    get_download_url $currentOS
-    curl -sSL $downloadUrl --output "$ARTURO_TMP_DIR/arturo.tar.gz"
+    get_download_url
+
+    curl --location $downloadUrl                    \
+         --output "$ARTURO_TMP_DIR/arturo.tar.gz"   \
+         --silent                                   \
+         --show-error
+
+    # This piece of code is using traditional option style due
+    # to compatibility issues between `tar`'s versions.
+    # Long versions are accepted for `GNU's tar`, and for others ones
+    # this behavior may vary.
+    # 
+    # So, here is the definition of each term:
+    #   -z: --gzip
+    #   -x: --extract 
+    #   -f: --file 
+    #   -C: --directory 
     tar -zxf "$ARTURO_TMP_DIR/arturo.tar.gz" -C $ARTURO_TMP_DIR
 }
 
 install_arturo() {
-    if [[ "$currentOS" = "windows-msys2" ]]; then
-        HOME=$USERPROFILE
-    fi
-
     create_directory $HOME/.arturo/bin
     create_directory $HOME/.arturo/lib
 
-    cp $ARTURO_TMP_DIR/arturo $HOME/.arturo/bin
+    # Since Arturo's folder is named as arturo-{version-information}
+    # this is better to use wildcard 
+    # to copy the whole content to the bin folder.
+    cp $ARTURO_TMP_DIR/arturo-*/* $HOME/.arturo/bin
 }
 
 ################################################
@@ -234,7 +259,7 @@ main() {
     verifyOS
     verifyShell
 
-    if [ "$currentOS" = "linux" ] || [ "$currentOS" = "macos" ] || [ "$currentOS" = "windows" ]; then
+    if [ "$currentOS" = "linux" ] || [ "$currentOS" = "macos" ] || [ "$currentOS" = "windows-msys2" ]; then
         section "Checking prerequisites..."
         install_prerequisites
 
